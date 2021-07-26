@@ -1,12 +1,15 @@
 <script>
   export let text
-  export let disabled = false
   export let url
+  export let secondary = false
+  export let tertiary = false
+  export let small = false
 
 </script>
-
 <a 
-  class:disabled 
+  class:secondary
+  class:tertiary
+  class:small
   href={url} >
   <span class='button-text'>{text}</span>
   <span class="iconify" data-icon="mdi-arrow-right"></span>
@@ -20,12 +23,13 @@
     align-items: center;
     align-self: flex-start;
     font-size: 24px;
-    font-weight: 500;
     height: 72px;
-    padding: 0 48px;
+    width: 312px;
     border-radius: 40px;
+    font-weight: 500;
     color: var(--white);
     background-color: var(--black);
+    text-decoration: none;
     transition: 0.1s ease-in;
   }
 
@@ -33,18 +37,32 @@
     margin-right: 12px;
   }
 
+  a.small {
+    font-size: 16px;
+    height: 46px;
+    width: 282px;
+    border-radius: 26px;
+  }
+
+  a.secondary {
+    background-color: var(--red);
+  }
+
+  a.tertiary {
+    background-color: transparent;
+    color: var(--red);
+  }
+
   a:hover {
     background-color: var(--dark-grey);
-    text-decoration: none;
   }
 
-  a.disabled {
-    opacity: 0.3;
-  }
-
-  a:not(:disabled):active {
+  a:active {
     background-color: var(--medium-grey1);
   }
 
-
+  .iconify {
+    top: -1px;
+    position: relative;
+  }
 </style>
