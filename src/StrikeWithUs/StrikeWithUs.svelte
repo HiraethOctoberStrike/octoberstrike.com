@@ -1,0 +1,1 @@
+<p>strike with us</p>

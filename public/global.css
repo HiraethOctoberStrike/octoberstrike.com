@@ -39,8 +39,9 @@ p {
 	font-size: 20px;
 	line-height: 23px;
 	font-weight: 400;
+	max-width: 550px;
 	color: var(--dark-grey);
-	margin: 0 0 24px;
+	margin: 0 0 36px;
 }
 
 a {
@@ -75,20 +76,4 @@ input:disabled {
 	color: #ccc;
 }
 
-button {
-	color: #333;
-	background-color: #f4f4f4;
-	outline: none;
-}
 
-button:disabled {
-	color: #999;
-}
-
-button:not(:disabled):active {
-	background-color: #ddd;
-}
-
-button:focus {
-	border-color: #666;
-}
