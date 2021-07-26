@@ -55,12 +55,18 @@ Our [Dev Tasks](https://github.com/HiraethOctoberStrike/octoberstrike.com/projec
 
 ### Finishing a Task
 
-Once finished, suggest your changes for review and addition from the [Pull Request](https://github.com/HiraethOctoberStrike/octoberstrike.com/pulls) page.
+Once finished, present your changes for review and addition to the main branch from the [Pull Request](https://github.com/HiraethOctoberStrike/octoberstrike.com/pulls) page.
 
 1. add and commit work to your local feature branch
 2. push your branch to Github
 3. Select "New Pull Request"
 4. Select branches to compare: `base: main` <- `compare: <your-descriptive-branch-name>`
+5. "Create Pull Request"
+5. Link the original issue in the description: Add the text `closes #42` for example if the PR completes the requirements of issue #42
+6. Select a few **Reviewers** and wait for review.
+7. Make necessary revisions, add, commit, and push. You can either request a second review or if confident, merge the PR and delete your branch.
+
+> That's it! If the issue was linked correctly both the Issue and PR tasks should be automatically moved to the "Done" column in the kanban board.
 
 ## Deploying to the web (For future deployment decisions)
 
