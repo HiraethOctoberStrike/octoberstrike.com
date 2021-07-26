@@ -18,14 +18,14 @@
 </main>
 
 <style>
-	main {
+	/* main {
 		max-width: 240px;
-	}
+	} */
 
 
 	@media (min-width: 640px) {
-		main {
+		/* main {
 			max-width: none;
-		}
+		} */
 	}
 </style>

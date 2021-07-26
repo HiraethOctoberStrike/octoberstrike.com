@@ -1602,13 +1602,13 @@ var app = (function () {
     			t0 = text(/*text*/ ctx[0]);
     			t1 = space();
     			span1 = element("span");
-    			attr_dev(span0, "class", "button-text svelte-duoiix");
+    			attr_dev(span0, "class", "button-text svelte-1bhdbkp");
     			add_location(span0, file$3, 10, 2, 125);
     			attr_dev(span1, "class", "iconify");
     			attr_dev(span1, "data-icon", "mdi-arrow-right");
     			add_location(span1, file$3, 11, 2, 167);
     			attr_dev(a, "href", /*url*/ ctx[2]);
-    			attr_dev(a, "class", "svelte-duoiix");
+    			attr_dev(a, "class", "svelte-1bhdbkp");
     			toggle_class(a, "disabled", /*disabled*/ ctx[1]);
     			add_location(a, file$3, 7, 0, 86);
     		},
@@ -1765,7 +1765,7 @@ var app = (function () {
     			h1.textContent = "National General Strike";
     			t3 = space();
     			p = element("p");
-    			p.textContent = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ornare duis lacus neque adipiscing aliquam molestie fermentum. Eget commodo quisque non, porta. In congue sociis donec vel laoreet in pharetra. Vitae habitant et.";
+    			p.textContent = "Lorem ipsume dolor sit amet, consectetur adipiscing elit. Ornare duis lacus neque adipiscing aliquam molestie fermentum. Eget commodo quisque non, porta. In congue sociis donec vel laoreet in pharetra. Vitae habitant et.";
     			t5 = space();
     			create_component(button.$$.fragment);
     			add_location(h3, file$2, 5, 2, 108);
@@ -1927,7 +1927,6 @@ var app = (function () {
     		c: function create() {
     			main = element("main");
     			if (switch_instance) create_component(switch_instance.$$.fragment);
-    			attr_dev(main, "class", "svelte-1fuei2a");
     			add_location(main, file, 15, 0, 314);
     		},
     		l: function claim(nodes) {
