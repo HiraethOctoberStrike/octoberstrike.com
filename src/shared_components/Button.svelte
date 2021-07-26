@@ -19,6 +19,8 @@
     justify-content: center;
     align-items: center;
     align-self: flex-start;
+    font-size: 24px;
+    font-weight: 500;
     height: 72px;
     padding: 0 48px;
     border-radius: 40px;
@@ -28,8 +30,6 @@
   }
 
   .button-text {
-    font-size: 24px;
-    font-weight: 500;
     margin-right: 12px;
   }
 
