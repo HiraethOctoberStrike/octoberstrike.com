@@ -27,6 +27,9 @@ var app = (function () {
     function is_empty(obj) {
         return Object.keys(obj).length === 0;
     }
+    function append(target, node) {
+        target.appendChild(node);
+    }
     function insert(target, node, anchor) {
         target.insertBefore(node, anchor || null);
     }
@@ -293,6 +296,10 @@ var app = (function () {
 
     function dispatch_dev(type, detail) {
         document.dispatchEvent(custom_event(type, Object.assign({ version: '3.40.2' }, detail), true));
+    }
+    function append_dev(target, node) {
+        dispatch_dev('SvelteDOMInsert', { target, node });
+        append(target, node);
     }
     function insert_dev(target, node, anchor) {
         dispatch_dev('SvelteDOMInsert', { target, node, anchor });
@@ -1574,16 +1581,32 @@ var app = (function () {
     function create_fragment$1(ctx) {
     	let scirpt;
     	let t0;
+    	let section;
+    	let h3;
+    	let t2;
+    	let h1;
+    	let t4;
     	let p;
 
     	const block = {
     		c: function create() {
     			scirpt = element("scirpt");
     			t0 = space();
+    			section = element("section");
+    			h3 = element("h3");
+    			h3.textContent = "October 15 2021";
+    			t2 = space();
+    			h1 = element("h1");
+    			h1.textContent = "National General Strike";
+    			t4 = space();
     			p = element("p");
-    			p.textContent = "home";
+    			p.textContent = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ornare duis lacus neque adipiscing aliquam molestie fermentum. Eget commodo quisque non, porta. In congue sociis donec vel laoreet in pharetra. Vitae habitant et.";
     			add_location(scirpt, file$1, 0, 0, 0);
-    			add_location(p, file$1, 3, 0, 20);
+    			add_location(h3, file$1, 4, 2, 50);
+    			add_location(h1, file$1, 5, 2, 77);
+    			add_location(p, file$1, 6, 2, 112);
+    			attr_dev(section, "class", "section-1 svelte-15ls6kd");
+    			add_location(section, file$1, 3, 0, 20);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -1591,7 +1614,12 @@ var app = (function () {
     		m: function mount(target, anchor) {
     			insert_dev(target, scirpt, anchor);
     			insert_dev(target, t0, anchor);
-    			insert_dev(target, p, anchor);
+    			insert_dev(target, section, anchor);
+    			append_dev(section, h3);
+    			append_dev(section, t2);
+    			append_dev(section, h1);
+    			append_dev(section, t4);
+    			append_dev(section, p);
     		},
     		p: noop,
     		i: noop,
@@ -1599,7 +1627,7 @@ var app = (function () {
     		d: function destroy(detaching) {
     			if (detaching) detach_dev(scirpt);
     			if (detaching) detach_dev(t0);
-    			if (detaching) detach_dev(p);
+    			if (detaching) detach_dev(section);
     		}
     	};
 
@@ -1661,8 +1689,8 @@ var app = (function () {
     		c: function create() {
     			main = element("main");
     			if (switch_instance) create_component(switch_instance.$$.fragment);
-    			attr_dev(main, "class", "svelte-1tky8bj");
-    			add_location(main, file, 13, 0, 195);
+    			attr_dev(main, "class", "svelte-1fuei2a");
+    			add_location(main, file, 13, 0, 194);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
