@@ -1,10 +1,18 @@
 <script>
-	export let name;
+	import page from 'page'
+	
+	import Home from './Home/Home.svelte'
+
+	let component = Home
+	
+	page('', () => component = Home)
+	page('*', () => component = Home)
+	page.start()
+
 </script>
 
 <main>
-	<h1>Hello {name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+	<svelte:component this={component} />
 </main>
 
 <style>
