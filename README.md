@@ -68,6 +68,33 @@ Once finished, present your changes for review and addition to the main branch f
 
 > That's it! If the issue was linked correctly both the Issue and PR tasks should be automatically moved to the "Done" column in the kanban board.
 
+
+## New to Svelte?
+
+Check out the [Svelte Tutorial](https://svelte.dev/tutorial/basics)
+
+### Our Component Library
+
+#### Button
+
+|Prop Name |Type |Required |Default |Description |
+--- | --- | --- | --- | ---
+|text|string|yes|--|text displayed in button
+|url|string|yes|--|url that button redirects to
+|secondary|bool|no|false|if true, restyles with secondary colors
+|tertiary|bool|no|false|if true, restyles with tertiary colors
+|small|bool|no|false|if true, resizes to small dimensions
+
+##### Button with default attributes
+```html
+  <Button text='STRIKE WITH US' url='/strike-with-us' />
+```
+
+##### Button with optional attributes
+```html
+  <Button text='STRIKE WITH US' url='/strike-with-us' secondary={true} small={true} />
+```
+
 ## Deploying to the web (For future deployment decisions)
 
 ### With [Vercel](https://vercel.com)

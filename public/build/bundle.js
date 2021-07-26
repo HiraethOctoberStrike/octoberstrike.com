@@ -1602,15 +1602,17 @@ var app = (function () {
     			t0 = text(/*text*/ ctx[0]);
     			t1 = space();
     			span1 = element("span");
-    			attr_dev(span0, "class", "button-text svelte-1bhdbkp");
-    			add_location(span0, file$3, 10, 2, 125);
-    			attr_dev(span1, "class", "iconify");
+    			attr_dev(span0, "class", "button-text svelte-jnsgo3");
+    			add_location(span0, file$3, 13, 2, 213);
+    			attr_dev(span1, "class", "iconify svelte-jnsgo3");
     			attr_dev(span1, "data-icon", "mdi-arrow-right");
-    			add_location(span1, file$3, 11, 2, 167);
-    			attr_dev(a, "href", /*url*/ ctx[2]);
-    			attr_dev(a, "class", "svelte-1bhdbkp");
-    			toggle_class(a, "disabled", /*disabled*/ ctx[1]);
-    			add_location(a, file$3, 7, 0, 86);
+    			add_location(span1, file$3, 14, 2, 255);
+    			attr_dev(a, "href", /*url*/ ctx[1]);
+    			attr_dev(a, "class", "svelte-jnsgo3");
+    			toggle_class(a, "secondary", /*secondary*/ ctx[2]);
+    			toggle_class(a, "tertiary", /*tertiary*/ ctx[3]);
+    			toggle_class(a, "small", /*small*/ ctx[4]);
+    			add_location(a, file$3, 8, 0, 143);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -1625,12 +1627,20 @@ var app = (function () {
     		p: function update(ctx, [dirty]) {
     			if (dirty & /*text*/ 1) set_data_dev(t0, /*text*/ ctx[0]);
 
-    			if (dirty & /*url*/ 4) {
-    				attr_dev(a, "href", /*url*/ ctx[2]);
+    			if (dirty & /*url*/ 2) {
+    				attr_dev(a, "href", /*url*/ ctx[1]);
     			}
 
-    			if (dirty & /*disabled*/ 2) {
-    				toggle_class(a, "disabled", /*disabled*/ ctx[1]);
+    			if (dirty & /*secondary*/ 4) {
+    				toggle_class(a, "secondary", /*secondary*/ ctx[2]);
+    			}
+
+    			if (dirty & /*tertiary*/ 8) {
+    				toggle_class(a, "tertiary", /*tertiary*/ ctx[3]);
+    			}
+
+    			if (dirty & /*small*/ 16) {
+    				toggle_class(a, "small", /*small*/ ctx[4]);
     			}
     		},
     		i: noop,
@@ -1655,9 +1665,11 @@ var app = (function () {
     	let { $$slots: slots = {}, $$scope } = $$props;
     	validate_slots('Button', slots, []);
     	let { text } = $$props;
-    	let { disabled = false } = $$props;
     	let { url } = $$props;
-    	const writable_props = ['text', 'disabled', 'url'];
+    	let { secondary = false } = $$props;
+    	let { tertiary = false } = $$props;
+    	let { small = false } = $$props;
+    	const writable_props = ['text', 'url', 'secondary', 'tertiary', 'small'];
 
     	Object.keys($$props).forEach(key => {
     		if (!~writable_props.indexOf(key) && key.slice(0, 2) !== '$$' && key !== 'slot') console.warn(`<Button> was created with unknown prop '${key}'`);
@@ -1665,29 +1677,40 @@ var app = (function () {
 
     	$$self.$$set = $$props => {
     		if ('text' in $$props) $$invalidate(0, text = $$props.text);
-    		if ('disabled' in $$props) $$invalidate(1, disabled = $$props.disabled);
-    		if ('url' in $$props) $$invalidate(2, url = $$props.url);
+    		if ('url' in $$props) $$invalidate(1, url = $$props.url);
+    		if ('secondary' in $$props) $$invalidate(2, secondary = $$props.secondary);
+    		if ('tertiary' in $$props) $$invalidate(3, tertiary = $$props.tertiary);
+    		if ('small' in $$props) $$invalidate(4, small = $$props.small);
     	};
 
-    	$$self.$capture_state = () => ({ text, disabled, url });
+    	$$self.$capture_state = () => ({ text, url, secondary, tertiary, small });
 
     	$$self.$inject_state = $$props => {
     		if ('text' in $$props) $$invalidate(0, text = $$props.text);
-    		if ('disabled' in $$props) $$invalidate(1, disabled = $$props.disabled);
-    		if ('url' in $$props) $$invalidate(2, url = $$props.url);
+    		if ('url' in $$props) $$invalidate(1, url = $$props.url);
+    		if ('secondary' in $$props) $$invalidate(2, secondary = $$props.secondary);
+    		if ('tertiary' in $$props) $$invalidate(3, tertiary = $$props.tertiary);
+    		if ('small' in $$props) $$invalidate(4, small = $$props.small);
     	};
 
     	if ($$props && "$$inject" in $$props) {
     		$$self.$inject_state($$props.$$inject);
     	}
 
-    	return [text, disabled, url];
+    	return [text, url, secondary, tertiary, small];
     }
 
     class Button extends SvelteComponentDev {
     	constructor(options) {
     		super(options);
-    		init(this, options, instance$3, create_fragment$3, safe_not_equal, { text: 0, disabled: 1, url: 2 });
+
+    		init(this, options, instance$3, create_fragment$3, safe_not_equal, {
+    			text: 0,
+    			url: 1,
+    			secondary: 2,
+    			tertiary: 3,
+    			small: 4
+    		});
 
     		dispatch_dev("SvelteRegisterComponent", {
     			component: this,
@@ -1703,7 +1726,7 @@ var app = (function () {
     			console.warn("<Button> was created without expected prop 'text'");
     		}
 
-    		if (/*url*/ ctx[2] === undefined && !('url' in props)) {
+    		if (/*url*/ ctx[1] === undefined && !('url' in props)) {
     			console.warn("<Button> was created without expected prop 'url'");
     		}
     	}
@@ -1716,19 +1739,35 @@ var app = (function () {
     		throw new Error("<Button>: Props cannot be set directly on the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
     	}
 
-    	get disabled() {
-    		throw new Error("<Button>: Props cannot be read directly from the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
-    	}
-
-    	set disabled(value) {
-    		throw new Error("<Button>: Props cannot be set directly on the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
-    	}
-
     	get url() {
     		throw new Error("<Button>: Props cannot be read directly from the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
     	}
 
     	set url(value) {
+    		throw new Error("<Button>: Props cannot be set directly on the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
+    	}
+
+    	get secondary() {
+    		throw new Error("<Button>: Props cannot be read directly from the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
+    	}
+
+    	set secondary(value) {
+    		throw new Error("<Button>: Props cannot be set directly on the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
+    	}
+
+    	get tertiary() {
+    		throw new Error("<Button>: Props cannot be read directly from the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
+    	}
+
+    	set tertiary(value) {
+    		throw new Error("<Button>: Props cannot be set directly on the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
+    	}
+
+    	get small() {
+    		throw new Error("<Button>: Props cannot be read directly from the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
+    	}
+
+    	set small(value) {
     		throw new Error("<Button>: Props cannot be set directly on the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
     	}
     }
