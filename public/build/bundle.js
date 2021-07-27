@@ -1966,7 +1966,7 @@ var app = (function () {
     		c: function create() {
     			main = element("main");
     			if (switch_instance) create_component(switch_instance.$$.fragment);
-    			add_location(main, file, 15, 0, 314);
+    			add_location(main, file, 18, 0, 463);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -2035,6 +2035,9 @@ var app = (function () {
     	let component = Home;
     	page('', () => $$invalidate(0, component = Home));
     	page('/strike-with-us', () => $$invalidate(0, component = StrikeWithUs));
+    	page('/about', () => $$invalidate(0, component = StrikeWithUs));
+    	page('/get-involved', () => $$invalidate(0, component = StrikeWithUs));
+    	page('/faq', () => $$invalidate(0, component = StrikeWithUs));
     	page('*', () => $$invalidate(0, component = Home));
     	page.start();
     	const writable_props = [];

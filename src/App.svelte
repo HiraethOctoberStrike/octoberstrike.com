@@ -8,6 +8,9 @@
 
 	page('', () => component = Home)
 	page('/strike-with-us', () => component = StrikeWithUs)
+	page('/about', () => component = StrikeWithUs)
+	page('/get-involved', () => component = StrikeWithUs)
+	page('/faq', () => component = StrikeWithUs)
 	page('*', () => component = Home)
 	page.start()
 
@@ -18,14 +21,7 @@
 </main>
 
 <style>
-	/* main {
-		max-width: 240px;
-	} */
-
-
 	@media (min-width: 640px) {
-		/* main {
-			max-width: none;
-		} */
+		
 	}
 </style>
