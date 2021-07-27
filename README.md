@@ -80,7 +80,7 @@ Check out the [Svelte Tutorial](https://svelte.dev/tutorial/basics)
 |Prop Name |Type |Required |Default |Description |
 --- | --- | --- | --- | ---
 |text|string|yes|--|text displayed in button
-|url|string|yes|--|url that button redirects to
+|href|string|yes|--|url that button redirects to
 |secondary|bool|no|false|if true, restyles with secondary colors
 |tertiary|bool|no|false|if true, restyles with tertiary colors
 |small|bool|no|false|if true, resizes to small dimensions

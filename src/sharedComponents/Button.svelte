@@ -1,6 +1,6 @@
 <script>
   export let text
-  export let url
+  export let href
   export let secondary = false
   export let tertiary = false
   export let small = false
@@ -10,27 +10,32 @@
   class:secondary
   class:tertiary
   class:small
-  href={url} >
-  <span class='button-text'>{text}</span>
-  <span class="iconify" data-icon="mdi-arrow-right"></span>
+  {href} >
+  <div class='button-content'>
+    <span class='button-text'>{text}</span>
+    <span class="iconify" data-icon="mdi-arrow-right"></span>
+  </div>
 </a>
 
 <style>
   a {
-    cursor: pointer;
     display: flex;
-    justify-content: center;
     align-items: center;
-    align-self: flex-start;
-    font-size: 24px;
+    justify-content: center;
     height: 72px;
-    width: 312px;
+    min-width: 312px;
     border-radius: 40px;
     font-weight: 500;
     color: var(--white);
     background-color: var(--black);
     text-decoration: none;
     transition: 0.1s ease-in;
+    margin-right: 30px;
+  }
+
+  .button-content {
+    margin: 0 24px;
+    font-size: 24px;
   }
 
   .button-text {

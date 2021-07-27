@@ -1,1 +1,3 @@
-bundle.*
+build/**
+public/build/**
+**/build.*
