@@ -2,6 +2,7 @@
 	import page from 'page'
 	
 	import Nav from './sharedComponents/Nav.svelte'
+	import Sock from './sharedComponents/Sock.svelte'
 	import Footer from './sharedComponents/Footer.svelte'
 	import About from './About/About.svelte'
 	import Home from './Home/Home.svelte'
@@ -26,6 +27,7 @@
 <main>
 	<Nav />
 	<svelte:component this={component} />
+	<Sock />
 	<Footer />
 </main>
 
