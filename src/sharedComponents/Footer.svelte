@@ -96,6 +96,7 @@
 
   a {
     color: var(--white);
+    font-size: 16px;
   }
 
   .social-link {

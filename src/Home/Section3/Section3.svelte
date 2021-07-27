@@ -26,7 +26,17 @@
     }
   ]
 
-  const intersectionality = []
+  const intersectionality = [
+    {
+      title: "Race in the Working Class"
+    },
+    {
+      title: "Disability in the Working Class"
+    },
+    {
+      title: "Gender in the Working Class"
+    }
+  ]
 </script>
 
 <section>
@@ -41,6 +51,17 @@
       </div>
     {/each}
   </div>
+
+  <h2>
+    The fight for the rights of the working class is an intersectional issue.
+  </h2>
+  <div class='intersectionalities'>
+    {#each intersectionality as { title }, i }
+      <div class='intersectionality' class:darken={i ==1}>
+        <h3>{title}</h3>
+      </div>
+    {/each}
+  </div>
 </section>
 
 <style>
@@ -50,7 +71,7 @@
 
   .demands {
     display: flex;
-    display: row;
+    flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
   }
@@ -61,6 +82,21 @@
     width: 50%;
     background-color: var(--light-grey);
     margin-bottom: 46px;
+  }
+
+  .intersectionalities {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .intersectionality {
+    padding: 29px 29px 44px;
+    background-color: var(--light-grey);
+  }
+
+  .intersectionality:nth-child(2) {
+    margin: 0 32px;
   }
 
   .darken {
