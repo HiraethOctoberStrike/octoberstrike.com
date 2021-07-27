@@ -20,7 +20,7 @@
   <p>
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat risus, nibh id egestas. Iaculis ultrices magna ac sed scelerisque blandit in ridiculus accumsan. Ac cursus diam posuere lectus. Pretium, quisque leo risus sed. Auctor penatibus non laoreet habitant sem cras faucibus commodo sit. Scelerisque enim, non sit morbi id. Tincidunt eget leo risus posuere et volutpat pharetra odio. 
   </p>
-  <Button text='STRIKE WITH US' href='#' secondary={true} />
+  <Button text='STRIKE WITH US' href='/strike-with-us' secondary={true} />
 </section>
 
 <style>

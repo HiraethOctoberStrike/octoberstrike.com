@@ -7,8 +7,8 @@
     Get involved now to fight for your right to a liveable life in your country.
   </h1>
   <div class='buttons'>
-    <Button text='SIGN THE PETITTION' href='/#' secondary={true} />
-    <Button text='GET INVOLVED' href='/#' />
+    <Button text='SIGN THE PETITION' href='http://chng.it/kNQvH8GXL5' secondary={true} />
+    <Button text='GET INVOLVED' href='/get-involved' />
   </div>
 </section>
 
