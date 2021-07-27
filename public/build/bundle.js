@@ -24,6 +24,14 @@ var app = (function () {
     function safe_not_equal(a, b) {
         return a != a ? b == b : a !== b || ((a && typeof a === 'object') || typeof a === 'function');
     }
+    let src_url_equal_anchor;
+    function src_url_equal(element_src, url) {
+        if (!src_url_equal_anchor) {
+            src_url_equal_anchor = document.createElement('a');
+        }
+        src_url_equal_anchor.href = url;
+        return element_src === src_url_equal_anchor.href;
+    }
     function is_empty(obj) {
         return Object.keys(obj).length === 0;
     }
@@ -1606,11 +1614,11 @@ var app = (function () {
     function get_each_context$1(ctx, list, i) {
     	const child_ctx = ctx.slice();
     	child_ctx[1] = list[i].text;
-    	child_ctx[2] = list[i].url;
+    	child_ctx[2] = list[i].href;
     	return child_ctx;
     }
 
-    // (27:6) { #each navLinks as { text, url }
+    // (27:6) { #each navLinks as { text, href }
     function create_each_block$1(ctx) {
     	let a;
     	let t_value = /*text*/ ctx[1] + "";
@@ -1621,8 +1629,8 @@ var app = (function () {
     			a = element("a");
     			t = text(t_value);
     			attr_dev(a, "class", "link svelte-rpwnxa");
-    			attr_dev(a, "href", /*url*/ ctx[2]);
-    			add_location(a, file$5, 27, 8, 424);
+    			attr_dev(a, "href", /*href*/ ctx[2]);
+    			add_location(a, file$5, 27, 8, 429);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, a, anchor);
@@ -1638,7 +1646,7 @@ var app = (function () {
     		block,
     		id: create_each_block$1.name,
     		type: "each",
-    		source: "(27:6) { #each navLinks as { text, url }",
+    		source: "(27:6) { #each navLinks as { text, href }",
     		ctx
     	});
 
@@ -1677,17 +1685,17 @@ var app = (function () {
     			a1 = element("a");
     			a1.textContent = "Strike with Us";
     			attr_dev(div0, "class", "logo-placeholder svelte-rpwnxa");
-    			add_location(div0, file$5, 23, 4, 304);
+    			add_location(div0, file$5, 23, 4, 308);
     			attr_dev(a0, "href", "/");
     			attr_dev(a0, "class", "svelte-rpwnxa");
-    			add_location(a0, file$5, 22, 2, 287);
+    			add_location(a0, file$5, 22, 2, 291);
     			attr_dev(a1, "class", "primary-link svelte-rpwnxa");
     			attr_dev(a1, "href", "/strike-with-us");
-    			add_location(a1, file$5, 29, 6, 484);
+    			add_location(a1, file$5, 29, 6, 485);
     			attr_dev(div1, "class", "nav-links svelte-rpwnxa");
-    			add_location(div1, file$5, 25, 2, 350);
+    			add_location(div1, file$5, 25, 2, 354);
     			attr_dev(nav, "class", "svelte-rpwnxa");
-    			add_location(nav, file$5, 21, 0, 279);
+    			add_location(nav, file$5, 21, 0, 283);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -1755,13 +1763,13 @@ var app = (function () {
     	validate_slots('Nav', slots, []);
 
     	let navLinks = [
-    		{ text: 'About', url: '/about' },
+    		{ text: 'About', href: '/about' },
     		{
     			text: 'Get Involved',
-    			url: '/get-involved'
+    			href: '/get-involved'
     		},
-    		{ text: 'Mutual Aid', url: '/mutual-aid' },
-    		{ text: 'FAQ', url: '/faq' }
+    		{ text: 'Mutual Aid', href: '/mutual-aid' },
+    		{ text: 'FAQ', href: '/faq' }
     	];
 
     	const writable_props = [];
@@ -1803,24 +1811,32 @@ var app = (function () {
 
     function get_each_context(ctx, list, i) {
     	const child_ctx = ctx.slice();
-    	child_ctx[2] = list[i].text;
-    	child_ctx[3] = list[i].url;
+    	child_ctx[2] = list[i].href;
+    	child_ctx[3] = list[i].src;
+    	child_ctx[4] = list[i].alt;
     	return child_ctx;
     }
 
-    // (32:6) { #each navLinks as { text, url }
-    function create_each_block(ctx) {
+    function get_each_context_1(ctx, list, i) {
+    	const child_ctx = ctx.slice();
+    	child_ctx[7] = list[i].text;
+    	child_ctx[2] = list[i].href;
+    	return child_ctx;
+    }
+
+    // (51:6) { #each navLinks as { text, href }
+    function create_each_block_1(ctx) {
     	let a;
-    	let t_value = /*text*/ ctx[2] + "";
+    	let t_value = /*text*/ ctx[7] + "";
     	let t;
 
     	const block = {
     		c: function create() {
     			a = element("a");
     			t = text(t_value);
-    			attr_dev(a, "class", "internal-link svelte-yjm5um");
-    			attr_dev(a, "href", /*url*/ ctx[3]);
-    			add_location(a, file$4, 32, 8, 476);
+    			attr_dev(a, "class", "internal-link svelte-1iqllai");
+    			attr_dev(a, "href", /*href*/ ctx[2]);
+    			add_location(a, file$4, 51, 8, 1037);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, a, anchor);
@@ -1834,9 +1850,52 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
+    		id: create_each_block_1.name,
+    		type: "each",
+    		source: "(51:6) { #each navLinks as { text, href }",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (57:6) { #each socialLinks as { href, src, alt }
+    function create_each_block(ctx) {
+    	let a;
+    	let img;
+    	let img_src_value;
+    	let t;
+
+    	const block = {
+    		c: function create() {
+    			a = element("a");
+    			img = element("img");
+    			t = space();
+    			attr_dev(img, "class", "social-icon svelte-1iqllai");
+    			if (!src_url_equal(img.src, img_src_value = /*src*/ ctx[3])) attr_dev(img, "src", img_src_value);
+    			attr_dev(img, "alt", /*alt*/ ctx[4]);
+    			add_location(img, file$4, 58, 10, 1261);
+    			attr_dev(a, "class", "social-link svelte-1iqllai");
+    			attr_dev(a, "href", /*href*/ ctx[2]);
+    			attr_dev(a, "target", "_blank");
+    			add_location(a, file$4, 57, 8, 1203);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, a, anchor);
+    			append_dev(a, img);
+    			append_dev(a, t);
+    		},
+    		p: noop,
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(a);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
     		id: create_each_block.name,
     		type: "each",
-    		source: "(32:6) { #each navLinks as { text, url }",
+    		source: "(57:6) { #each socialLinks as { href, src, alt }",
     		ctx
     	});
 
@@ -1852,7 +1911,17 @@ var app = (function () {
     	let nav;
     	let t1;
     	let div2;
-    	let each_value = /*navLinks*/ ctx[0];
+    	let t2;
+    	let p;
+    	let each_value_1 = /*navLinks*/ ctx[0];
+    	validate_each_argument(each_value_1);
+    	let each_blocks_1 = [];
+
+    	for (let i = 0; i < each_value_1.length; i += 1) {
+    		each_blocks_1[i] = create_each_block_1(get_each_context_1(ctx, each_value_1, i));
+    	}
+
+    	let each_value = /*socialLinks*/ ctx[1];
     	validate_each_argument(each_value);
     	let each_blocks = [];
 
@@ -1869,25 +1938,35 @@ var app = (function () {
     			t0 = space();
     			nav = element("nav");
 
-    			for (let i = 0; i < each_blocks.length; i += 1) {
-    				each_blocks[i].c();
+    			for (let i = 0; i < each_blocks_1.length; i += 1) {
+    				each_blocks_1[i].c();
     			}
 
     			t1 = space();
     			div2 = element("div");
-    			attr_dev(div0, "class", "logo-placeholder svelte-yjm5um");
-    			add_location(div0, file$4, 28, 6, 370);
+
+    			for (let i = 0; i < each_blocks.length; i += 1) {
+    				each_blocks[i].c();
+    			}
+
+    			t2 = space();
+    			p = element("p");
+    			p.textContent = "Copyright © 2021 USA. All rights reserved.";
+    			attr_dev(div0, "class", "logo-placeholder svelte-1iqllai");
+    			add_location(div0, file$4, 47, 6, 930);
     			attr_dev(a, "href", "/");
-    			attr_dev(a, "class", "svelte-yjm5um");
-    			add_location(a, file$4, 27, 4, 351);
-    			attr_dev(nav, "class", "svelte-yjm5um");
-    			add_location(nav, file$4, 30, 4, 420);
-    			attr_dev(div1, "class", "internal-links svelte-yjm5um");
-    			add_location(div1, file$4, 26, 2, 318);
+    			attr_dev(a, "class", "svelte-1iqllai");
+    			add_location(a, file$4, 46, 4, 911);
+    			attr_dev(nav, "class", "svelte-1iqllai");
+    			add_location(nav, file$4, 49, 4, 980);
+    			attr_dev(div1, "class", "internal-links svelte-1iqllai");
+    			add_location(div1, file$4, 45, 2, 878);
     			attr_dev(div2, "class", "social-links");
-    			add_location(div2, file$4, 36, 2, 561);
-    			attr_dev(footer, "class", "svelte-yjm5um");
-    			add_location(footer, file$4, 25, 0, 307);
+    			add_location(div2, file$4, 55, 2, 1118);
+    			attr_dev(p, "class", "copyright-statement svelte-1iqllai");
+    			add_location(p, file$4, 62, 2, 1340);
+    			attr_dev(footer, "class", "svelte-1iqllai");
+    			add_location(footer, file$4, 44, 0, 867);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -1900,16 +1979,47 @@ var app = (function () {
     			append_dev(div1, t0);
     			append_dev(div1, nav);
 
-    			for (let i = 0; i < each_blocks.length; i += 1) {
-    				each_blocks[i].m(nav, null);
+    			for (let i = 0; i < each_blocks_1.length; i += 1) {
+    				each_blocks_1[i].m(nav, null);
     			}
 
     			append_dev(footer, t1);
     			append_dev(footer, div2);
+
+    			for (let i = 0; i < each_blocks.length; i += 1) {
+    				each_blocks[i].m(div2, null);
+    			}
+
+    			append_dev(footer, t2);
+    			append_dev(footer, p);
     		},
     		p: function update(ctx, [dirty]) {
     			if (dirty & /*navLinks*/ 1) {
-    				each_value = /*navLinks*/ ctx[0];
+    				each_value_1 = /*navLinks*/ ctx[0];
+    				validate_each_argument(each_value_1);
+    				let i;
+
+    				for (i = 0; i < each_value_1.length; i += 1) {
+    					const child_ctx = get_each_context_1(ctx, each_value_1, i);
+
+    					if (each_blocks_1[i]) {
+    						each_blocks_1[i].p(child_ctx, dirty);
+    					} else {
+    						each_blocks_1[i] = create_each_block_1(child_ctx);
+    						each_blocks_1[i].c();
+    						each_blocks_1[i].m(nav, null);
+    					}
+    				}
+
+    				for (; i < each_blocks_1.length; i += 1) {
+    					each_blocks_1[i].d(1);
+    				}
+
+    				each_blocks_1.length = each_value_1.length;
+    			}
+
+    			if (dirty & /*socialLinks*/ 2) {
+    				each_value = /*socialLinks*/ ctx[1];
     				validate_each_argument(each_value);
     				let i;
 
@@ -1921,7 +2031,7 @@ var app = (function () {
     					} else {
     						each_blocks[i] = create_each_block(child_ctx);
     						each_blocks[i].c();
-    						each_blocks[i].m(nav, null);
+    						each_blocks[i].m(div2, null);
     					}
     				}
 
@@ -1936,6 +2046,7 @@ var app = (function () {
     		o: noop,
     		d: function destroy(detaching) {
     			if (detaching) detach_dev(footer);
+    			destroy_each(each_blocks_1, detaching);
     			destroy_each(each_blocks, detaching);
     		}
     	};
@@ -1956,16 +2067,38 @@ var app = (function () {
     	validate_slots('Footer', slots, []);
 
     	let navLinks = [
-    		{ text: 'About', url: '/about' },
+    		{ text: 'About', href: '/about' },
     		{
     			text: 'Get Involved',
-    			url: '/get-involved'
+    			href: '/get-involved'
     		},
-    		{ text: 'Mutual Aid', url: '/mutual-aid' },
-    		{ text: 'FAQ', url: '/faq' }
+    		{ text: 'Mutual Aid', href: '/mutual-aid' },
+    		{ text: 'FAQ', href: '/faq' }
     	];
 
-    	let socialLinks = [];
+    	let socialLinks = [
+    		{
+    			href: 'https://www.instagram.com/strikeoctober15/',
+    			src: 'assets/socialMediaLogos/instagram.png',
+    			alt: 'instagram'
+    		},
+    		{
+    			href: 'https://twitter.com/StrikeOctober',
+    			src: 'assets/socialMediaLogos/twitter.png',
+    			alt: 'twitter'
+    		},
+    		{
+    			href: 'https://www.facebook.com/strikeoctober15',
+    			src: 'assets/socialMediaLogos/facebook.png',
+    			alt: 'facebook'
+    		},
+    		{
+    			href: 'https://www.reddit.com/r/OctoberStrike/',
+    			src: 'assets/socialMediaLogos/reddit.png',
+    			alt: 'reddit'
+    		}
+    	];
+
     	const writable_props = [];
 
     	Object.keys($$props).forEach(key => {
@@ -1976,14 +2109,14 @@ var app = (function () {
 
     	$$self.$inject_state = $$props => {
     		if ('navLinks' in $$props) $$invalidate(0, navLinks = $$props.navLinks);
-    		if ('socialLinks' in $$props) socialLinks = $$props.socialLinks;
+    		if ('socialLinks' in $$props) $$invalidate(1, socialLinks = $$props.socialLinks);
     	};
 
     	if ($$props && "$$inject" in $$props) {
     		$$self.$inject_state($$props.$$inject);
     	}
 
-    	return [navLinks];
+    	return [navLinks, socialLinks];
     }
 
     class Footer extends SvelteComponentDev {

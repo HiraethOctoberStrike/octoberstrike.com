@@ -2,19 +2,19 @@
   let navLinks = [
     {
       text: 'About',
-      url: '/about'
+      href: '/about'
     },
     {
       text: 'Get Involved',
-      url: '/get-involved'
+      href: '/get-involved'
     },
     {
       text: 'Mutual Aid',
-      url: '/mutual-aid'
+      href: '/mutual-aid'
     },
     {
       text: 'FAQ',
-      url: '/faq'
+      href: '/faq'
     },
   ]
 </script>
@@ -24,8 +24,8 @@
     <div class='logo-placeholder'></div>
   </a>
   <div class='nav-links'>
-      { #each navLinks as { text, url } }
-        <a class='link' href={url}>{text}</a>
+      { #each navLinks as { text, href } }
+        <a class='link' {href}>{text}</a>
       { /each }
       <a class='primary-link' href='/strike-with-us'>Strike with Us</a>
     </div>
