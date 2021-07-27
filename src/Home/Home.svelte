@@ -1,5 +1,5 @@
 <script>
-  import Button from '../shared_components/Button.svelte'
+  import Button from '../sharedComponents/Button.svelte'
 </script>
 
 <section class='section-1'>
