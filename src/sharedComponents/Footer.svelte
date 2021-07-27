@@ -119,6 +119,6 @@
     font-size: 16px;
     font-weight: 500;
     height: 80px;
-    margin: 80px 0;
+    margin: 80px 0 0;
   }
 </style>

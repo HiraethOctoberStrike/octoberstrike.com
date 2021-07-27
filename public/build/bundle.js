@@ -1834,7 +1834,7 @@ var app = (function () {
     		c: function create() {
     			a = element("a");
     			t = text(t_value);
-    			attr_dev(a, "class", "internal-link svelte-1iqllai");
+    			attr_dev(a, "class", "internal-link svelte-1gw8656");
     			attr_dev(a, "href", /*href*/ ctx[2]);
     			add_location(a, file$4, 51, 8, 1037);
     		},
@@ -1871,11 +1871,11 @@ var app = (function () {
     			a = element("a");
     			img = element("img");
     			t = space();
-    			attr_dev(img, "class", "social-icon svelte-1iqllai");
+    			attr_dev(img, "class", "social-icon svelte-1gw8656");
     			if (!src_url_equal(img.src, img_src_value = /*src*/ ctx[3])) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", /*alt*/ ctx[4]);
     			add_location(img, file$4, 58, 10, 1261);
-    			attr_dev(a, "class", "social-link svelte-1iqllai");
+    			attr_dev(a, "class", "social-link svelte-1gw8656");
     			attr_dev(a, "href", /*href*/ ctx[2]);
     			attr_dev(a, "target", "_blank");
     			add_location(a, file$4, 57, 8, 1203);
@@ -1952,20 +1952,20 @@ var app = (function () {
     			t2 = space();
     			p = element("p");
     			p.textContent = "Copyright © 2021 USA. All rights reserved.";
-    			attr_dev(div0, "class", "logo-placeholder svelte-1iqllai");
+    			attr_dev(div0, "class", "logo-placeholder svelte-1gw8656");
     			add_location(div0, file$4, 47, 6, 930);
     			attr_dev(a, "href", "/");
-    			attr_dev(a, "class", "svelte-1iqllai");
+    			attr_dev(a, "class", "svelte-1gw8656");
     			add_location(a, file$4, 46, 4, 911);
-    			attr_dev(nav, "class", "svelte-1iqllai");
+    			attr_dev(nav, "class", "svelte-1gw8656");
     			add_location(nav, file$4, 49, 4, 980);
-    			attr_dev(div1, "class", "internal-links svelte-1iqllai");
+    			attr_dev(div1, "class", "internal-links svelte-1gw8656");
     			add_location(div1, file$4, 45, 2, 878);
     			attr_dev(div2, "class", "social-links");
     			add_location(div2, file$4, 55, 2, 1118);
-    			attr_dev(p, "class", "copyright-statement svelte-1iqllai");
+    			attr_dev(p, "class", "copyright-statement svelte-1gw8656");
     			add_location(p, file$4, 62, 2, 1340);
-    			attr_dev(footer, "class", "svelte-1iqllai");
+    			attr_dev(footer, "class", "svelte-1gw8656");
     			add_location(footer, file$4, 44, 0, 867);
     		},
     		l: function claim(nodes) {
