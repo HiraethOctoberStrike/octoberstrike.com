@@ -19,9 +19,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-  }
-  h1 {
-    padding-bottom: 52px; 
+    background-color: var(--lightest-grey);
   }
 
   .buttons {

@@ -1,5 +1,5 @@
 <script>
-  let navLinks = [
+  const navLinks = [
     {
       text: 'About',
       href: '/about'

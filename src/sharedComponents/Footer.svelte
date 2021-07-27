@@ -1,5 +1,5 @@
 <script>
-  let navLinks = [
+  const navLinks = [
     {
       text: 'About',
       href: '/about'
@@ -18,7 +18,7 @@
     },
   ]
 
-  let socialLinks = [
+  const socialLinks = [
     {
       href: 'https://www.instagram.com/strikeoctober15/',
       src: 'assets/socialMediaLogos/instagram.png',
@@ -96,6 +96,7 @@
 
   a {
     color: var(--white);
+    font-size: 16px;
   }
 
   .social-link {
