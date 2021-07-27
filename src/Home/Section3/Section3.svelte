@@ -39,7 +39,7 @@
   ]
 </script>
 
-<section>
+<section class='section-3'>
   <h1>
     The U.S. government is not serving its people. Now is the time for change.
   </h1>
@@ -65,8 +65,9 @@
 </section>
 
 <style>
-  section {
+  .section-3 {
     padding: 71px 165px 105px;
+    background-color: var(--lightest-grey);
   }
 
   .demands {

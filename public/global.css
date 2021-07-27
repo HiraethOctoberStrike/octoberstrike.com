@@ -60,7 +60,6 @@ p {
 	font-size: 20px;
 	line-height: 23px;
 	font-weight: 400;
-	max-width: 550px;
 	color: var(--dark-grey);
 	margin: 0 0 36px;
 }
