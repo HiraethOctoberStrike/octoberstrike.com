@@ -12,9 +12,16 @@
   </p>
   <Button text='STRIKE WITH US' href='/strike-with-us' />
 </section>
-
 <Section3 />
-
+<section class='section-4'>
+  <h1>
+    We’ve voted and argued, but now it’s time to <span class='red-highlight'>strike</span>.
+  </h1>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat risus, nibh id egestas. Iaculis ultrices magna ac sed scelerisque blandit in ridiculus accumsan. Ac cursus diam posuere lectus. Pretium, quisque leo risus sed. Auctor penatibus non laoreet habitant sem cras faucibus commodo sit. Scelerisque enim, non sit morbi id. Tincidunt eget leo risus posuere et volutpat pharetra odio. 
+  </p>
+  <Button text='STRIKE WITH US' href='#' secondary={true} />
+</section>
 
 <style>
 
@@ -29,5 +36,20 @@
     background-color: var(--light-grey);
   }
 
+  .section-1 p {
+    max-width: 550px;
+  }
 
+  .section-4 {
+    padding: 76px 310px 72px 250px
+  }
+
+  .section-4 h1 {
+    max-width: 840px;
+  }
+  .red-highlight {
+    color: var(--red);
+  }
+
+ 
 </style>
