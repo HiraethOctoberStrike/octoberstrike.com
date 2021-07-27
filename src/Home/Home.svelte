@@ -18,7 +18,7 @@
   }
 
   .section-1 {
-    padding: 165px 134px;
+    padding: 134px 165px;
     background-color: var(--light-grey);
   }
 </style>
