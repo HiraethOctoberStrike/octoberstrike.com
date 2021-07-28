@@ -28,7 +28,7 @@
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: flex-start;
-    height: 200px;
+    height: 220px;
   }
 
   .demand {
@@ -36,7 +36,6 @@
     font-size: 26px;
     font-weight: 400;
     line-height: 32px;
-    flex-grow: 0;
     display: flex;
     flex-direction: row;
     margin-right: 40px;
