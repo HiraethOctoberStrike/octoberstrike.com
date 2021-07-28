@@ -15,7 +15,7 @@
 <style>
 
   section {
-    padding: 81px 179px 82px 156px;
+    padding: 82px 156px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -26,5 +26,20 @@
     display: flex;
     flex-direction: row;
     width: 100%;
+  }
+
+  @media (max-width: 1100px) {
+    .buttons {
+      flex-direction: column;
+      width: unset;
+      justify-content: space-between;
+      height: 168px;
+    }
+  }
+  
+  @media (max-width: 900px) {
+    section {
+      padding: 81px 80px 82px;
+    }
   }
 </style>

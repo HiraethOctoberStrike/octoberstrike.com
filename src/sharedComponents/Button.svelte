@@ -34,7 +34,11 @@
   }
 
   .button-content {
-    margin: 0 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 30px;
     font-size: 24px;
   }
 

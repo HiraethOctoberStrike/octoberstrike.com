@@ -115,27 +115,33 @@
       flex-direction: column;
       flex-wrap: nowrap;
 	  }
-
+    
     .demand {
       width: 100%;
       margin-bottom: 24px;
     }
-
+    
     .demand:nth-child(odd) {
       background-color: var(--light-grey);
     }
-
+    
     .demand:nth-child(even) {
       background-color: var(--medium-grey1);
     }
-
+    
     .intersectionalities {
       flex-wrap: wrap;
     }
-
+    
     .intersectionality {
       flex: 1 0 30%;
       margin: 12px;
     }
+    
+    @media (max-width: 900px) {
+      .time-for-change {
+        padding: 71px 40px 105px; 
+      }
+    }
   }
-</style>
+  </style>

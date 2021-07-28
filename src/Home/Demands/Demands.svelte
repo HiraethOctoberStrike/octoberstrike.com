@@ -53,4 +53,10 @@
       height: unset;
     }
 	}
+
+  @media (max-width: 900px) {
+    .demands {
+      padding: 54px 80px 5px;
+    }
+  }
 </style>

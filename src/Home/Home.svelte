@@ -43,7 +43,7 @@
   }
   
   .section-4 {
-    padding: 76px 250px 72px 250px
+    padding: 76px 250px 72px;
   }
 
   .section-4 h1 {
@@ -53,4 +53,15 @@
   .red-highlight {
     color: var(--red);
   }
+
+  @media (max-width: 900px) {
+    .section-1 {
+      padding: 134px 80px 104px;
+    }
+
+    .section-4 {
+      padding: 76px 100px 72px;
+    }
+  }
+
 </style>
