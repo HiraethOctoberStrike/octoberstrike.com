@@ -1,4 +1,5 @@
 <script>
+  export let large = false;
 
   const demands = [
     'Universal healthcare for all',
@@ -10,7 +11,7 @@
   ]
 </script>
 
-<section class='demands'>
+<section class='demands' class:large >
   {#each demands as demand }
     <div class='demand'>
       <span class="iconify" data-icon="mdi-check-circle"></span>
@@ -38,18 +39,40 @@
     line-height: 32px;
     display: flex;
     flex-direction: row;
-    margin-right: 40px;
+    align-items: center;
+    margin: 0 40px 40px 0;
   }
 
   p { 
     color: inherit;    
-    margin: 0 15px 40px;
+    margin: 0 0 0 15px;
+    font-size: inherit;
+    line-height: inherit;
+  }
+
+  .large {
+    padding: 110px 200px 40px;
+    height: 400px;
+  }
+
+  .large .demand {
+    font-size: 36px;
+    line-height: 42px;
+    max-width: 390px;
+  }
+
+  .iconify {
+    flex-shrink: 0;
   }
 
   @media (max-width: 1100px) {
 		.demands {
       flex-wrap: nowrap;
       height: unset;
+    }
+
+    .large .demand {
+      max-width: unset;
     }
 	}
 
@@ -68,6 +91,11 @@
   @media (max-width: 500px) {
     .demands {
       padding: 40px 20px 20px;
+    }
+
+    .large .demand {
+      font-size: 28px;
+      line-height: 36px;
     }
   }
 </style>

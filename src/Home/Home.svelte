@@ -2,7 +2,7 @@
   import HeaderWCTA from '../sharedComponents/HeaderWCTA.svelte'
   import Button from '../sharedComponents/Button.svelte'
   import TimeForChange from './TimeForChange/TimeForChange.svelte'
-  import Demands from './Demands/Demands.svelte'
+  import Demands from '../sharedComponents/Demands.svelte'
 
 </script>
 

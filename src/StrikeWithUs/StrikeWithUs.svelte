@@ -1,5 +1,6 @@
 <script>
   import HeaderWCTA from "../sharedComponents/HeaderWCTA.svelte";
+  import Demands from "../sharedComponents/Demands.svelte";
 
 </script>
 
@@ -9,6 +10,7 @@
   buttonText='SHOW YOUR COMMITMENT BY SIGNING THE PETITION'
   buttonHref='http://chng.it/kNQvH8GXL5'
   smallText={true} />
+<Demands large={true} />
 <style>
 
 </style>
