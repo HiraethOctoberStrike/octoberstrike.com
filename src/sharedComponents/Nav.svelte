@@ -57,6 +57,7 @@
   a {
     display: flex;
     align-items: center;
+    text-decoration: none;
     transition: 0.1s ease-in;
   }
 
@@ -74,7 +75,6 @@
     color: var(--darkest-grey);
     padding: 0 25px;
     text-align: center;
-    text-decoration: none;
   }
 
   .primary-link {

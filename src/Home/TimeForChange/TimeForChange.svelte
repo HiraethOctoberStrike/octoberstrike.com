@@ -39,7 +39,7 @@
   ]
 </script>
 
-<section class='section-3'>
+<section class='time-for-change'>
   <h1>
     The U.S. government is not serving its people. Now is the time for change.
   </h1>
@@ -65,7 +65,7 @@
 </section>
 
 <style>
-  .section-3 {
+  .time-for-change {
     padding: 71px 165px 105px;
     background-color: var(--lightest-grey);
   }

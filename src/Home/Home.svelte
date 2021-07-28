@@ -1,6 +1,7 @@
 <script>
   import Button from '../sharedComponents/Button.svelte'
-  import Section3 from './Section3/Section3.svelte'
+  import TimeForChange from './TimeForChange/TimeForChange.svelte'
+  import Demands from './Demands/Demands.svelte'
 
 </script>
 
@@ -12,7 +13,8 @@
   </p>
   <Button text='STRIKE WITH US' href='/strike-with-us' />
 </section>
-<Section3 />
+<Demands />
+<TimeForChange />
 <section class='section-4'>
   <h1>
     We’ve voted and argued, but now it’s time to <span class='red-highlight'>strike</span>.
@@ -39,7 +41,7 @@
   .section-1 p {
     max-width: 550px;
   }
-
+  
   .section-4 {
     padding: 76px 310px 72px 250px
   }
