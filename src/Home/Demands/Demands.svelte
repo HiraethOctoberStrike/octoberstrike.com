@@ -65,4 +65,10 @@
       padding: 54px 40px 30px;
     }
   }
+  
+  @media (max-width: 500px) {
+    .demands {
+      padding: 40px 20px 20px;
+    }
+  }
 </style>

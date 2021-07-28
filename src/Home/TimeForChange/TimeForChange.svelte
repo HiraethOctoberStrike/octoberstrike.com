@@ -152,8 +152,11 @@
       }
 
       .demand {
+        padding: 40px;
+      }
+
+      .demand:nth-child(even) {
         margin-bottom: 12px;
-        padding: 40px 40px;
       }
 
       .intersectionalities {
@@ -162,6 +165,17 @@
 
       .intersectionality {
         padding: 40px;
+        margin: 6px;
+      }
+    }
+
+    @media (max-width: 500px) {
+      .demand {
+        padding: 30px 20px;
+      }
+
+      .intersectionality {
+        padding: 20px;
         margin: 6px;
       }
     }

@@ -73,5 +73,15 @@
       padding: 76px 70px 72px;
     }
   }
+ 
+  @media (max-width: 500px) {
+    .section-1 {
+      padding: 100px 20px 80px;
+    }
+
+    .section-4 {
+      padding: 76px 40px 72px;
+    }
+  }
 
 </style>

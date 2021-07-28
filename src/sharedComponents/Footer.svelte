@@ -156,4 +156,10 @@
       padding: 0 40px 0;
     }
   }
+  
+  @media (max-width: 500px) {
+    footer {
+      padding: 0 20px 0;
+    }
+  }
 </style>

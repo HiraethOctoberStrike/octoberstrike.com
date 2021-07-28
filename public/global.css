@@ -53,6 +53,7 @@ h4 {
 
 h5 {
 	font-size: 20px;
+	line-height: 26px;
 	font-weight: 500;
 	color: var(--black);
 	margin: 0 0 8px;
@@ -60,7 +61,7 @@ h5 {
 
 p {
 	font-size: 20px;
-	line-height: 23px;
+	line-height: 30px;
 	font-weight: 400;
 	color: var(--dark-grey);
 	margin: 0 0 36px;
@@ -71,5 +72,46 @@ p {
 		font-size: 50px;
 		line-height: 60px;
 		margin: 0 0 30px;
+	}
+}
+
+
+@media (max-width: 500px) {
+	h1 {
+		font-size: 36px;
+		line-height: 46px;
+		margin: 0 0 30px;
+	}
+
+	h2 {
+		font-size: 30px;
+		line-height: 40px;
+	}
+
+	h3 {
+		font-size: 26px;
+		line-height: 34px;
+		margin: 0 0 20px;
+	}
+
+	h4 {
+		font-size: 18px;
+		line-height: 20px;
+	}
+
+	h5 {
+		font-size: 16px;
+		line-height: 24px;
+		font-weight: 500;
+		color: var(--black);
+		margin: 0 0 8px;
+	}
+
+	p {
+		font-size: 16px;
+		line-height: 28px;
+		font-weight: 400;
+		color: var(--dark-grey);
+		margin: 0 0 36px;
 	}
 }
