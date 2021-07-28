@@ -28,7 +28,7 @@
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: flex-start;
-    height: 200px;
+    height: 220px;
   }
 
   .demand {
@@ -36,13 +36,38 @@
     font-size: 26px;
     font-weight: 400;
     line-height: 32px;
-    flex-grow: 0;
     display: flex;
     flex-direction: row;
+    margin-right: 40px;
   }
 
   p { 
     color: inherit;    
     margin: 0 15px 40px;
+  }
+
+  @media (max-width: 1100px) {
+		.demands {
+      flex-wrap: nowrap;
+      height: unset;
+    }
+	}
+
+  @media (max-width: 900px) {
+    .demands {
+      padding: 54px 80px 30px;
+    }
+  }
+  
+  @media (max-width: 700px) {
+    .demands {
+      padding: 54px 40px 30px;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .demands {
+      padding: 40px 20px 20px;
+    }
   }
 </style>

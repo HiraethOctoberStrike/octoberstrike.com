@@ -39,7 +39,7 @@
     flex-direction: row;
     justify-content: space-between;
     height: 100px;
-    padding: 0 179px 0 165px;
+    padding: 0 165px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   }
 
@@ -74,7 +74,6 @@
     font-weight: 500;
     color: var(--darkest-grey);
     padding: 0 25px;
-    text-align: center;
   }
 
   .primary-link {
@@ -91,5 +90,21 @@
   
   .primary-link:active {
     background-color: var(--medium-grey1);  
+  }
+
+  @media (max-width: 1200px) {
+    nav {
+      padding: 0 80px;
+    }
+
+    .link {
+      padding: 0 12px;
+    }
+
+    .primary-link {
+      margin-left: 20px;
+      padding: 0 28px;
+
+    }
   }
 </style>

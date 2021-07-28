@@ -43,15 +43,45 @@
   }
   
   .section-4 {
-    padding: 76px 310px 72px 250px
+    padding: 76px 250px 72px;
   }
 
   .section-4 h1 {
     max-width: 840px;
   }
+  
   .red-highlight {
     color: var(--red);
   }
 
+  @media (max-width: 900px) {
+    .section-1 {
+      padding: 134px 80px 104px;
+    }
+
+    .section-4 {
+      padding: 76px 100px 72px;
+    }
+  }
+
+  @media (max-width: 700px) {
+    .section-1 {
+      padding: 134px 40px 104px;
+    }
+
+    .section-4 {
+      padding: 76px 70px 72px;
+    }
+  }
  
+  @media (max-width: 500px) {
+    .section-1 {
+      padding: 100px 20px 80px;
+    }
+
+    .section-4 {
+      padding: 76px 40px 72px;
+    }
+  }
+
 </style>

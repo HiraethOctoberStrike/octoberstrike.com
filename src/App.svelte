@@ -30,9 +30,3 @@
 	<Sock />
 	<Footer />
 </main>
-
-<style>
-	@media (min-width: 640px) {
-		
-	}
-</style>
