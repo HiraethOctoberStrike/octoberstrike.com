@@ -74,7 +74,6 @@
     font-weight: 500;
     color: var(--darkest-grey);
     padding: 0 25px;
-    text-align: center;
   }
 
   .primary-link {

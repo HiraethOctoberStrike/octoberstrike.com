@@ -88,16 +88,14 @@
   .intersectionalities {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    margin: -16px;
   }
 
   .intersectionality {
     padding: 29px 29px 44px;
     background-color: var(--light-grey);
-  }
-
-  .intersectionality:nth-child(2) {
-    margin: 0 32px;
+    flex: 1 1;
+    margin: 16px;
   }
 
   .darken {
@@ -110,5 +108,34 @@
 
   h5 {
     max-width: 450px;
+  }
+
+  @media (max-width: 1100px) {
+    .demands {
+      flex-direction: column;
+      flex-wrap: nowrap;
+	  }
+
+    .demand {
+      width: 100%;
+      margin-bottom: 24px;
+    }
+
+    .demand:nth-child(odd) {
+      background-color: var(--light-grey);
+    }
+
+    .demand:nth-child(even) {
+      background-color: var(--medium-grey1);
+    }
+
+    .intersectionalities {
+      flex-wrap: wrap;
+    }
+
+    .intersectionality {
+      flex: 1 0 30%;
+      margin: 12px;
+    }
   }
 </style>
