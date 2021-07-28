@@ -84,6 +84,7 @@ Check out the [Svelte Tutorial](https://svelte.dev/tutorial/basics)
 |secondary|bool|no|false|if true, restyles with secondary colors
 |tertiary|bool|no|false|if true, restyles with tertiary colors
 |small|bool|no|false|if true, resizes to small dimensions
+|smallText|bool|no|false|if true, restyles with small text
 
 ##### Button with default attributes
 ```html

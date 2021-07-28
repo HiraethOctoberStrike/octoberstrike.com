@@ -4,12 +4,14 @@
   export let secondary = false
   export let tertiary = false
   export let small = false
+  export let smallText = false
 
 </script>
 <a 
   class:secondary
   class:tertiary
   class:small
+  class:small-text={smallText}
   {href} >
   <div class='button-content'>
     <span class='button-text'>{text}</span>
@@ -24,6 +26,7 @@
     justify-content: center;
     height: 72px;
     min-width: 312px;
+    max-width: 350px;
     border-radius: 40px;
     font-weight: 500;
     color: var(--white);
@@ -36,6 +39,7 @@
   .button-content {
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: space-between;
     width: 100%;
     margin: 0 30px;
@@ -47,10 +51,17 @@
   }
 
   a.small {
-    font-size: 16px;
     height: 46px;
     width: 282px;
     border-radius: 26px;
+  }
+  
+  a.small .button-content {
+    font-size: 16px;
+  }
+
+  a.small-text .button-text {
+    font-size: 18px;  
   }
 
   a.secondary {
@@ -73,10 +84,10 @@
   .iconify {
     top: -1px;
     position: relative;
+    flex-shrink: 0;
   }
 
   @media (max-width: 700px) {
-
     a {
       height: 60px;
       min-width: 250px;
@@ -84,6 +95,10 @@
 
     .button-content {
       font-size: 18px;
+    }
+
+    a.small-text .button-text {
+      font-size: 13px;  
     }
   }
 </style>

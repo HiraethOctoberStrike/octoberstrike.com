@@ -1,18 +1,16 @@
 <script>
+  import HeaderWCTA from '../sharedComponents/HeaderWCTA.svelte'
   import Button from '../sharedComponents/Button.svelte'
   import TimeForChange from './TimeForChange/TimeForChange.svelte'
   import Demands from './Demands/Demands.svelte'
 
 </script>
 
-<section class='section-1'>
-  <h4>October 15 2021</h4>
-  <h1>National General Strike</h1>
-  <p>
-    Lorem ipsume dolor sit amet, consectetur adipiscing elit. Ornare duis lacus neque adipiscing aliquam molestie fermentum. Eget commodo quisque non, porta. In congue sociis donec vel laoreet in pharetra. Vitae habitant et.
-  </p>
-  <Button text='STRIKE WITH US' href='/strike-with-us' />
-</section>
+<HeaderWCTA 
+  header='National General Strike'
+  paragraph='Lorem ipsume dolor sit amet, consectetur adipiscing elit. Ornare duis lacus neque adipiscing aliquam molestie fermentum. Eget commodo quisque non, porta. In congue sociis donec vel laoreet in pharetra. Vitae habitant et.'
+  buttonText='STRIKE WITH US'
+  buttonHref='/strike-with-us' />
 <Demands />
 <TimeForChange />
 <section class='section-4'>
@@ -26,23 +24,9 @@
 </section>
 
 <style>
-
-  section {
+  .section-4 {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .section-1 {
-    padding: 134px 165px 104px;
-    background-color: var(--light-grey);
-  }
-
-  .section-1 p {
-    max-width: 550px;
-  }
-  
-  .section-4 {
     padding: 76px 250px 72px;
   }
 
@@ -55,30 +39,18 @@
   }
 
   @media (max-width: 900px) {
-    .section-1 {
-      padding: 134px 80px 104px;
-    }
-
     .section-4 {
       padding: 76px 100px 72px;
     }
   }
 
   @media (max-width: 700px) {
-    .section-1 {
-      padding: 134px 40px 104px;
-    }
-
     .section-4 {
       padding: 76px 70px 72px;
     }
   }
  
   @media (max-width: 500px) {
-    .section-1 {
-      padding: 100px 20px 80px;
-    }
-
     .section-4 {
       padding: 76px 40px 72px;
     }
