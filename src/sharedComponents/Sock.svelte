@@ -39,7 +39,19 @@
   
   @media (max-width: 900px) {
     section {
-      padding: 81px 80px 82px;
+      padding: 82px 80px;
+    }
+  }
+  
+  @media (max-width: 900px) {
+    section {
+      padding: 82px 40px;
+    }
+  }
+
+  @media (max-width: 700px) {
+    .buttons {
+      height: 140px;
     }
   }
 </style>

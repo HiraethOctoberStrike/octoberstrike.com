@@ -74,4 +74,16 @@
     top: -1px;
     position: relative;
   }
+
+  @media (max-width: 700px) {
+
+    a {
+      height: 60px;
+      min-width: 250px;
+    }
+
+    .button-content {
+      font-size: 18px;
+    }
+  }
 </style>

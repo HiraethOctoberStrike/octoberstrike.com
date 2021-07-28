@@ -56,7 +56,13 @@
 
   @media (max-width: 900px) {
     .demands {
-      padding: 54px 80px 5px;
+      padding: 54px 80px 30px;
+    }
+  }
+  
+  @media (max-width: 700px) {
+    .demands {
+      padding: 54px 40px 30px;
     }
   }
 </style>

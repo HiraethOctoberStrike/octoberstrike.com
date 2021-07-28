@@ -64,4 +64,14 @@
     }
   }
 
+  @media (max-width: 700px) {
+    .section-1 {
+      padding: 134px 40px 104px;
+    }
+
+    .section-4 {
+      padding: 76px 70px 72px;
+    }
+  }
+
 </style>

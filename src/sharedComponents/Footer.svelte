@@ -87,11 +87,13 @@
   nav {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
   }
   
   .internal-link {
     padding: 0 45px;
+    margin-bottom: 30px;
     text-decoration: none;
   }
 
@@ -146,6 +148,12 @@
   @media (max-width: 900px) {
     footer {
       padding: 0 80px 0;
+    }
+  }
+  
+  @media (max-width: 700px) {
+    footer {
+      padding: 0 40px 0;
     }
   }
 </style>

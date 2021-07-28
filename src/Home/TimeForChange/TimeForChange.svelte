@@ -78,7 +78,7 @@
   }
 
   .demand {
-    padding: 35px 57px 26px 44px;
+    padding: 54px 57px 70px;
     box-sizing: border-box;
     width: 50%;
     background-color: var(--light-grey);
@@ -92,7 +92,7 @@
   }
 
   .intersectionality {
-    padding: 29px 29px 44px;
+    padding: 29px;
     background-color: var(--light-grey);
     flex: 1 1;
     margin: 16px;
@@ -118,7 +118,7 @@
     
     .demand {
       width: 100%;
-      margin-bottom: 24px;
+      margin-bottom: 0;
     }
     
     .demand:nth-child(odd) {
@@ -127,10 +127,12 @@
     
     .demand:nth-child(even) {
       background-color: var(--medium-grey1);
+      margin-bottom: 24px;
     }
     
     .intersectionalities {
       flex-wrap: wrap;
+      margin: -12px;
     }
     
     .intersectionality {
@@ -141,6 +143,26 @@
     @media (max-width: 900px) {
       .time-for-change {
         padding: 71px 40px 105px; 
+      }
+    }
+    
+    @media (max-width: 700px) {
+      .time-for-change {
+        padding: 71px 20px 105px; 
+      }
+
+      .demand {
+        margin-bottom: 12px;
+        padding: 40px 40px;
+      }
+
+      .intersectionalities {
+        margin: -6px;
+      }
+
+      .intersectionality {
+        padding: 40px;
+        margin: 6px;
       }
     }
   }
