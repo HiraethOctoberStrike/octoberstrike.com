@@ -94,7 +94,6 @@
     .primary-link {
       margin-left: 20px;
       padding: 0 28px;
-
     }
   }
 </style>

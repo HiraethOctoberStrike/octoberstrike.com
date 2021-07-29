@@ -1,7 +1,5 @@
 <script>
   import { demands } from '../../copy.js'
-
-
   
 </script>
 
@@ -23,7 +21,6 @@
 
 <style>
   .time-for-change {
-    padding: 60px 165px 30px;
     background-color: var(--white);
   }
 
@@ -31,16 +28,14 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 100%;
+    box-sizing: border-box;
     margin: -16px;
   }
 
   .demand {
-    box-sizing: border-box;
-    flex: 1 1 540px;
+    flex: 1 1 400px;
     background-color: var(--white);
-    
-    margin: 0 16px 32px;
+    margin: 16px;
     border: 1px solid var(--black);
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
   }
@@ -68,18 +63,6 @@
 
   .navy h5 {
     background-color: var(--navy);
-  }
-    
-  @media (max-width: 900px) {
-    .time-for-change {
-      padding: 71px 40px 105px; 
-    }
-  }
-  
-  @media (max-width: 700px) {
-    .time-for-change {
-      padding: 71px 20px 105px; 
-    }
   }
 
   @media (max-width: 500px) {

@@ -20,7 +20,6 @@
 <style>
   .intersectionality-section {
     background-color: var(--navy);
-    padding: 60px 165px 30px;
   }
 
   .intersectionalities {
@@ -51,19 +50,8 @@
       flex: 1 0 30%;
     }
   }
-  
-  @media (max-width: 900px) {
-    .intersectionality-section {
-      padding: 60px 40px;
-    }
-  }
-  
 
   @media (max-width: 700px) {
-    .intersectionality-section {
-      padding: 60px 20px;
-    }
-
     .intersectionality {
       flex: 1 1 auto;
     }

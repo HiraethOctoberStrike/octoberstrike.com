@@ -4,11 +4,8 @@
 	import Nav from './sharedComponents/Nav.svelte'
 	import Sock from './sharedComponents/Sock.svelte'
 	import Footer from './sharedComponents/Footer.svelte'
-	import About from './About/About.svelte'
 	import Home from './Home/Home.svelte'
-	import GetInvolved from './GetInvolved/GetInvolved.svelte'
 	import MutualAid from './MutualAid/MutualAid.svelte'
-	import FAQ from './FAQ/FAQ.svelte'
 	import StrikeWithUs from './StrikeWithUs/StrikeWithUs.svelte'
 
 	let component = Home

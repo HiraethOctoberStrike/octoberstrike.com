@@ -15,7 +15,7 @@
   .weve-voted-section {
     display: flex;
     flex-direction: column;
-    padding: 76px 250px 48px;
+    padding: 60px 250px;
   }
 
   h1 {
@@ -29,20 +29,19 @@
 
   @media (max-width: 1100px) {
     .weve-voted-section {
-      padding: 76px 100px 72px;
+      padding: 60px 100px;
     }
   }
 
   @media (max-width: 700px) {
     .weve-voted-section {
-      padding: 76px 70px 72px;
+      padding: 60px 70px;
     }
   }
  
   @media (max-width: 500px) {
     .weve-voted-section {
-      padding: 76px 40px 72px;
+      padding: 60px 40px;
     }
   }
-
 </style>

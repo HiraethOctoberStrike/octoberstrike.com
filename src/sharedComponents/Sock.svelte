@@ -2,7 +2,7 @@
   import Button from './Button.svelte'
 </script>
 
-<section>
+<section class='sock'>
   <h3>
     Get involved now to fight for your right to a liveable life in your country.
   </h3>
@@ -14,8 +14,8 @@
 
 <style>
 
-  section {
-    padding: 64px 200px;
+  .sock {
+    padding: 60px 200px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -28,30 +28,28 @@
     width: 100%;
   }
 
-  @media (max-width: 1100px) {
+  @media (max-width: 900px) {
+    .sock {
+      padding: 60px 80px;
+    }
+  }
+  
+  @media (max-width: 700px) {
     .buttons {
       flex-direction: column;
       width: unset;
       justify-content: space-between;
-      height: 168px;
+      height: 120px;
     }
-  }
-  
-  @media (max-width: 900px) {
-    section {
-      padding: 82px 80px;
-    }
-  }
-  
-  @media (max-width: 900px) {
-    section {
-      padding: 82px 40px;
+    
+    .sock {
+      padding: 60px 40px;
     }
   }
 
-  @media (max-width: 700px) {
+  @media (max-width: 500px) {
     .buttons {
-      height: 140px;
+      height: 100px;
     }
   }
 </style>

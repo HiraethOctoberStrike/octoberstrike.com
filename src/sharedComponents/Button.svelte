@@ -55,12 +55,12 @@
   }
   
   a.small .button-content {
-    font-size: 16px;
+    font-size: 14px;
   }
 
-  a.small-text .button-text {
+  /* a.small-text .button-text {
     font-size: 18px;  
-  }
+  } */
 
   a.secondary {
     background-color: var(--white);
@@ -88,14 +88,14 @@
     width: 24px;
   }
 
-  @media (max-width: 700px) {
+  @media (max-width: 500px) {
     a {
-      height: 60px;
-      min-width: 250px;
+      height: 44px;
     }
 
     .button-content {
-      font-size: 18px;
+      font-size: 14px;
+      margin: 0 16px;
     }
 
     a.small-text .button-text {
