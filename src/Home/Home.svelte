@@ -1,17 +1,12 @@
 <script>
-  import HeaderWCTA from '../sharedComponents/HeaderWCTA.svelte'
   import Button from '../sharedComponents/Button.svelte'
+  import HomeHeader from './HomeHeader/HomeHeader.svelte'
   import TimeForChange from './TimeForChange/TimeForChange.svelte'
   import Demands from '../sharedComponents/Demands.svelte'
 
 </script>
 
-<HeaderWCTA 
-  header='National General Strike'
-  paragraph='Lorem ipsume dolor sit amet, consectetur adipiscing elit. Ornare duis lacus neque adipiscing aliquam molestie fermentum. Eget commodo quisque non, porta. In congue sociis donec vel laoreet in pharetra. Vitae habitant et.'
-  buttonText='STRIKE WITH US'
-  buttonHref='/strike-with-us' />
-<Demands />
+<HomeHeader />
 <TimeForChange />
 <section class='section-4'>
   <h1>
