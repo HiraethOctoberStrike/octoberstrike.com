@@ -1,5 +1,5 @@
 <script>
-  import demands from '../../demands.js'
+  import { demands } from '../../copy.js'
 </script>
 
 <header>
@@ -7,10 +7,10 @@
     <h1>National General Strike</h1>
   </div>
   <div class='demands'>
-    {#each demands as demand }
+    {#each demands as { title } }
       <div class='demand'>
         <span class="iconify" data-icon="mdi-check-circle"></span>
-        <h5 class='demand-text'>{demand}</h5>
+        <h5 class='demand-text'>{title}</h5>
       </div>
     {/each}
   </div>

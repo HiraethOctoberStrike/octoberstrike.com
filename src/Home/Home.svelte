@@ -2,12 +2,14 @@
   import Button from '../sharedComponents/Button.svelte'
   import HomeHeader from './HomeHeader/HomeHeader.svelte'
   import TimeForChange from './TimeForChange/TimeForChange.svelte'
+  import Intersectionality from './Intersectionality/Intersectionality.svelte'
   import Demands from '../sharedComponents/Demands.svelte'
 
 </script>
 
 <HomeHeader />
 <TimeForChange />
+<Intersectionality />
 <section class='section-4'>
   <h1>
     We’ve voted and argued, but now it’s time to <span class='red-highlight'>strike</span>.
