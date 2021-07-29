@@ -16,9 +16,12 @@ html, body {
 	--navy: #113A62;
 }
 
+* {
+	margin: 0;
+}
+
 body {
 	color: var(--black);
-	margin: 0;
 	box-sizing: border-box;
 	font-family: 'Roboto', sans-serif;
 }
@@ -29,14 +32,12 @@ h1 {
 	font-weight: 700;
 	display: inline;
 	color: var(--black);
-	margin: 0;
 }
 
 h2 {
 	font-size: 60px;
 	line-height: 75px;
 	font-weight: 300;
-	margin-bottom: 50px;
 	color: var(--black);
 }
 
@@ -60,7 +61,6 @@ h5 {
 	font-size: 28px;
 	font-weight: 500;
 	color: var(--white);
-	margin: 0;
 }
 
 h6 {
@@ -68,7 +68,6 @@ h6 {
 	line-height: 19px;
 	font-weight: 400;
 	color: var(--dark-grey);
-	margin: 0;
 }
 
 p {
@@ -76,7 +75,10 @@ p {
 	line-height: 27px;
 	font-weight: 400;
 	color: var(--black);
-	margin: 0;
+}
+
+.emphasize {
+	color: var(--red);
 }
 
 section {

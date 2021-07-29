@@ -1,6 +1,7 @@
 <script>
   import HeaderWCTA from "../sharedComponents/HeaderWCTA.svelte";
   import Plan from "./Plan/Plan.svelte";
+  import Safety from "./Safety/Safety.svelte";
   import Demands from "../sharedComponents/Demands.svelte";
 
 </script>
@@ -13,6 +14,7 @@
   smallText={true} />
 <Demands large={true} />
 <Plan />
+<Safety />
 <style>
 
 </style>

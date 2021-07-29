@@ -40,6 +40,10 @@
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
   }
 
+  h2 {
+  	margin-bottom: 50px;
+  }
+  
   h5 {
     padding: 24px;
     background-color: var(--black);
