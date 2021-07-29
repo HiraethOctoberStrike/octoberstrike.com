@@ -1,5 +1,6 @@
 <script>
   import HeaderWCTA from "../sharedComponents/HeaderWCTA.svelte";
+  import Plan from "./Plan/Plan.svelte";
   import Demands from "../sharedComponents/Demands.svelte";
 
 </script>
@@ -11,6 +12,7 @@
   buttonHref='http://chng.it/kNQvH8GXL5'
   smallText={true} />
 <Demands large={true} />
+<Plan />
 <style>
 
 </style>

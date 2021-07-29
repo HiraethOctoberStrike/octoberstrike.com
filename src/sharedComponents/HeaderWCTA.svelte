@@ -8,7 +8,7 @@
   export let smallText = false;
 </script>
 
-<section class='section-1'>
+<section class='header-w-cta'>
   <h4>October 15 2021</h4>
   <h1>{header}</h1>
   <p>{paragraph}</p>
@@ -16,31 +16,31 @@
 </section>
 
 <style>
-  .section-1 {
+  .header-w-cta {
     display: flex;
     flex-direction: column;
-    padding: 134px 165px 104px;
+    padding-top: 134px;
+    padding-bottom: 100px;
     background-color: var(--light-grey);
   }
 
-  .section-1 p {
+  h4 {
+    margin-bottom: 24px;
+  }
+
+  h1 {
+    margin-bottom: 24px;
+  }
+
+  p {
     max-width: 550px;
-  }
-  @media (max-width: 900px) {
-    .section-1 {
-      padding: 134px 80px 104px;
-    }
-  }
-  
-  @media (max-width: 700px) {
-    .section-1 {
-      padding: 134px 40px 104px;
-    }
+    margin-bottom: 42px;
   }
 
   @media (max-width: 500px) {
-    .section-1 {
-      padding: 100px 20px 80px;
+    .header-w-cta {
+      padding-top: 100px;
+      padding-bottom: 80px;
     }
   }
 </style>
