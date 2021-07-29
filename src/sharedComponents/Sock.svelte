@@ -3,9 +3,9 @@
 </script>
 
 <section>
-  <h1>
+  <h3>
     Get involved now to fight for your right to a liveable life in your country.
-  </h1>
+  </h3>
   <div class='buttons'>
     <Button text='SIGN THE PETITION' href='http://chng.it/kNQvH8GXL5' secondary={true} />
     <Button text='GET INVOLVED' href='/get-involved' />
@@ -15,11 +15,11 @@
 <style>
 
   section {
-    padding: 82px 156px;
+    padding: 64px 200px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    background-color: var(--lightest-grey);
+    background-color: var(--red);
   }
 
   .buttons {

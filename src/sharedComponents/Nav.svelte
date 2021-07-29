@@ -1,21 +1,9 @@
 <script>
   const navLinks = [
     {
-      text: 'About',
-      href: '/about'
-    },
-    {
-      text: 'Get Involved',
-      href: '/get-involved'
-    },
-    {
       text: 'Mutual Aid',
       href: '/mutual-aid'
-    },
-    {
-      text: 'FAQ',
-      href: '/faq'
-    },
+    }
   ]
 </script>
 
@@ -38,8 +26,9 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 100px;
+    height: 72px;
     padding: 0 165px;
+    background-color: var(--black);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   }
 
@@ -62,17 +51,18 @@
   }
 
   a:hover {
-    background-color: var(--lightest-grey);
+    background-color: var(--dark-grey);
   }
 
   a:active {
-    background-color: var(--light-grey);
+    background-color: var(--medium-grey2);
   }
 
   .link {
     font-size: 16px;
+    line-height: 20px;
     font-weight: 500;
-    color: var(--darkest-grey);
+    color: var(--white);
     padding: 0 25px;
   }
 
@@ -85,11 +75,11 @@
   }
 
   .primary-link:hover {
-    background-color: var(--dark-grey);  
+    background-color: var(--bright-red);  
   }
   
   .primary-link:active {
-    background-color: var(--medium-grey1);  
+    background-color: var(--light-red);  
   }
 
   @media (max-width: 1200px) {

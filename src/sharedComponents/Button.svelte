@@ -24,16 +24,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 72px;
-    min-width: 312px;
+    height: 52px;
     max-width: 350px;
-    border-radius: 40px;
-    font-weight: 500;
     color: var(--white);
     background-color: var(--black);
     text-decoration: none;
     transition: 0.1s ease-in;
-    margin-right: 30px;
+    margin-right: 16px;
   }
 
   .button-content {
@@ -43,11 +40,12 @@
     justify-content: space-between;
     width: 100%;
     margin: 0 30px;
-    font-size: 24px;
+    font-size: 18px;
+    font-weight: 600;
   }
 
   .button-text {
-    margin-right: 12px;
+    margin-right: 16px;
   }
 
   a.small {
@@ -65,7 +63,8 @@
   }
 
   a.secondary {
-    background-color: var(--red);
+    background-color: var(--white);
+    color: var(--red);
   }
 
   a.tertiary {
@@ -82,9 +81,11 @@
   }
 
   .iconify {
-    top: -1px;
+    top: -2px;
     position: relative;
     flex-shrink: 0;
+    height: 24px;
+    width: 24px;
   }
 
   @media (max-width: 700px) {

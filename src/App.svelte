@@ -14,10 +14,7 @@
 	let component = Home
 
 	page('', () => component = Home)
-	page('/about', () => component = About)
-	page('/get-involved', () => component = GetInvolved)
 	page('/mutual-aid', () => component = MutualAid)
-	page('/faq', () => component = FAQ)
 	page('/strike-with-us', () => component = StrikeWithUs)
 	page('*', () => component = Home)
 	page.start()

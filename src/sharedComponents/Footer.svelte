@@ -1,20 +1,12 @@
 <script>
   const navLinks = [
     {
-      text: 'About',
-      href: '/about'
-    },
-    {
-      text: 'Get Involved',
-      href: '/get-involved'
-    },
-    {
       text: 'Mutual Aid',
       href: '/mutual-aid'
     },
     {
-      text: 'FAQ',
-      href: '/faq'
+      text: 'Strike with Us',
+      href: '/strike-with-us'
     },
   ]
 
