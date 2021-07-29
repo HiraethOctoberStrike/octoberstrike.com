@@ -6,6 +6,7 @@
   import MutualAidSection from "./MutualAidSection/MutualAidSection.svelte";
   import BoycottSection from "./BoycottSection/BoycottSection.svelte";
   import SupportSection from "./SupportSection/SupportSection.svelte";
+  import ResourcesSection from "./ResourcesSection/ResourcesSection.svelte";
 </script>
 
 <HeaderWCTA 
@@ -20,6 +21,8 @@
 <MutualAidSection />
 <BoycottSection />
 <SupportSection />
+<ResourcesSection />
+
 <style>
 
 </style>

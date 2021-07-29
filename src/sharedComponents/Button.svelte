@@ -5,12 +5,14 @@
   export let tertiary = false
   export let small = false
   export let smallText = false
+  export let navyText = false
 
 </script>
 <a 
   class:secondary
   class:tertiary
   class:small
+  class:navy-text={navyText}
   class:small-text={smallText}
   {href} >
   <div class='button-content'>
@@ -48,24 +50,28 @@
     margin-right: 16px;
   }
 
-  a.small {
+  .small {
     height: 46px;
     width: 282px;
     border-radius: 26px;
   }
   
-  a.small .button-content {
+  .small .button-content {
     font-size: 14px;
   }
 
-  a.secondary {
+  .secondary {
     background-color: var(--white);
     color: var(--red);
   }
 
-  a.tertiary {
+  .tertiary {
     background-color: var(--red);
     color: var(--white);
+  }
+
+  .navy-text {
+    color: var(--navy);
   }
 
   a:hover {

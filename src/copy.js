@@ -54,3 +54,42 @@ export const boycott = [
     snippet: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat risus, nibh id egestas. Iaculis ultrices magna ac sed scelerisque blandit in ridiculus accumsan. Ac cursus diam posuere lectus.'
   }
 ]
+
+export const resources = [
+  {
+    text: "REFERENCE",
+    href: '#'
+  },
+  {
+    text: "REFERENCE",
+    href: '#'
+  },
+  {
+    text: "REFERENCE",
+    href: '#'
+  },
+  {
+    text: "REFERENCE",
+    href: '#'
+  },
+  {
+    text: "REFERENCE",
+    href: '#'
+  },
+  {
+    text: "REFERENCE",
+    href: '#'
+  },
+  {
+    text: "REFERENCE",
+    href: '#'
+  },
+  {
+    text: "REFERENCE",
+    href: '#'
+  },
+  {
+    text: "REFERENCE",
+    href: '#'
+  }
+]

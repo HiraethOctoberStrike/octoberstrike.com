@@ -1,13 +1,18 @@
 <script>
   import Button from './Button.svelte'
+  export let navy = false;
 </script>
 
-<section class='sock'>
+<section class='sock' class:navy >
   <h3>
     Get involved now to fight for your right to a liveable life in your country.
   </h3>
   <div class='buttons'>
-    <Button text='SIGN THE PETITION' href='http://chng.it/kNQvH8GXL5' secondary={true} />
+    <Button 
+      text='SIGN THE PETITION' 
+      href='http://chng.it/kNQvH8GXL5' 
+      secondary={true}
+      navyText={navy} />
     <Button text='GET INVOLVED' href='/get-involved' />
   </div>
 </section>
@@ -20,6 +25,10 @@
     flex-direction: column;
     align-items: flex-start;
     background-color: var(--red);
+  }
+
+  .navy {
+    background-color: var(--navy);
   }
 
   .buttons {
