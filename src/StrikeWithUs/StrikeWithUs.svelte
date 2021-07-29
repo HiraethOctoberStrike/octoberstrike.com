@@ -1,11 +1,11 @@
 <script>
   import HeaderWCTA from "../sharedComponents/HeaderWCTA.svelte";
-  import Plan from "./Plan/Plan.svelte";
-  import Safety from "./Safety/Safety.svelte";
-  import Demands from "../sharedComponents/Demands.svelte";
-  import MutualAid from "./MutualAidSection/MutualAidSection.svelte";
+  import PlanSection from "./PlanSection/PlanSection.svelte";
+  import SafetySection from "./SafetySection/SafetySection.svelte";
+  import DemandsSection from "../sharedComponents/Demands.svelte";
+  import MutualAidSection from "./MutualAidSection/MutualAidSection.svelte";
   import BoycottSection from "./BoycottSection/BoycottSection.svelte";
-
+  import SupportSection from "./SupportSection/SupportSection.svelte";
 </script>
 
 <HeaderWCTA 
@@ -14,11 +14,12 @@
   buttonText='SHOW YOUR COMMITMENT BY SIGNING THE PETITION'
   buttonHref='http://chng.it/kNQvH8GXL5'
   smallText={true} />
-<Demands large={true} />
-<Plan />
-<Safety />
-<MutualAid />
+<DemandsSection large={true} />
+<PlanSection />
+<SafetySection />
+<MutualAidSection />
 <BoycottSection />
+<SupportSection />
 <style>
 
 </style>

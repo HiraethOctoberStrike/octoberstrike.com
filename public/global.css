@@ -81,6 +81,10 @@ p {
 	color: var(--red);
 }
 
+.bold {
+	font-weight: 700;
+}
+
 section {
 	padding: 60px 165px;
 }
