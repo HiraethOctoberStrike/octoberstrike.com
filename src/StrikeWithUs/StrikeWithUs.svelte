@@ -3,6 +3,8 @@
   import Plan from "./Plan/Plan.svelte";
   import Safety from "./Safety/Safety.svelte";
   import Demands from "../sharedComponents/Demands.svelte";
+  import MutualAid from "./MutualAidSection/MutualAidSection.svelte";
+  import BoycottSection from "./BoycottSection/BoycottSection.svelte";
 
 </script>
 
@@ -15,6 +17,8 @@
 <Demands large={true} />
 <Plan />
 <Safety />
+<MutualAid />
+<BoycottSection />
 <style>
 
 </style>

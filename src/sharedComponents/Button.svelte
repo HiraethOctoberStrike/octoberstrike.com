@@ -58,18 +58,14 @@
     font-size: 14px;
   }
 
-  /* a.small-text .button-text {
-    font-size: 18px;  
-  } */
-
   a.secondary {
     background-color: var(--white);
     color: var(--red);
   }
 
   a.tertiary {
-    background-color: transparent;
-    color: var(--red);
+    background-color: var(--red);
+    color: var(--white);
   }
 
   a:hover {

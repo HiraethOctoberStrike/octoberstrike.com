@@ -1,16 +1,21 @@
-<section class='plan-section'>
-  <img src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.MB8pq1-VyWEzA4NLbhy95wHaFi%26pid%3DApi&f=1' />
+<script>
+  import Button from '../../sharedComponents/Button.svelte'
+</script>
+
+<section class='mutual-aid-section'>
+    <img src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.MB8pq1-VyWEzA4NLbhy95wHaFi%26pid%3DApi&f=1' />
   <div class='plan-content'>
-    <h2>We've got a plan:</h2>
+    <h2>Mutual Aid</h2>
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ipsum, a ac est pulvinar lacus diam. Lacus, etiam massa adipiscing dui justo massa. Sapien, neque ultricies vel proin ipsum laoreet. Diam sed commodo aliquet ac ipsum pellentesque cras convallis enim. Vestibulum gravida libero eget magna arcu. Non facilisi semper augue elementum mauris quam placerat. Pulvinar scelerisque auctor orci, ultrices in. Tellus nulla metus eu proin pulvinar aliquam pulvinar odio. Eget nec porttitor velit.
     </p>
+    <Button text='LEARN MORE' href='/mutual-aid' tertiary={true} />
   </div>
 </section>
 
 <style>
 
-  .plan-section {
+  .mutual-aid-section {
     position: relative;
     display: flex;
     flex-direction: row;
@@ -40,10 +45,11 @@
   
   p {
     color: var(--dark-grey);
+    margin-bottom: 30px;
   }
 
   @media (max-width: 1000px) {
-    .plan-section {
+    .mutual-aid-section {
       flex-direction: column;
     }
 
