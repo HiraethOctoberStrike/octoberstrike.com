@@ -1,11 +1,11 @@
 <script>
   import HomeHeader from './HomeHeader/HomeHeader.svelte'
-  import TimeForChange from './TimeForChange/TimeForChange.svelte'
-  import Intersectionality from './Intersectionality/Intersectionality.svelte'
-  import WeveVoted from './WeveVoted/WeveVoted.svelte'
+  import ChangeSection from './ChangeSection/ChangeSection.svelte'
+  import IntersectionalitySection from './IntersectionalitySection/IntersectionalitySection.svelte'
+  import WeVotedSection from './WeVotedSection/WeVotedSection.svelte'
 </script>
 
 <HomeHeader />
-<TimeForChange />
-<Intersectionality />
-<WeveVoted />
+<ChangeSection />
+<IntersectionalitySection />
+<WeVotedSection />
