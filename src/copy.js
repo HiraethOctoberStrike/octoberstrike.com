@@ -93,3 +93,30 @@ export const resources = [
     href: '#'
   }
 ]
+
+export const mutualAidLinks = [
+  {
+    text: 'Compromized People in Need',
+    href: '#'
+  },
+  {
+    text: 'How to Form Your own Mutual Aid Group',
+    href: '#'
+  },
+  {
+    text: 'Mutual Aid: How to Build a Network in Your Neighborhood',
+    href: '#'
+  },
+  {
+    text: 'Student Mutual Aid Network',
+    href: '#'
+  },
+  {
+    text: 'Willing to Help Compromised People in Need',
+    href: '#'
+  },
+  {
+    text: 'Mutual Aid 101',
+    href: '#'
+  },
+]

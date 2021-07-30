@@ -15,6 +15,11 @@
 </section>
 
 <style>
+
+  h2 {
+    margin-bottom: 40px
+  }
+
   .resources-section {
     padding: 60px 290px;
   }
@@ -28,8 +33,7 @@
 
   .button-container {
     display: flex;
-    height: min-content;
-    flex: 0 1 350px;
+    flex: 1 1 350px;
   }
 
   @media (max-width: 1300px) {
@@ -42,6 +46,7 @@
     .resources-section {
       padding: 60px 160px;
     }
+    
     .button-container {
       flex: 0 1 250px;
     }
@@ -60,7 +65,7 @@
     }
   }
 
-  @media (max-width: 900px) {
+  @media (max-width: 500px) {
     .resources-container {
       margin: 0 -16px;
     }

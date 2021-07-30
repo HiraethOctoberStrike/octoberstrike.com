@@ -26,9 +26,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    align-self: flex-start;
     height: 52px;
-    max-width: 350px;
     color: var(--white);
     background-color: var(--black);
     text-decoration: none;
@@ -40,7 +38,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     width: 100%;
     margin: 0 30px;
     font-size: 18px;
@@ -102,13 +100,11 @@
   @media (max-width: 500px) {
     a {
       height: 44px;
-      align-self: unset;
     }
 
     .button-content {
       font-size: 14px;
       margin: 0 16px;
-      justify-content: space-between;
     }
 
     a.small-text .button-text {
