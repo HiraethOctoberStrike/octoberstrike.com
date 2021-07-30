@@ -48,17 +48,11 @@
       flex-direction: column;
       width: unset;
       justify-content: space-between;
-      height: 120px;
+      height: 110px;
     }
     
     .sock {
       padding: 60px 40px;
-    }
-  }
-
-  @media (max-width: 500px) {
-    .buttons {
-      height: 100px;
     }
   }
 </style>

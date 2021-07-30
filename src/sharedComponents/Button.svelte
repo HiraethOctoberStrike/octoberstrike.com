@@ -3,7 +3,7 @@
   export let href
   export let secondary = false
   export let tertiary = false
-  export let small = false
+  export let large = false
   export let smallText = false
   export let navyText = false
 
@@ -11,7 +11,7 @@
 <a 
   class:secondary
   class:tertiary
-  class:small
+  class:large
   class:navy-text={navyText}
   class:small-text={smallText}
   {href} >
@@ -26,7 +26,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 52px;
     color: var(--white);
     background-color: var(--black);
     text-decoration: none;
@@ -43,20 +42,15 @@
     margin: 0 30px;
     font-size: 18px;
     font-weight: 600;
+    padding: 14px 0px 10px;
   }
 
   .button-text {
     margin-right: 16px;
   }
 
-  .small {
-    height: 46px;
-    width: 282px;
-    border-radius: 26px;
-  }
-  
-  .small .button-content {
-    font-size: 14px;
+  .large .button-content {
+    font-size: 28px;
   }
 
   .secondary {
@@ -98,10 +92,6 @@
   }
 
   @media (max-width: 500px) {
-    a {
-      height: 44px;
-    }
-
     .button-content {
       font-size: 14px;
       margin: 0 16px;
@@ -109,6 +99,10 @@
 
     a.small-text .button-text {
       font-size: 13px;  
+    }
+    
+    .large .button-content {
+      font-size: 18px;
     }
   }
 </style>
