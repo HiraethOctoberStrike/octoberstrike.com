@@ -1,8 +1,6 @@
 <script>
-  import HeaderWCTA from "../sharedComponents/HeaderWCTA.svelte";
   import PlanSection from "./PlanSection/PlanSection.svelte";
   import SafetySection from "./SafetySection/SafetySection.svelte";
-  import DemandsSection from "../sharedComponents/Demands.svelte";
   import MutualAidSection from "./MutualAidSection/MutualAidSection.svelte";
   import BoycottSection from "./BoycottSection/BoycottSection.svelte";
   import SupportSection from "./SupportSection/SupportSection.svelte";
@@ -17,7 +15,3 @@
 <BoycottSection />
 <SupportSection />
 <ResourcesSection />
-
-<style>
-
-</style>

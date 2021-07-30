@@ -1,5 +1,5 @@
 <script>
-  import Button from './Button.svelte'
+  import Button from '../sharedComponents/Button.svelte'
   export let navy = false;
 </script>
 

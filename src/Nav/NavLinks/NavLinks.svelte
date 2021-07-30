@@ -1,46 +1,19 @@
 <script>
-  const navLinks = [
-    {
-      text: 'Mutual Aid',
-      href: '/mutual-aid'
-    }
-  ]
+  export let links
 </script>
 
-<nav>
-  <a href='/'>
-    <div class='logo-placeholder'></div>
-  </a>
-  <div class='nav-links'>
-      { #each navLinks as { text, href } }
-        <a class='link' {href}>{text}</a>
-      { /each }
-      <a class='primary-link' href='/strike-with-us'>Strike with Us</a>
-    </div>
-</nav>
+<div class='nav-links'>
+  { #each links as { text, href } }
+    <a class='link' {href}>{text}</a>
+  { /each }
+  <a class='primary-link' href='/strike-with-us'>Strike with Us</a>
+</div>
 
 <style>
-  nav {
-    position: relative;
-    z-index: 1;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    height: 72px;
-    padding: 0 165px;
-    background-color: var(--black);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  }
-
-  .logo-placeholder {
-    background-color: var(--medium-grey1);
-    width: 221px;
-    height: 27px;
-  }
-
   .nav-links {
     display: flex;
     flex-direction: row;
+    height: 100%;
   }
 
   a {
@@ -64,6 +37,7 @@
     font-weight: 500;
     color: var(--white);
     padding: 0 25px;
+    margin-left: 24px;
   }
 
   .primary-link {
@@ -83,10 +57,6 @@
   }
 
   @media (max-width: 1200px) {
-    nav {
-      padding: 0 80px;
-    }
-
     .link {
       padding: 0 12px;
     }

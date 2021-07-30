@@ -1,9 +1,9 @@
 <script>
 	import page from 'page'
 	
-	import Nav from './sharedComponents/Nav.svelte'
-	import Sock from './sharedComponents/Sock.svelte'
-	import Footer from './sharedComponents/Footer.svelte'
+	import Nav from './Nav/Nav.svelte'
+	import Sock from './Sock/Sock.svelte'
+	import Footer from './Footer/Footer.svelte'
 	import Home from './Home/Home.svelte'
 	import MutualAid from './MutualAid/MutualAid.svelte'
 	import StrikeWithUs from './StrikeWithUs/StrikeWithUs.svelte'

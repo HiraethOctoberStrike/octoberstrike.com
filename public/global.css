@@ -2,6 +2,8 @@ html, body {
 	position: relative;
 	width: 100%;
 	height: 100%;
+	
+	--transparent-white: #ffffffe0;
 	--white: #FFFFFF;
 	--lightest-grey: #F1F1F1;
 	--light-grey: #C4C4C4;
