@@ -1,4 +1,5 @@
 <script>
+  // TODO: DELETE IF STILL UNUSED
   export let large = false;
 
   const demands = [

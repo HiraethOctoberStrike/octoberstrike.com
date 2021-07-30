@@ -70,7 +70,6 @@
     top: 0;
 
     background-image: url('https://images.fineartamerica.com/images-medium-large/shelter-dog-square-dog-photography.jpg');
-    background-position: right;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

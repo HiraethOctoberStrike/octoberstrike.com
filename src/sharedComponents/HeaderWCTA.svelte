@@ -1,4 +1,6 @@
 <script>
+  // TODO: REMOVE IF STILL UNUSED
+  
   import Button from './Button.svelte'
 
   export let header;
