@@ -25,7 +25,8 @@ import NavLinks from "./NavLinks/NavLinks.svelte";
 
 <style>
   nav {
-    position: relative;
+    position: sticky;
+    top: 0;
     z-index: 1;
     display: flex;
     flex-direction: row;
@@ -52,12 +53,6 @@ import NavLinks from "./NavLinks/NavLinks.svelte";
   @media (max-width: 700px) {
     nav {
       padding: 0 20px;
-    }
-  }
-  
-  @media (max-width: 700px) {
-    nav {
-      padding: 0 40px;
     }
   }
 </style>
