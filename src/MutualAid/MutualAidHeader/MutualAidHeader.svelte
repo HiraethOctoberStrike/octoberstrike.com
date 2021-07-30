@@ -10,7 +10,7 @@
   <div class='mutual-aid-links'>
     {#each mutualAidLinks as { text, href } }
       <div class='button-container'>
-        <Button {text} {href} tertiary={true} />
+        <Button {text} {href} tertiary={true} large={true} />
       </div>
     {/each}
   </div>
@@ -26,15 +26,11 @@
 
   .button-container {
     display: flex;
-    flex: 1 1 350px;
-    margin-bottom: 30px;
+    flex: 1 1 450px;
+    margin-bottom: 20px;
   }
 
   @media (max-width: 500px) {
-    .button-container {
-      margin-bottom: 10px
-    }
-    
     .mutual-aid-links {
       margin: 0 -16px;
     }
