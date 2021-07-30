@@ -26,6 +26,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    align-self: flex-start;
     height: 52px;
     max-width: 350px;
     color: var(--white);
@@ -39,7 +40,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     width: 100%;
     margin: 0 30px;
     font-size: 18px;
@@ -82,6 +83,14 @@
     background-color: var(--medium-grey1);
   }
 
+  .secondary:hover {
+    background-color: var(--light-grey);
+  }
+  
+  .secondary:active {
+    background-color: var(--lightest-grey);
+  }
+
   .iconify {
     top: -2px;
     position: relative;
@@ -93,11 +102,13 @@
   @media (max-width: 500px) {
     a {
       height: 44px;
+      align-self: unset;
     }
 
     .button-content {
       font-size: 14px;
       margin: 0 16px;
+      justify-content: space-between;
     }
 
     a.small-text .button-text {

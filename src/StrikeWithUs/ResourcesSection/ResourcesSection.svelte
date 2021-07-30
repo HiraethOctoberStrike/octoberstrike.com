@@ -27,8 +27,9 @@
   }
 
   .button-container {
+    display: flex;
     height: min-content;
-    flex: 0 1 250px;
+    flex: 0 1 350px;
   }
 
   @media (max-width: 1300px) {
@@ -41,12 +42,16 @@
     .resources-section {
       padding: 60px 160px;
     }
+    .button-container {
+      flex: 0 1 250px;
+    }
   }
 
   @media (max-width: 900px) {
     .resources-section {
       padding: 60px 100px;
     }
+
   }
   
   @media (max-width: 900px) {
