@@ -32,4 +32,8 @@
   h2 {
   	margin-bottom: 50px;
   }
+
+  p {
+    color: var(--black);
+  }
 </style>

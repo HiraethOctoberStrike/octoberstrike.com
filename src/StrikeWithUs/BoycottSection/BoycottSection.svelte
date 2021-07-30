@@ -19,8 +19,9 @@
 <style>
   p {
     margin-bottom: 30px;
+    color: var(--black);
   }
-  
+ 
   .boycott-cards {
     display: flex;
     flex-direction: row;

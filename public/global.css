@@ -74,7 +74,7 @@ p {
 	font-size: 18px;
 	line-height: 27px;
 	font-weight: 400;
-	color: var(--black);
+	color: var(--dark-grey);
 }
 
 .emphasize {

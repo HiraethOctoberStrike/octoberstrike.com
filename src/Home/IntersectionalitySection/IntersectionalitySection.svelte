@@ -41,6 +41,10 @@
     margin-bottom: 36px;
   }
 
+  p {
+    color: var(--black);
+  }
+
   @media (max-width: 1100px) {
     .intersectionalities {
       flex-wrap: wrap;
