@@ -25,4 +25,10 @@
       padding: 60px 80px;
     }
   }
+  
+  @media (max-width: 500px) {
+    .what-is-mutual-aid-section {
+      padding: 60px 40px 0;
+    }
+  }
 </style>

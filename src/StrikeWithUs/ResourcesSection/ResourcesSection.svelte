@@ -8,7 +8,7 @@
   <div class='resources-container'>
     {#each resources as { text, href } }
       <div class='button-container'>
-        <Button {text} {href} secondary={true} />
+        <Button {text} {href} secondary />
       </div>
     {/each}
   </div>

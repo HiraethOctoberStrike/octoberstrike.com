@@ -9,7 +9,7 @@
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ipsum, a ac est pulvinar lacus diam. Lacus, etiam massa adipiscing dui justo massa. Sapien, neque ultricies vel proin ipsum laoreet. Diam sed commodo aliquet ac ipsum pellentesque cras convallis enim. Vestibulum gravida libero eget magna arcu. Non facilisi semper augue elementum mauris quam placerat. Pulvinar scelerisque auctor orci, ultrices in. Tellus nulla metus eu proin pulvinar aliquam pulvinar odio. Eget nec porttitor velit.
     </p>
-    <Button text='LEARN MORE' href='/mutual-aid' tertiary={true} />
+    <Button text='LEARN MORE' href='/mutual-aid' tertiary />
   </div>
 </section>
 

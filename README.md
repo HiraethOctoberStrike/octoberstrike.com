@@ -83,7 +83,7 @@ Check out the [Svelte Tutorial](https://svelte.dev/tutorial/basics)
 |href|string|yes|--|url that button redirects to
 |secondary|bool|no|false|if true, restyles with secondary colors
 |tertiary|bool|no|false|if true, restyles with tertiary colors
-|small|bool|no|false|if true, resizes to small dimensions
+|large|bool|no|false|if true, resizes to large dimensions
 |smallText|bool|no|false|if true, restyles with small text
 
 ##### Button with default attributes
@@ -93,7 +93,7 @@ Check out the [Svelte Tutorial](https://svelte.dev/tutorial/basics)
 
 ##### Button with optional attributes
 ```html
-  <Button text='STRIKE WITH US' url='/strike-with-us' secondary={true} small={true} />
+  <Button text='STRIKE WITH US' url='/strike-with-us' secondary small />
 ```
 
 ## Deploying to the web (For future deployment decisions)

@@ -11,8 +11,7 @@
     <Button 
       text='SIGN THE PETITION' 
       href='http://chng.it/kNQvH8GXL5' 
-      secondary={true}
-      navyText={navy} />
+      secondary navyText={navy} />
     <Button text='GET INVOLVED' href='/get-involved' />
   </div>
 </section>

@@ -120,3 +120,96 @@ export const mutualAidLinks = [
     href: '#'
   },
 ]
+
+export const mutualAidOrgs = [
+  {
+    orgName: 'Kentucky Mutual Aid',
+    orgType: 'Mutual Aid',
+    state: 'KY',
+    href: '#'
+  },
+  {
+    orgName: 'Kentucky Mutual Aid',
+    orgType: 'Mutual Aid',
+    state: 'KY',
+    href: '#'
+  },
+  {
+    orgName: 'Kentucky Mutual Aid Overflow Style',
+    orgType: 'Mutual Aid',
+    state: 'KY',
+    href: '#'
+  },
+  {
+    orgName: 'Kentucky Mutual Aid',
+    orgType: 'Mutual Aid',
+    state: 'KY',
+    href: '#'
+  },
+  {
+    orgName: 'Kentucky Mutual Aid',
+    orgType: 'Mutual Aid',
+    state: 'KY',
+    href: '#'
+  },
+  {
+    orgName: 'Kentucky Mutual Aid Overflow Style',
+    orgType: 'Mutual Aid',
+    state: 'KY',
+    href: '#'
+  },
+  {
+    orgName: 'Kentucky Mutual Aid',
+    orgType: 'Mutual Aid',
+    state: 'KY',
+    href: '#'
+  },
+  {
+    orgName: 'Kentucky Mutual Aid',
+    orgType: 'Mutual Aid',
+    state: 'KY',
+    href: '#'
+  },
+  {
+    orgName: 'Kentucky Mutual Aid Overflow Style',
+    orgType: 'Mutual Aid',
+    state: 'KY',
+    href: '#'
+  },
+  {
+    orgName: 'Kentucky Mutual Aid',
+    orgType: 'Mutual Aid',
+    state: 'KY',
+    href: '#'
+  },
+  {
+    orgName: 'Kentucky Mutual Aid',
+    orgType: 'Mutual Aid',
+    state: 'KY',
+    href: '#'
+  },
+  {
+    orgName: 'Kentucky Mutual Aid Overflow Style',
+    orgType: 'Mutual Aid',
+    state: 'KY',
+    href: '#'
+  },
+  {
+    orgName: 'Kentucky Mutual Aid',
+    orgType: 'Mutual Aid',
+    state: 'KY',
+    href: '#'
+  },
+  {
+    orgName: 'Kentucky Mutual Aid',
+    orgType: 'Mutual Aid',
+    state: 'KY',
+    href: '#'
+  },
+  {
+    orgName: 'Kentucky Mutual Aid Overflow Style',
+    orgType: 'Mutual Aid',
+    state: 'KY',
+    href: '#'
+  }
+]
