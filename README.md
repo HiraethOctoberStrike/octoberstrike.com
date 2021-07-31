@@ -125,5 +125,5 @@ Then, from within your project folder:
 
 ```bash
 npm run build
-surge public october-strike-staging.surge.sh
+surge public os15-staging.surge.sh 
 ```

@@ -9,12 +9,15 @@
 	import StrikeWithUs from './StrikeWithUs/StrikeWithUs.svelte'
 
 	let component = Home
-
 	page('', () => component = Home)
 	page('/mutual-aid', () => component = MutualAid)
 	page('/strike-with-us', () => component = StrikeWithUs)
 	page('*', () => component = Home)
 	page.start()
+	page.exit('*', (ctx, next) => {
+  	window.scroll(0, 0)
+ 	 next()
+	})
 
 </script>
 
