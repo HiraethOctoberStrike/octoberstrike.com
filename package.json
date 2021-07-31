@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "page": "^1.11.6",
-    "sirv-cli": "^1.0.0"
+    "sirv-cli": "^1.0.0",
+    "surge": "^0.23.0"
   }
 }

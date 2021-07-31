@@ -26,6 +26,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    align-self: start;
     color: var(--white);
     background-color: var(--black);
     text-decoration: none;
