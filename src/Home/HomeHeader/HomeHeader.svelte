@@ -9,7 +9,7 @@
   </div>
   <div class='header-text'>
     <h5>
-      LaborMovementX’s mission is to spark a flame among the working class that fuels the demand for intersectional change in the workplace, as well as significant changes to essential workers' rights. 
+      LaborMovementX's mission is to spark the flame among the working class to fight for significant change in the workplace.  
     </h5>
     <p>
       We aim to bring attention to the outdated working conditions that many people are subjected to, as well as highlight how these conditions disproportionately affect many marginalized families. We will do this by providing information and resources related to mutual aid, union organizing, and general information about our core values.
@@ -41,7 +41,7 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    padding: 56px 50px 100px 172px;
+    padding: 70px 50px 100px 172px;
     z-index: 1;
     width: 50%;
     box-sizing: border-box;
