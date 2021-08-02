@@ -9,9 +9,10 @@
   </h2>
   <div class='demands'>
     {#each timeForChange as { title, subtitle, snippet }, i }
-      <Card {title} {subtitle} {snippet} 
-        red={[0, 4].includes(i)}
-        navy={[3, 7].includes(i)} />
+      <Card {title} red={[0, 4].includes(i)} navy={[3, 7].includes(i)}>
+        <h6>{subtitle}</h6>
+        <p>{snippet}</p>
+      </Card>
     {/each}
   </div>
 </section>
@@ -33,7 +34,7 @@
   	margin-bottom: 50px;
   }
 
-  p {
-    color: var(--black);
+  h6 {
+    margin-bottom: 18px;
   }
 </style>

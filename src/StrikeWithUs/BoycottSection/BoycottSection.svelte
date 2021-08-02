@@ -8,7 +8,9 @@
   <h2>Whether you’re able to strike or not, you can help us win this fight.</h2>
   <div class='boycott-cards'>
     {#each boycott as { title, snippet }, i }
-      <Card {title} {snippet} navy={i % 2 == 0} small={true} />
+      <Card {title} navy={i % 2 == 0} small>
+        <p>{snippet}</p>
+      </Card>
     {/each}
   </div>
 </section>
