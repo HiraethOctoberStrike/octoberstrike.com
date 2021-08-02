@@ -14,10 +14,10 @@
 <style>
   .demands-section {
     background-color: var(--navy);
+    box-sizing: border-box;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
-    height: 276px;
   }
   
   .demand {
@@ -26,6 +26,7 @@
     align-items: center;
     font-size: 28px;
     margin: 0 32px 32px 0;
+    flex: 1 1 40%;
     color: var(--white);
     flex-shrink: 1;
   }
@@ -53,10 +54,7 @@
   }
   
   @media (max-width: 800px) {
-    .demands-section {
-      height: 158px;
-    }
-    
+ 
     .demand {
       font-size: 18px;
       margin-bottom: 16px;
@@ -71,6 +69,10 @@
     .demands-section {
       height: unset;
       padding: 60px 80px;
+    }
+
+    .demand {
+      flex: 1 1 100%;
     }
   }
   

@@ -4,11 +4,8 @@
 
 <section class='weve-voted-section'>
   <h1>
-    We’ve voted and argued, but now it’s time to <span class='emphasize'>strike</span>.
+    We’ve waited, we’ve asked, but now it’s time to <span class='emphasize'>demand</span>.
   </h1>
-  <p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat risus, nibh id egestas. Iaculis ultrices magna ac sed scelerisque blandit in ridiculus accumsan. Ac cursus diam posuere lectus. Pretium, quisque leo risus sed. Auctor penatibus non laoreet habitant sem cras faucibus commodo sit. Scelerisque enim, non sit morbi id. Tincidunt eget leo risus posuere et volutpat pharetra odio. 
-  </p>
 </section>
 
 <style>

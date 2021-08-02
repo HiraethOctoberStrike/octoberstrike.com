@@ -15,7 +15,7 @@
 <style>
   .h1-container {
     display: inline-block;
-    padding: 30px 30px 20px;
+    padding: 30px;
     background-color: var(--white);
     margin: 450px 165px -50px;
     box-sizing: border-box;
@@ -29,13 +29,24 @@
 
   .text {
     background-color: var(--red);
-    padding: 200px 250px 60px;
+    padding: 200px 200px 60px;
     margin-top: -20px;
   }
 
   @media (max-width: 1635px) {
     .text {
       margin-top: -80px;
+    }
+  }
+
+  @media (max-width: 1300px) {
+    .h1-container {
+      margin: 450px 100px -50px;
+    }
+
+    .text {
+      padding: 200px 120px 60px;
+      margin-top: -70px;
     }
   }
 
@@ -53,7 +64,7 @@
 
     .text {
       margin-top: -120px;
-      padding: 220px 160px 60px;
+      padding: 220px 80px 60px;
     }
   }
   
@@ -64,8 +75,8 @@
     }
 
     .text {
-      margin-top: -40px;
-      padding: 100px 100px 60px;
+      margin-top: -10px;
+      padding: 100px 40px 60px;
     }
   }
   

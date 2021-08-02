@@ -7,8 +7,8 @@
   headerText='Join and support the strike'
   image='/assets/images/phil-desforges-PyCQPOvq404-unsplash.jpeg' >
   <ul>
-    {#each demands as { title } }
-    <h3><li>{title}</li></h3>
+    {#each demands as demand }
+      <h4><li>{demand}</li></h4>
     {/each}
   </ul>
 </HeaderWImage>
@@ -20,8 +20,8 @@
     padding: 0;
   }
 
-  h3 {
-    flex: 1 1 350px;
+  h4 {
+    flex: 1 1 30%;
     margin: 0 50px 50px;
   }
 
@@ -30,8 +30,8 @@
     list-style-type: square;
   }
 
-  @media (max-width: 500px) {
-    li {
+  @media (max-width: 800px) {
+    h4 {
       margin-bottom: 20px
     }
   }

@@ -5,10 +5,7 @@
 </script>
 
 <section class='boycott-section'>
-  <h2>Boycott corporations and refrain from economic activity.</h2>
-  <p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat risus, nibh id egestas. Iaculis ultrices magna ac sed scelerisque blandit in ridiculus accumsan. Ac cursus diam posuere lectus. Pretium, quisque leo risus sed. Auctor penatibus non laoreet habitant sem.
-  </p>
+  <h2>Whether you’re able to strike or not, you can help us win this fight.</h2>
   <div class='boycott-cards'>
     {#each boycott as { title, snippet }, i }
       <Card {title} {snippet} navy={i % 2 == 0} small={true} />
@@ -17,9 +14,8 @@
 </section>
 
 <style>
-  p {
-    margin-bottom: 30px;
-    color: var(--black);
+  h2 {
+    margin-bottom: 40px;
   }
  
   .boycott-cards {

@@ -11,7 +11,7 @@
 <StrikeHeader />
 <PlanSection />
 <SafetySection />
-<MutualAidSection />
 <BoycottSection />
+<MutualAidSection />
 <SupportSection />
 <!-- <ResourcesSection /> -->

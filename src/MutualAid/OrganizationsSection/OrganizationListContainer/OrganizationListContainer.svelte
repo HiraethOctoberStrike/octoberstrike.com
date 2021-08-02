@@ -97,7 +97,7 @@
     border: 1px solid var(--black);
     color: var(--black);
     padding: 12px 0 12px 20px;
-    margin-bottom: 30px;
+    margin-bottom: 24px;
     font-size: 18px;
   }
 

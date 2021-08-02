@@ -1,12 +1,14 @@
 export const demands = [
-  'Fair Wages',
-  'Fair Healthcare',
-  'Fair Leave',
+  'Adequate Wages',
+  'Decent Workplaces',
+  'Acceptable Leave',
+  'Affordable Housing',
+  'Accessible Healthcare',
+  'Cost-Effective Education',
   'Fair Taxes',
-  'Fair Workplaces',
-  'Fair Housing',
-  'Fair Education',
-  'Fair Environmental Protection'
+  'Reasonable Work Week',
+  'Equitable Corporate Regulations',
+  'Ethical Environmental Action'
 ]
 
 export const timeForChange = [
@@ -54,16 +56,16 @@ export const intersectionality = [
 
 export const boycott = [
   {
-    title: 'Amazon',
-    snippet: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat risus, nibh id egestas. Iaculis ultrices magna ac sed scelerisque blandit in ridiculus accumsan. Ac cursus diam posuere lectus.'
+    title: 'Unionize',
+    snippet: 'Start connecting and organizing with your fellow workers. Join a union representing your job and follow their guidance.'
   },
   {
-    title: 'Walmart',
-    snippet: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat risus, nibh id egestas. Iaculis ultrices magna ac sed scelerisque blandit in ridiculus accumsan. Ac cursus diam posuere lectus.'
+    title: 'Get Loud',
+    snippet: 'Get loud on social media and spread the word! Right now, reaching as many people as you can will make October as successful as possible.'
   },
   {
-    title: 'Coca Cola',
-    snippet: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat risus, nibh id egestas. Iaculis ultrices magna ac sed scelerisque blandit in ridiculus accumsan. Ac cursus diam posuere lectus.'
+    title: 'Boycott With Us',
+    snippet: 'Put your money where your mouth is and participate in the October capital strike boycotts to make your voice heard with your money.'
   }
 ]
 
@@ -126,5 +128,5 @@ export const mutualAidLinks = [
   {
     text: 'Mutual Aid 101',
     href: 'https://gdoc.pub/doc/e/2PACX-1vRMxV09kdojzMdyOfapJUOB6Ko2_1iAfIm8ELeIgma21wIt5HoTqP1QXadF01eZc0ySrPW6VtU_veyp'
-  },
+  }
 ]

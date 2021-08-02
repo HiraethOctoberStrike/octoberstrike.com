@@ -8,11 +8,11 @@
     <h1>Labor Movement X</h1>
   </div>
   <div class='header-text'>
-    <p>
+    <h5>
       LaborMovementX’s mission is to spark a flame among the working class that fuels the demand for intersectional change in the workplace, as well as significant changes to essential workers' rights. 
-    </p>
+    </h5>
     <p>
-      The October Labor Movement does not encourage or endorse Wildcat Strikes
+      We aim to bring attention to the outdated working conditions that many people are subjected to, as well as highlight how these conditions disproportionately affect many marginalized families. We will do this by providing information and resources related to mutual aid, union organizing, and general information about our core values.
     </p>
     <Button text='STRIKE WITH US' href='/strike-with-us' secondary />
   </div>
@@ -47,7 +47,11 @@
     box-sizing: border-box;
   }
 
-  .header-text p {
+  h5 {
+    margin-bottom: 24px;
+  }
+
+  p {
     color: var(--white);
     font-size: 20px;
     font-weight: 500;
