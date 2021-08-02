@@ -14,9 +14,10 @@ import NavLinks from "./NavLinks/NavLinks.svelte";
 
 <nav bind:clientWidth={w} >
   <a href='/'>
-    <div class='logo-placeholder'></div>
+    <img src='assets/images/LMX_Logo_White_HALF.svg' />
+    <p>Labor Movement X</p>
   </a>
-  {#if w > 500}
+  {#if w > 550}
     <NavLinks {links} />
   {:else}
     <MobileNav {links} />
@@ -38,10 +39,22 @@ import NavLinks from "./NavLinks/NavLinks.svelte";
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   }
 
-  .logo-placeholder {
-    background-color: var(--medium-grey1);
-    width: 221px;
-    height: 27px;
+  img {
+    height: 56px;
+    margin-right: 7px;
+  }
+
+  a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-shrink: 0;
+  }
+
+  p {
+    color: var(--white);
+    font-size: 20px;
+    font-weight: 400;
   }
 
   @media (max-width: 1200px) {
