@@ -16,7 +16,7 @@
 
 <style>
   .safety-section {
-    background-color: var(--lightest-grey);
+    background-color: var(--light-blue);
     padding: 60px 400px;
   }
 
