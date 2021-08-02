@@ -20,7 +20,7 @@ import SocialLinks from "../sharedComponents/SocialLinks.svelte";
 <footer>
   <div class='internal-links'>
     <a href='/'>
-      <img src='assets/images/LMX_Logo_White.svg' />
+      <img src='assets/images/LMX_Logo_White-8.png' />
     </a>
     <nav>
       { #each navLinks as { text, href } }
