@@ -79,11 +79,11 @@
   }
 
   .secondary:hover {
-    background-color: var(--light-grey);
+    background-color: var(--lightest-grey);
   }
   
   .secondary:active {
-    background-color: var(--lightest-grey);
+    background-color: var(--light-grey);
   }
 
   .iconify {

@@ -1,4 +1,15 @@
 export const demands = [
+  'Fair Wages',
+  'Fair Healthcare',
+  'Fair Leave',
+  'Fair Taxes',
+  'Fair Workplaces',
+  'Fair Housing',
+  'Fair Education',
+  'Fair Environmental Protection'
+]
+
+export const timeForChange = [
   { 
     title: 'Universal healthcare for all',
     snippet: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in sed pulvinar mattis nunc vitae suspendisse. Pharetra, non luctus ut mi. Viverra faucibus ornare egestas lectus cras sit. Est tempor sit pretium accumsan et. Feugiat vestibulum quis eleifend sed odio aenean gravida a ornare."

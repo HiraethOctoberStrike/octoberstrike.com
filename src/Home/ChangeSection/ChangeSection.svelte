@@ -1,5 +1,5 @@
 <script>
-  import { demands } from '../../copy.js'
+  import { timeForChange } from '../../copy.js'
   import Card from '../../sharedComponents/Card.svelte'
 </script>
 
@@ -8,7 +8,7 @@
     The U.S. government is not serving its people. Now is the time for change.
   </h2>
   <div class='demands'>
-    {#each demands as { title, snippet }, i }
+    {#each timeForChange as { title, snippet }, i }
       <Card {title} {snippet} 
         red={[0, 4].includes(i)}
         navy={[3, 7].includes(i)} />

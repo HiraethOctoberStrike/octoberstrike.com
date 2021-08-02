@@ -1,18 +1,20 @@
 <script>
   import { demands } from '../../copy.js'
+  import Button from '../../sharedComponents/Button.svelte'
 </script>
 
 <header>
   <div class='header-container'>
-    <h1>National General Strike</h1>
+    <h1>Labor Movement X</h1>
   </div>
-  <div class='demands'>
-    {#each demands as { title } }
-      <div class='demand'>
-        <span class="iconify" data-icon="mdi-check-circle"></span>
-        <h5 class='demand-text'>{title}</h5>
-      </div>
-    {/each}
+  <div class='header-text'>
+    <p>
+      LaborMovementX’s mission is to spark a flame among the working class that fuels the demand for intersectional change in the workplace, as well as significant changes to essential workers' rights. 
+    </p>
+    <p>
+      The October Labor Movement does not encourage or endorse Wildcat Strikes
+    </p>
+    <Button text='STRIKE WITH US' href='/strike-with-us' secondary />
   </div>
   <div class='background-image'>
   </div>
@@ -35,31 +37,22 @@
     display: inline-block;
   }
 
-  .demands {
+  .header-text {
     position: relative;
     display: flex;
     flex-direction: column;
-    color: var(--white);
-    padding: 56px 50px 56px 172px;
+    padding: 56px 50px 100px 172px;
     z-index: 1;
     width: 50%;
     box-sizing: border-box;
   }
 
-  .demand {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    font-size: 28px;
-    margin-bottom: 32px;
-  }
-
-  .iconify {
-    flex-shrink: 0;
-  }
-
-  h5 {
-    margin: 0 0 0 15px;
+  .header-text p {
+    color: var(--white);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-bottom: 24px;
   }
 
   .background-image {
@@ -69,14 +62,14 @@
     right: 0;
     top: 0;
 
-    background-image: url('https://images.fineartamerica.com/images-medium-large/shelter-dog-square-dog-photography.jpg');
+    background-image: url('/assets/images/pexels-rosemary-ketchum-1464224.jpeg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
   }
 
   @media (max-width: 1100px) {
-		.demands {
+		.header-text {
       width: 100%;
     }
 
@@ -90,8 +83,8 @@
       margin: 48px 40px 0px;
     }
 
-    .demands {
-      padding: 56px 80px 30px;
+    .header-text {
+      padding: 56px 80px 60px;
     }
   }
 
@@ -100,8 +93,8 @@
       margin: 48px 20px 0px;
     }
 
-    .demands {
-      padding: 56px 40px 30px;
+    .header-text {
+      padding: 56px 40px 60px;
     }
   }
 

@@ -23,7 +23,7 @@
   
   .strike-header {
     background-size: cover;
-    background-position: center;
+    background-position: center -350px;
     background-repeat: no-repeat;
   }
 

@@ -3,7 +3,7 @@
 </script>
 
 <section class='mutual-aid-section'>
-    <img src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.MB8pq1-VyWEzA4NLbhy95wHaFi%26pid%3DApi&f=1' />
+    <img src='assets/images/toa-heftiba-6bKpHAun4d8-unsplash.jpeg' />
   <div class='plan-content'>
     <h2>Mutual Aid</h2>
     <p>

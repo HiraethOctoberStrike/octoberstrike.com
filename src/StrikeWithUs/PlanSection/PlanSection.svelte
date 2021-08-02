@@ -1,5 +1,5 @@
 <section class='plan-section'>
-  <img src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.MB8pq1-VyWEzA4NLbhy95wHaFi%26pid%3DApi&f=1' />
+  <img src='assets/images/skyler-gerald-qADoh-Ag7s0-unsplash.jpeg' />
   <div class='plan-content'>
     <h2>We've got a plan:</h2>
     <p>
@@ -19,9 +19,9 @@
   }
 
   img {
-    margin-right: 50px;
+    margin-right: 30px;
     display: flex;
-    flex: 0 2 50%;
+    flex: 0 2 40%;
     max-height: 500px;
     width: 100%;
     object-fit: contain;
@@ -30,7 +30,7 @@
   .plan-content {
     display: flex;
     flex-direction: column;
-    flex: 1 0 50%;
+    flex: 1 0 60%;
     flex-shrink: 1;
   }
 
@@ -44,16 +44,32 @@
 
   @media (max-width: 1000px) {
     .plan-section {
-      flex-direction: column;
+	  	padding: 60px 40px; 
     }
 
     img {
-      margin: 0 0 50px;
-      flex: unset;
+      flex: 1 1 30%;
     }
 
     .plan-content {
       flex: unset;
+      flex: 1 1 70%;
     } 
+  }
+
+  @media (max-width: 700px) {
+    .plan-section {
+	  	padding: 60px 20px; 
+    }
+  }
+   
+  @media (max-width: 700px) {
+    .plan-section {
+	  	padding: 60px 40px; 
+    }
+
+    img {
+      display: none;
+    }
   }
 </style>
