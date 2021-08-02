@@ -19,6 +19,20 @@ html, body {
 	--light-blue: #E6F4F7;
 }
 
+@font-face {
+  font-family: 'Brix-Slab';
+  src: url('/assets/fonts/brix-slab/BrixSlab-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Brix-Slab';
+  src: url('/assets/fonts/brix-slab/BrixSlab-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
 * {
 	margin: 0;
 }
@@ -30,6 +44,7 @@ body {
 }
 
 h1 {
+	font-family: 'Brix-Slab', serif;
 	font-size: 96px;
 	line-height: 100px;
 	font-weight: 700;
