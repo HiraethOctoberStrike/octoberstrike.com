@@ -93,6 +93,16 @@ section {
 	padding: 60px 165px;
 }
 
+a {
+	color: var(--navy);
+}
+
+a:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+
 @media (max-width: 900px) {
 	section {
 		padding: 60px 40px; 
