@@ -16,10 +16,10 @@
     <div class='plan-content'>
       <h2>We've got a plan:</h2>
       <p>
-        The team at Labor Movement X thought long and hard about the logistics’ of what would happen on October 15.  After numerous leaderships meetings, all committees came to the same agreement—this is not a one-day demonstration, but a movement that will strike the match and ignite the spark for change. This is because many of Labor Movement X’s demands take time. Essential workers are encouraged to spread the word about this event like wild fire. Tell friends, family, coworkers, and share your “X” on social media. 
+        The team at Labor Movement X has done weeks of research about the logistics of a national strike. After numerous discussions and leadership meetings, all committees agreed that this will not be a one-day demonstration. This will be a movement that will strike the match and ignite the spark for change. Many of our demands will take time to enact, and we want to ensure that all of our demands are met. Essential workers and all supporters are encouraged to spread the word about this event like wildfire. Tell your friends, family, coworkers, and share your story on social media. 
       </p>
       <p>
-        After all, enough is enough. We the people are demanding change. Not change in 10 years, but right now. Follow #themovement on social media for more information about how you can get involved and carry the torch in your area!
+        Enough is enough. The people are demanding change, and we are demanding it right now. Follow Labormovementx on social media for more information about how you can get involved! 
       </p>
     </div>
   </div>

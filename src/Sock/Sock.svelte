@@ -1,18 +1,21 @@
 <script>
   import Button from '../sharedComponents/Button.svelte'
   export let navy = false;
+  export let strikeWithUs = false;
 </script>
 
 <section class='sock' class:navy >
   <h3>
-    Get involved now to fight for your right to a liveable life in your country.
+    Get involved now to fight for your right to a livable life in your country.
   </h3>
   <div class='buttons'>
     <Button 
       text='SIGN THE PETITION' 
       href='http://chng.it/kNQvH8GXL5' 
       secondary external navyText={navy} />
-    <Button text='GET INVOLVED' href='/get-involved' />
+    {#if strikeWithUs}
+      <Button text='STRIKE WITH US' href='/strike-with-us' />
+    {/if}
   </div>
 </section>
 

@@ -7,11 +7,10 @@
   <div class='plan-content'>
     <h2>Mutual Aid</h2>
     <p>
-      Labor Movement X is in the process of establishing and building stronger relationships with not only unions, but also the community. Mutual Aid and ensuring that essential workers who would like to strike are able to do so without stressing over their bills, is a priority of Labor Movement X. There are several committees behind the scenes to make this event possible, but our Mutual Aid committee is by far the most important. 
+      Labor Movement X is in the process of building and establishing stronger relationships with not just unions, but the entire community. Ensuring that essential workers have a safety net for the potential ramifications of striking is our top priority, and we are working night and day to make that happen. We plan to collaborate with nonprofit groups, mutual aid organizations, farmers, and any other individual willing to volunteer! There are several committees working behind the scenes to make this event possible, but our mutual aid committee is by far the most important. During this time, we hope that every family will feel safe and supported within their community.  
     </p>
     <p>
       If you have questions about Labor Movement X’s effort in financially supporting communities across the nation, email <a href='mailto: labormovementXMA@gmail.com'>labormovementXMA@gmail.com</a>. A member of the committee can assist you with finding resources in your area, or help you get involved!
-      
     </p>
     <Button text='LEARN MORE' href='/mutual-aid' tertiary />
   </div>

@@ -49,6 +49,7 @@ import NavLinks from "./NavLinks/NavLinks.svelte";
     flex-direction: row;
     align-items: center;
     flex-shrink: 0;
+    text-decoration: none;
   }
 
   p {

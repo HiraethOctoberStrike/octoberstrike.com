@@ -24,6 +24,6 @@
 <main>
 	<Nav />
 	<svelte:component this={component} />
-	<Sock navy={component === StrikeWithUs} />
+	<Sock navy={component === StrikeWithUs} strikeWithUs={component !== StrikeWithUs}/>
 	<Footer />
 </main>

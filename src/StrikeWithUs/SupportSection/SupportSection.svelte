@@ -3,7 +3,7 @@
     <span class='bold'>You have worked to support America.</span> Now we are asking America to support you. 
   </h2>
   <p>
-    Everyone agrees these causes are important, but the reason we're still waiting for change is that we need assertive, collection action to get it done.
+    Labor history in the United States dates back to the beginning of this country. For centuries, workers all around the world have protested for fair pay and better working conditions. Despite this history, union membership has begun to decline. Workers around the country are struggling to make ends meet, and we watch as the wealth of the richest individuals and corporations continues to build. Without the workers, these corporations would not be able to continue with production, and yet many of us are still making a wage that does not cover the cost of living. If the working class organizes, we can stop these corporations from continuing to take advantage of our labor. It is time to tell them that we are people, not profit. 
   </p>
 </section>
 
