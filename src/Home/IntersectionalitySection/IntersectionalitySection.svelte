@@ -38,7 +38,7 @@
 
   h5 {
     color: var(--black);
-    margin-bottom: 36px;
+    margin-bottom: 24px;
   }
 
   p {

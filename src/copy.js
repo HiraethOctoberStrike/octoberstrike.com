@@ -39,61 +39,61 @@ export const timeForChange = [
 
 export const intersectionality = [
   {
-    title: "Race in the Working Class",
-    snippet: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat risus, nibh id egestas. Iaculis ultrices magna ac sed scelerisque blandit in ridiculus accumsan. Ac cursus diam posuere lectus.'
+    title: 'Creating an Anti-Racist Working Class',
+    snippet: 'In the wake of social justice movements like Black Lives Matter and Hate is a Virus, it is important for employers to recognize how their protocols uphold systems of oppression, and put their employees of all marginalized backgrounds in danger. By identifying and addressing these issues, employers can create a safe and welcoming environment for ALL working class people.'
   },
   {
-    title: "Disability in the Working Class",
-    snippet: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat risus, nibh id egestas. Iaculis ultrices magna ac sed scelerisque blandit in ridiculus accumsan. Ac cursus diam posuere lectus.'
+    title: 'Making Workplaces Accessible',
+    snippet: 'If COVID-19 has taught us anything, it’s that essential workers experience life differently. We all go at our own pace and some of us require accommodations to get the job done. Labor Movement X strives to hold employers accountable for secure and accessible workplaces.'
   },
   {
-    title: "Gender in the Working Class",
-    snippet: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat risus, nibh id egestas. Iaculis ultrices magna ac sed scelerisque blandit in ridiculus accumsan. Ac cursus diam posuere lectus.'
+    title: 'A Workplace Based On Skill',
+    snippet: 'Despite it being 2021, the median salary between men and women, a 2021 report from Payscale reports that women earn 82 cents for every dollar men make. In addition to this, transgender and transitioning individuals may face wage and opportunity gaps regardless of their gender identity. Which is why Labor Movement X is pushing for inclusivity in the working class.'
   }
 ]
 
 export const boycott = [
   {
-    title: "Amazon",
+    title: 'Amazon',
     snippet: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat risus, nibh id egestas. Iaculis ultrices magna ac sed scelerisque blandit in ridiculus accumsan. Ac cursus diam posuere lectus.'
   },
   {
-    title: "Walmart",
+    title: 'Walmart',
     snippet: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat risus, nibh id egestas. Iaculis ultrices magna ac sed scelerisque blandit in ridiculus accumsan. Ac cursus diam posuere lectus.'
   },
   {
-    title: "Coca Cola",
+    title: 'Coca Cola',
     snippet: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat risus, nibh id egestas. Iaculis ultrices magna ac sed scelerisque blandit in ridiculus accumsan. Ac cursus diam posuere lectus.'
   }
 ]
 
 export const resources = [
   {
-    text: "REFERENCE",
+    text: 'REFERENCE',
     href: '#'
   },
   {
-    text: "REFERENCE",
+    text: 'REFERENCE',
     href: '#'
   },
   {
-    text: "REFERENCE",
+    text: 'REFERENCE',
     href: '#'
   },
   {
-    text: "REFERENCE",
+    text: 'REFERENCE',
     href: '#'
   },
   {
-    text: "REFERENCE",
+    text: 'REFERENCE',
     href: '#'
   },
   {
-    text: "REFERENCE",
+    text: 'REFERENCE',
     href: '#'
   },
   {
-    text: "REFERENCE",
+    text: 'REFERENCE',
     href: '#'
   },
   {
