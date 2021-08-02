@@ -17,7 +17,7 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    height: 252px;
+    height: 276px;
   }
   
   .demand {
@@ -54,7 +54,7 @@
   
   @media (max-width: 800px) {
     .demands-section {
-      height: 138px;
+      height: 158px;
     }
     
     .demand {

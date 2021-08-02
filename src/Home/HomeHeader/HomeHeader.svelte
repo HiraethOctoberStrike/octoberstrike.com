@@ -32,7 +32,7 @@
     z-index: 1;
     margin: 48px 128px 0px;
     background-color: var(--white);
-    padding: 30px 30px 14px;
+    padding: 30px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
     display: inline-block;
   }

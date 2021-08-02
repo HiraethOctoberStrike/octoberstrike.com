@@ -45,7 +45,7 @@
     margin: 0 30px;
     font-size: 18px;
     font-weight: 600;
-    padding: 14px 0px 10px;
+    padding: 14px 0px 14px;
   }
 
   .button-text {
@@ -87,8 +87,6 @@
   }
 
   .iconify {
-    top: -2px;
-    position: relative;
     flex-shrink: 0;
     height: 24px;
     width: 24px;

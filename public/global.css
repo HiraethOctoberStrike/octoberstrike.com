@@ -3,7 +3,6 @@ html, body {
 	width: 100%;
 	height: 100%;
 	
-	/* --transparent-white: #ffffffe0; */
 	--white: #FFFFFF;
 	--lightest-grey: #F1F1F1;
 	--light-grey: #C4C4C4;
@@ -19,34 +18,20 @@ html, body {
 	--light-blue: #E6F4F7;
 }
 
-@font-face {
-  font-family: 'Brix-Slab';
-  src: url('/assets/fonts/brix-slab/BrixSlab-Medium.otf') format('opentype');
-  font-weight: 500;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Brix-Slab';
-  src: url('/assets/fonts/brix-slab/BrixSlab-Bold.otf') format('opentype');
-  font-weight: 700;
-  font-style: normal;
-}
-
 * {
 	margin: 0;
+	font-family: 'urw-din', 'Roboto', sans-serif;
 }
 
 body {
 	color: var(--black);
 	box-sizing: border-box;
-	font-family: 'Roboto', sans-serif;
 }
 
 h1 {
 	font-family: 'Brix-Slab', serif;
 	font-size: 96px;
-	line-height: 100px;
+	line-height: 86px;
 	font-weight: 700;
 	display: inline;
 	color: var(--black);
