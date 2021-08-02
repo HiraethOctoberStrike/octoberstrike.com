@@ -85,6 +85,7 @@ Check out the [Svelte Tutorial](https://svelte.dev/tutorial/basics)
 |tertiary|bool|no|false|if true, restyles with tertiary colors
 |large|bool|no|false|if true, resizes to large dimensions
 |smallText|bool|no|false|if true, restyles with small text
+|external|bool|no|false|if true, opens url in new tab
 
 ##### Button with default attributes
 ```html

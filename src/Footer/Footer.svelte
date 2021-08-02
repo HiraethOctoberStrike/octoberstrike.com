@@ -47,7 +47,7 @@
   </div>
   <div class='social-links'>
       { #each socialLinks as { href, src, alt } }
-        <a class='social-link' {href} target="_blank" >
+        <a class='social-link' {href} target='_blank' >
           <img class='social-icon'{src} {alt} />
         </a>
       { /each }

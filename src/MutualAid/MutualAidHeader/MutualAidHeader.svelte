@@ -10,7 +10,7 @@
   <div class='mutual-aid-links'>
     {#each mutualAidLinks as { text, href } }
       <div class='button-container'>
-        <Button {text} {href} tertiary large />
+        <Button {text} {href} tertiary large external/>
       </div>
     {/each}
   </div>

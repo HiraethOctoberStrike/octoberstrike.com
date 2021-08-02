@@ -6,6 +6,7 @@
   export let large = false
   export let smallText = false
   export let navyText = false
+  export let external = false
 
 </script>
 <a 
@@ -14,6 +15,7 @@
   class:large
   class:navy-text={navyText}
   class:small-text={smallText}
+  target={external ? '_blank' : ''}
   {href} >
   <div class='button-content'>
     <span class='button-text'>{text}</span>
