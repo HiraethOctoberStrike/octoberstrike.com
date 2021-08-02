@@ -1,4 +1,6 @@
 <script>
+import SocialLinks from "../sharedComponents/SocialLinks.svelte";
+
   const navLinks = [
     {
       text: 'Home',
@@ -13,29 +15,6 @@
       href: '/strike-with-us'
     },
   ]
-
-  const socialLinks = [
-    {
-      href: 'https://www.instagram.com/strikeoctober15/',
-      src: 'assets/socialMediaLogos/instagram.png',
-      alt: 'instagram'
-    },
-    {
-      href: 'https://twitter.com/StrikeOctober',
-      src: 'assets/socialMediaLogos/twitter.png',
-      alt: 'twitter'
-    },
-    {
-      href: 'https://www.facebook.com/strikeoctober15',
-      src: 'assets/socialMediaLogos/facebook.png',
-      alt: 'facebook'
-    },
-    {
-      href: 'https://www.reddit.com/r/OctoberStrike/',
-      src: 'assets/socialMediaLogos/reddit.png',
-      alt: 'reddit'
-    }
-  ]
 </script>
 
 <footer>
@@ -49,13 +28,8 @@
       { /each }
     </nav>
   </div>
-  <div class='social-links'>
-      { #each socialLinks as { href, src, alt } }
-        <a class='social-link' {href} target='_blank' >
-          <img class='social-icon'{src} {alt} />
-        </a>
-      { /each }
-  </div>
+  <p class='email'>LaborMovementX@gmail.com</p>
+  <SocialLinks onDark/>
   <p class='copyright-statement'>Copyright © 2021 USA. All rights reserved.</p>
 </footer>
 
@@ -98,27 +72,14 @@
     font-size: 16px;
   }
 
-  .social-link {
-    text-decoration: none;
-  }
-
-  .social-icon {
-    height: 31px;
-    width: 31px;
-    border-radius: 16px;
-    border: 1px solid var(--black);
-    margin-right: 12px;
-  }
-
-  .social-icon:hover {
-    border: 1px solid var(--light-grey);
+  p {
+    color: var(--white);
+    margin: 12px 0 8px;
   }
 
   .copyright-statement {
-    color: var(--white);
     font-size: 16px;
     font-weight: 500;
-    margin: 12px 0 0;
   }
 
   @media (max-width: 1100px) {

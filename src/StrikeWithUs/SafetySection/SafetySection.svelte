@@ -7,10 +7,7 @@
     Your safety and security is important. Here’s how to <spam class='emphasize'>strike safely</spam>.
   </h3>
   <p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat risus, nibh id egestas. Iaculis ultrices magna ac sed scelerisque blandit in ridiculus accumsan. Ac cursus diam posuere lectus. Pretium, quisque leo risus sed. Auctor penatibus non laoreet habitant sem cras faucibus commodo sit. Scelerisque enim, non sit morbi id. Tincidunt eget leo risus posuere et volutpat pharetra odio. 
-  </p>
-  <p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat risus, nibh id egestas. Iaculis ultrices magna ac sed scelerisque blandit in ridiculus accumsan. Ac cursus diam posuere lectus. Pretium, quisque leo risus sed. Auctor penatibus non laoreet habitant sem cras faucibus commodo sit. Scelerisque enim, non sit morbi id. Tincidunt eget leo risus posuere et volutpat pharetra odio.
+    Safety is our top priority at Labor Movement X.  Remember, there is strength in numbers. Do not act alone. If you cannot organize in your workplace, there other ways you can participate in this movement! Click here to learn more about wildcat strikes and potential ramifications of unionizing.
   </p>
 </section>
 

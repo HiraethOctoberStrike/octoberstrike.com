@@ -15,7 +15,7 @@ export const timeForChange = [
   { 
     title: 'Minimum Wage',
     subtitle: '$15/hour is the minimum we’ll accept, no exceptions.',
-    snippet: 'Wage hasn’t gone up since 2009 and hasn’t been in sync with worker productivity since 1969. There is NO state in the US where a full-time, minimum wage job can cover the cost of living. At the beginning of COVID-19, we saw the rise of praise for \"essential workers.\" Out of those that were deemed essential, almost half of them make under $15/hr.  If minimum wage kept pace with worker productivity, it would be around $24/hr.'
+    snippet: "<a class='social-link' href='https://cepr.net/this-is-what-minimum-wage-would-be-if-it-kept-pace-with-productivity/' target='_blank'>Wage hasn’t gone up since 2009 and hasn’t been in sync with worker productivity since 1969</a>. There is NO state in the US where a full-time, minimum wage job can cover the cost of living. At the beginning of COVID-19, we saw the rise of praise for \"essential workers.\" Out of those that were deemed essential, almost half of them make under $15/hr.  If minimum wage kept pace with worker productivity, it would be around $24/hr."
   },
   { 
     title: 'Paid Parental Leave',
@@ -30,7 +30,7 @@ export const timeForChange = [
   { 
     title: 'Universal Healthcare',
     subtitle: 'Pass Medicare for All now!',
-    snippet: 'The privatized healthcare system in the United States has prevented many working class families from receiving affordable care. This system is more expensive and less accessible to the average American worker than universal healthcare. (Medicare for all would save $2 trillion over a 10-year period) Thousands of preventable deaths occur every year due to the current healthcare system, and it must be changed. (Medicare for all would save 680,000 lives over a 10-year period).'
+    snippet: "The privatized healthcare system in the United States has prevented many working class families from receiving affordable care. This system is more expensive and less accessible to the average American worker than universal healthcare. (<a class='social-link' href='https://www.citizen.org/news/fact-check-medicare-for-all-would-save-the-u-s-trillions-public-option-would-leave-millions-uninsured-not-garner-savings/' target='_blank'>Medicare for all would save $2 trillion over a 10-year period</a>) Thousands of preventable deaths occur every year due to the current healthcare system, and it must be changed. (<a class='social-link' href='https://www.citizen.org/news/fact-check-medicare-for-all-would-save-the-u-s-trillions-public-option-would-leave-millions-uninsured-not-garner-savings/' target='_blank'>Medicare for all would save 680,000 lives over a 10-year period</a>)."
   },
   { 
     title: 'Corporate Impact on Climate',
@@ -51,21 +51,6 @@ export const intersectionality = [
   {
     title: 'A Workplace Based On Skill',
     snippet: 'Despite it being 2021, the median salary between men and women, a 2021 report from Payscale reports that women earn 82 cents for every dollar men make. In addition to this, transgender and transitioning individuals may face wage and opportunity gaps regardless of their gender identity. Which is why Labor Movement X is pushing for inclusivity in the working class.'
-  }
-]
-
-export const boycott = [
-  {
-    title: 'Unionize',
-    snippet: 'Start connecting and organizing with your fellow workers. Join a union representing your job and follow their guidance.'
-  },
-  {
-    title: 'Get Loud',
-    snippet: 'Get loud on social media and spread the word! Right now, reaching as many people as you can will make October as successful as possible.'
-  },
-  {
-    title: 'Boycott With Us',
-    snippet: 'Put your money where your mouth is and participate in the October capital strike boycotts to make your voice heard with your money.'
   }
 ]
 

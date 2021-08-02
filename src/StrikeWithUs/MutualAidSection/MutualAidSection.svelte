@@ -7,7 +7,11 @@
   <div class='plan-content'>
     <h2>Mutual Aid</h2>
     <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ipsum, a ac est pulvinar lacus diam. Lacus, etiam massa adipiscing dui justo massa. Sapien, neque ultricies vel proin ipsum laoreet. Diam sed commodo aliquet ac ipsum pellentesque cras convallis enim. Vestibulum gravida libero eget magna arcu. Non facilisi semper augue elementum mauris quam placerat. Pulvinar scelerisque auctor orci, ultrices in. Tellus nulla metus eu proin pulvinar aliquam pulvinar odio. Eget nec porttitor velit.
+      Labor Movement X is in the process of establishing and building stronger relationships with not only unions, but also the community. Mutual Aid and ensuring that essential workers who would like to strike are able to do so without stressing over their bills, is a priority of Labor Movement X. There are several committees behind the scenes to make this event possible, but our Mutual Aid committee is by far the most important. 
+    </p>
+    <p>
+      If you have questions about Labor Movement X’s effort in financially supporting communities across the nation, email <a href='mailto: labormovementXMA@gmail.com'>labormovementXMA@gmail.com</a>. A member of the committee can assist you with finding resources in your area, or help you get involved!
+      
     </p>
     <Button text='LEARN MORE' href='/mutual-aid' tertiary />
   </div>

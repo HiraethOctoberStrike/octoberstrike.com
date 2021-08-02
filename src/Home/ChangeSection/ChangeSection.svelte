@@ -11,7 +11,7 @@
     {#each timeForChange as { title, subtitle, snippet }, i }
       <Card {title} red={[0, 4].includes(i)} navy={[3, 7].includes(i)}>
         <h6>{subtitle}</h6>
-        <p>{snippet}</p>
+        <p>{@html snippet}</p>
       </Card>
     {/each}
   </div>
