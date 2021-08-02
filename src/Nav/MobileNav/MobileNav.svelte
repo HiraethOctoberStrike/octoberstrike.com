@@ -48,7 +48,7 @@
     position: absolute;
     display: flex;
     flex-direction: column;
-    background-color: var(--transparent-white);
+    background-color: var(--white);
     top: 72px;
     padding: 20px;
     right: 0px;

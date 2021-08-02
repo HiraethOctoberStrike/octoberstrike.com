@@ -96,27 +96,23 @@ export const resources = [
 
 export const mutualAidLinks = [
   {
-    text: 'Compromized People in Need',
-    href: '#'
+    text: 'How to form your own mutual aid group',
+    href: 'https://docs.google.com/document/d/1fAb49eilfBa5IIVU2nY0rdgGZbjlFlI-vkWPZiJbsXs/edit'
   },
   {
-    text: 'How to Form Your own Mutual Aid Group',
-    href: '#'
-  },
-  {
-    text: 'Mutual Aid: How to Build a Network in Your Neighborhood',
-    href: '#'
+    text: 'Mutual Aid: How to Build a Network',
+    href: 'https://docs.google.com/document/d/1ca-sz4DRNvUg8ezcrfd6awH-ahxBDJwnbdzxm4_qDVs/edit'
   },
   {
     text: 'Student Mutual Aid Network',
-    href: '#'
+    href: 'https://www.facebook.com/groups/135485187889200'
   },
   {
-    text: 'Willing to Help Compromised People in Need',
-    href: '#'
+    text: 'UK mutual Aid resources',
+    href: 'https://freedomnews.org.uk/2020/03/13/covid-19-uk-mutual-aid-groups-a-list/'
   },
   {
     text: 'Mutual Aid 101',
-    href: '#'
+    href: 'https://gdoc.pub/doc/e/2PACX-1vRMxV09kdojzMdyOfapJUOB6Ko2_1iAfIm8ELeIgma21wIt5HoTqP1QXadF01eZc0ySrPW6VtU_veyp'
   },
 ]
