@@ -14,4 +14,4 @@
 <MutualAidSection />
 <BoycottSection />
 <SupportSection />
-<ResourcesSection />
+<!-- <ResourcesSection /> -->

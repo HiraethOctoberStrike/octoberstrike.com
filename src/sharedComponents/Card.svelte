@@ -1,5 +1,6 @@
 <script>
   export let title;
+  export let subtitle;
   export let snippet;
   export let red = false;
   export let navy = false;
@@ -11,6 +12,9 @@
   class:navy 
   class:small >
   <h5>{title}</h5>
+  {#if subtitle }
+    <h6>{subtitle}</h6>
+  {/if}
   <p>{snippet}</p>
 </div>
 
@@ -30,6 +34,10 @@
 
   p {
     padding: 18px 28px;
+  }
+  
+  h6 {
+    padding: 18px 28px 0px;
   }
 
   .red {

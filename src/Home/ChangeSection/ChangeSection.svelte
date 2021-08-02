@@ -8,8 +8,8 @@
     The U.S. government is not serving its people. Now is the time for change.
   </h2>
   <div class='demands'>
-    {#each timeForChange as { title, snippet }, i }
-      <Card {title} {snippet} 
+    {#each timeForChange as { title, subtitle, snippet }, i }
+      <Card {title} {subtitle} {snippet} 
         red={[0, 4].includes(i)}
         navy={[3, 7].includes(i)} />
     {/each}

@@ -11,28 +11,29 @@ export const demands = [
 
 export const timeForChange = [
   { 
-    title: 'Universal healthcare for all',
-    snippet: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in sed pulvinar mattis nunc vitae suspendisse. Pharetra, non luctus ut mi. Viverra faucibus ornare egestas lectus cras sit. Est tempor sit pretium accumsan et. Feugiat vestibulum quis eleifend sed odio aenean gravida a ornare."
+    title: 'Minimum Wage',
+    subtitle: '$15/hour is the minimum we’ll accept, no exceptions.',
+    snippet: 'Wage hasn’t gone up since 2009 and hasn’t been in sync with worker productivity since 1969. There is NO state in the US where a full-time, minimum wage job can cover the cost of living. At the beginning of COVID-19, we saw the rise of praise for \"essential workers.\" Out of those that were deemed essential, almost half of them make under $15/hr.  If minimum wage kept pace with worker productivity, it would be around $24/hr.'
   },
   { 
-    title: '$20 per hour minimum wage',
-    snippet: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in sed pulvinar mattis nunc vitae suspendisse. Pharetra, non luctus ut mi. Viverra faucibus ornare egestas lectus cras sit. Est tempor sit pretium accumsan et. Feugiat vestibulum quis eleifend sed odio aenean gravida a ornare."
+    title: 'Paid Parental Leave',
+    subtitle: 'Invest in our families with 12 weeks paid leave.',
+    snippet: 'The United States is the only country in the Western world with no federally mandated parental leave. Low wages and skyrocketing child-care costs have caused many working class parents to struggle to support their families. Studies show there are numerous health benefits for the children of parents who have paid leave, and it is time for paid parental leave to become available to all working class people.'
   },
   { 
-    title: '12 weeks paid parental leave',
-    snippet: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in sed pulvinar mattis nunc vitae suspendisse. Pharetra, non luctus ut mi. Viverra faucibus ornare egestas lectus cras sit. Est tempor sit pretium accumsan et. Feugiat vestibulum quis eleifend sed odio aenean gravida a ornare."
+    title: 'Corporate Tax Evasion',
+    subtitle: 'It’s time for the wealthy to pay their share.',
+    snippet: 'The wealthiest individuals in the United States pay little to no federal income tax every single year, while the poorest Americans watch as portions of their livelihoods are taken away. Labor Movement X is demanding that the wealthiest individuals and corporations are held accountable for the taxes that are owed to the general public.'
   },
   { 
-    title: '25% corporate tax rate with no loopholes',
-    snippet: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in sed pulvinar mattis nunc vitae suspendisse. Pharetra, non luctus ut mi. Viverra faucibus ornare egestas lectus cras sit. Est tempor sit pretium accumsan et. Feugiat vestibulum quis eleifend sed odio aenean gravida a ornare."
+    title: 'Universal Healthcare',
+    subtitle: 'Pass Medicare for All now!',
+    snippet: 'The privatized healthcare system in the United States has prevented many working class families from receiving affordable care. This system is more expensive and less accessible to the average American worker than universal healthcare. (Medicare for all would save $2 trillion over a 10-year period) Thousands of preventable deaths occur every year due to the current healthcare system, and it must be changed. (Medicare for all would save 680,000 lives over a 10-year period).'
   },
   { 
-    title: 'Four day work week',
-    snippet: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in sed pulvinar mattis nunc vitae suspendisse. Pharetra, non luctus ut mi. Viverra faucibus ornare egestas lectus cras sit. Est tempor sit pretium accumsan et. Feugiat vestibulum quis eleifend sed odio aenean gravida a ornare."
-  },
-  { 
-    title: 'Net zero emissions by 2030',
-    snippet: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in sed pulvinar mattis nunc vitae suspendisse. Pharetra, non luctus ut mi. Viverra faucibus ornare egestas lectus cras sit. Est tempor sit pretium accumsan et. Feugiat vestibulum quis eleifend sed odio aenean gravida a ornare."
+    title: 'Corporate Impact on Climate',
+    subtitle: 'We can’t wait a second longer.',
+    snippet: 'Poor air and water quality, peak highs and lows in temperature, flooding, hurricanes, earthquakes, and forest fires all threaten the lives of citizens and infrastructure of cities. These events will only become more frequent and more severe in the coming years.  This is why climate change poses an existential threat to the worker, if not humanity as a whole, and must be combated for the good of all.'
   }
 ]
 
