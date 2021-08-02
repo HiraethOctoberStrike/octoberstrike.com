@@ -1,6 +1,10 @@
 <script>
   const navLinks = [
     {
+      text: 'Home',
+      href: '/'
+    },
+    {
       text: 'Mutual Aid',
       href: '/mutual-aid'
     },
@@ -37,7 +41,7 @@
 <footer>
   <div class='internal-links'>
     <a href='/'>
-      <div class='logo-placeholder'></div>
+      <img src='assets/images/LMX_Logo_White.svg' />
     </a>
     <nav>
       { #each navLinks as { text, href } }
@@ -59,27 +63,23 @@
   footer {
     background-color: var(--black);
     color: var(--white);
-    padding: 0 165px;
+    padding: 44px 165px;
+  }
+
+  img {
+    height: 150px;
   }
 
   .internal-links {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
-    padding: 45px 0 26px;
-  }
-
-  .logo-placeholder {
-    background-color: var(--medium-grey1);
-    width: 221px;
-    height: 27px;
+    align-items: flex-start;
   }
 
   nav {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: space-between;
   }
   
@@ -118,40 +118,35 @@
     color: var(--white);
     font-size: 16px;
     font-weight: 500;
-    height: 80px;
-    margin: 80px 0 0;
+    margin: 12px 0 0;
   }
 
   @media (max-width: 1100px) {
-    .internal-links {
-      flex-direction: column;
-      align-items: flex-start;
-    }
-    
-    nav {
-      margin: 40px -45px 40px;
-    }
- 
-    .copyright-statement {
-      margin: 20px 0 0;
+    footer {
+      padding: 44px 80px;
     }
   }
 
   @media (max-width: 900px) {
-    footer {
-      padding: 0 80px 0;
+    nav {
+      flex-direction: column;
+      align-self: flex-start;
+    }
+
+    .internal-link {
+      text-align: right;
     }
   }
   
   @media (max-width: 700px) {
     footer {
-      padding: 0 40px 0;
+      padding: 44px 40px;
     }
   }
   
   @media (max-width: 500px) {
     footer {
-      padding: 0 20px 0;
+      padding: 44px 20px;
     }
   }
 </style>
