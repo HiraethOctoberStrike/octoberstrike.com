@@ -6,15 +6,27 @@
 <HeaderWImage 
   headerText='Join and support the strike'
   image='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.MB8pq1-VyWEzA4NLbhy95wHaFi%26pid%3DApi&f=1' >
-  {#each demands as { title } }
+  <ul>
+    {#each demands as { title } }
     <h3><li>{title}</li></h3>
-  {/each}
+    {/each}
+  </ul>
 </HeaderWImage>
 
 <style>
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+  }
+
+  h3 {
+    flex: 1 1 350px;
+    margin: 0 50px 50px;
+  }
+
   li {
     color: var(--white);
-    margin-bottom: 50px;
     list-style-type: square;
   }
 
