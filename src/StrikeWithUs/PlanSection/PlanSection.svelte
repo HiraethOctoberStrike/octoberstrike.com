@@ -4,7 +4,7 @@
     'Submitting a request to join the Labor Movement X discord',
     'Boycotting big businesses (Amazon, Walmart, Target) and shopping small instead',
     'Becoming a State Coordinator',
-    'Writing to your state officials or signing the petition here',
+    "Writing to your state officials or signing the petition <a href='http://chng.it/kNQvH8GXL5' target='_blank'>here</a>",
     'Donating to Mutual Aid',
     'Sharing your story on social media and more!'
   ]
