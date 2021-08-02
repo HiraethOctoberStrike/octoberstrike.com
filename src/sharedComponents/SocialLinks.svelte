@@ -3,12 +3,12 @@
 
   const socialLinks = [
     {
-      href: 'https://www.instagram.com/strikeoctober15/',
+      href: 'https://www.instagram.com/labormovementx/',
       src: 'assets/socialMediaLogos/instagram.png',
       alt: 'instagram'
     },
     {
-      href: 'https://twitter.com/StrikeOctober',
+      href: 'https://twitter.com/laborMovementX',
       src: 'assets/socialMediaLogos/twitter.png',
       alt: 'twitter'
     },
@@ -18,7 +18,7 @@
       alt: 'facebook'
     },
     {
-      href: 'https://www.reddit.com/r/OctoberStrike/',
+      href: 'https://www.reddit.com/r/labormovementx/',
       src: 'assets/socialMediaLogos/reddit.png',
       alt: 'reddit'
     }
