@@ -1,7 +1,5 @@
 <script>
   export let title;
-  export let subtitle;
-  export let snippet;
   export let red = false;
   export let navy = false;
   export let small = false;
