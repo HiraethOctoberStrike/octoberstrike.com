@@ -26,6 +26,13 @@ html, body {
 body {
 	color: var(--black);
 	box-sizing: border-box;
+
+}
+
+/* pre-load background images */
+body::after {
+	position:absolute; width:0; height:0; overflow:hidden; z-index:-1; 
+	content:url('/assets/images/phil-desforges-PyCQPOvq404-unsplash.jpeg') url('/assets/images/robert-bye-4hcpIbqQM8c-unsplash.jpeg') ; 
 }
 
 h1 {
