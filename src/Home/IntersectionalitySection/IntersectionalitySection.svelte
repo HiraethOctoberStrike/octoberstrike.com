@@ -1,5 +1,5 @@
 <script>
-  import { intersectionality } from '../../copy.JS'
+  import { intersectionality } from '../../copy.js'
 </script>
 
 <section class='intersectionality-section'>
