@@ -107,7 +107,7 @@ export const mutualAidLinks = [
     href: 'https://www.facebook.com/groups/135485187889200'
   },
   {
-    text: 'UK mutual Aid resources',
+    text: 'UK Mutual Aid resources',
     href: 'https://freedomnews.org.uk/2020/03/13/covid-19-uk-mutual-aid-groups-a-list/'
   },
   {
