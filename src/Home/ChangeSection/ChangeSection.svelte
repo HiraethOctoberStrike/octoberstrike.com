@@ -1,5 +1,6 @@
 <script>
-  import { timeForChange } from '../../copy.js'
+  import { each } from 'svelte/internal'
+import { timeForChange } from '../../copy.js'
   import Card from '../../sharedComponents/Card.svelte'
 </script>
 
@@ -8,10 +9,12 @@
     The U.S. Government is not serving its people. Now is the time for change.
   </h2>
   <div class='demands'>
-    {#each timeForChange as { title, subtitle, snippet }, i }
+    {#each timeForChange as { title, subtitles, snippet }, i }
       <Card {title} red={[0, 4].includes(i)} navy={[3, 7].includes(i)}>
         <div>
-          <h6>{subtitle}</h6>
+          {#each subtitles as subtitle}
+            <h6>{@html subtitle}</h6>
+          {/each}
           <p>{@html snippet}</p>
         </div>
       </Card>

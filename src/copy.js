@@ -17,29 +17,56 @@ export const demands = [
 
 export const timeForChange = [
   { 
-    title: 'Minimum Wage',
-    subtitle: '$15/hour is the minimum we’ll accept, no exceptions.',
+    title: 'Raise the Minimum Wage',
+    subtitles: [
+      '$15 minimum wage by 2022. Minimum wage to keep pace with inflation and worker productivity by 2023'
+    ],
     snippet: "<a class='social-link' href='https://cepr.net/this-is-what-minimum-wage-would-be-if-it-kept-pace-with-productivity/' target='_blank'>Wage hasn’t gone up since 2009 and hasn’t been in sync with worker productivity since 1969</a>. There is NO state in the US where a full-time, minimum wage job can cover the cost of living. At the beginning of COVID-19, we saw the rise of praise for \"essential workers.\" Out of those that were deemed essential, almost half of them make under $15/hr.  If minimum wage kept pace with worker productivity, it would be around $24/hr."
   },
   { 
     title: 'Paid Parental Leave',
-    subtitle: 'Invest in our families with 12 weeks paid leave.',
+    subtitles: [
+      '160 hours PTO/sick time per year for all full time workers. Paid parental leave of at least 16 weeks per child - including adoptions.'
+    ],
     snippet: 'The United States is the only country in the Western world with no federally mandated parental leave. Low wages and skyrocketing child-care costs have caused many working class parents to struggle to support their families. Studies show there are numerous health benefits for the children of parents who have paid leave, and it is time for paid parental leave to become available to all working class people.'
   },
   { 
-    title: 'Corporate Tax Evasion',
-    subtitle: 'It’s time for the wealthy to pay their share.',
-    snippet: 'The wealthiest individuals in the United States pay little to no federal income tax every single year, while the poorest Americans watch as portions of their livelihoods are taken away. Labor Movement X is demanding that the wealthiest individuals and corporations are held accountable for the taxes that are owed to the general public.'
+    title: 'Fair Taxes',
+    subtitles: [
+      'All American-based corporations to pay a corporate tax rate of 35%, no matter where they are officially incorporated.',
+      'Increase capital gains tax to 52% and Net Investment Income Tax to 7.8% for all individuals with an income over $10 million/yr'
+    ],
+    snippet: 'The wealthiest individuals in the United States pay little to no federal income tax every single year, while the poorest Americans watch as portions of their livelihoods are taken away. Labor Movement X is demanding that the wealthiest individuals and corporations are held accountable for the taxes that are owed to the general public. '
   },
   { 
-    title: 'Universal Healthcare',
-    subtitle: 'Pass Medicare for All now!',
-    snippet: "The privatized healthcare system in the United States has prevented many working class families from receiving affordable care. This system is more expensive and less accessible to the average American worker than universal healthcare. (<a class='social-link' href='https://www.citizen.org/news/fact-check-medicare-for-all-would-save-the-u-s-trillions-public-option-would-leave-millions-uninsured-not-garner-savings/' target='_blank'>Medicare for all would save $2 trillion over a 10-year period</a>) Thousands of preventable deaths occur every year due to the current healthcare system, and it must be changed. (<a class='social-link' href='https://www.citizen.org/news/fact-check-medicare-for-all-would-save-the-u-s-trillions-public-option-would-leave-millions-uninsured-not-garner-savings/' target='_blank'>Medicare for all would save 680,000 lives over a 10-year period</a>)."
+    title: 'Pass Medicare For All',
+    subtitles: [
+      'Pass HR676 Medicare for All to be implemented by December 31st, 2021, when health plans roll over, including NO exceptions for disability or pre-existing conditions'
+    ],
+    snippet: "The privatized healthcare system in the United States has prevented many working class families from receiving affordable care. This system is more expensive and less accessible to the average American worker than universal healthcare. (<a class='social-link' href='https://www.citizen.org/news/fact-check-medicare-for-all-would-save-the-u-s-trillions-public-option-would-leave-millions-uninsured-not-garner-savings/' target='_blank'>Medicare for all would save $2 trillion over a 10-year period</a>) Thousands of preventable deaths occur every year due to the current healthcare system, and it must be changed. (<a class='social-link' href='https://www.citizen.org/news/fact-check-medicare-for-all-would-save-the-u-s-trillions-public-option-would-leave-millions-uninsured-not-garner-savings/' target='_blank'>Medicare for all would save 680,000 lives over a 10-year period</a>). "
   },
   { 
-    title: 'Corporate Impact on Climate',
-    subtitle: 'We can’t wait a second longer.',
+    title: 'Corporate Impact on Climate Change',
+    subtitles: [
+      'Carbon emissions tax at a minimum of $75/ton.'
+    ],
     snippet: 'Poor air and water quality, peak highs and lows in temperature, flooding, hurricanes, earthquakes, and forest fires all threaten the lives of citizens and infrastructure of cities. These events will only become more frequent and more severe in the coming years.  This is why climate change poses an existential threat to the worker, if not humanity as a whole, and must be combated for the good of all.'
+  },
+  { 
+    title: 'Happy and Healthy Workplaces',
+    subtitles: [
+      'Businesses must disclose annual salary including income, bonuses, stock options, and other benefits for all positions to prevent income inequality.',
+      'Overtime pay rate of 1.5x based pay for all hours worked over 35 per week, including all salaried employees.'
+    ],
+    snippet: ''
+  },
+  { 
+    title: 'Affordable Housing and Education',
+    subtitles: [
+      'Immediate student loan forgiveness of $10,000 per person, or 33% of existing total loans, whichever is greater.',
+      'Limit annual rent increases to no more than the cost of inflation.'
+    ],
+    snippet: ''
   }
 ]
 
