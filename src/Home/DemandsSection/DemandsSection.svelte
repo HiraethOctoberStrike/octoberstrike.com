@@ -4,17 +4,17 @@
 
 <section class='demands-section'>
   <div class='column'>
-    {#each demands[0] as demand }
+    {#each demands[0] as { numeral, demand } }
       <div class='demand'>
-        <span class="iconify" data-icon="mdi-check-circle"></span>
+        <h4>{numeral}</h4>
         <h5 class='demand-text'>{demand}</h5>
       </div>
     {/each}
   </div>
   <div class='column'>
-    {#each demands[1] as demand }
+    {#each demands[1] as { numeral, demand } }
       <div class='demand'>
-        <span class="iconify" data-icon="mdi-check-circle"></span>
+        <h4>{numeral}</h4>
         <h5 class='demand-text'>{demand}</h5>
       </div>
     {/each}
@@ -44,13 +44,18 @@
     flex-shrink: 1;
   }
 
-  .iconify {
-    flex-shrink: 0;
-    margin-right: 8px;
+  h4 {
+    font-family: 'Brix-Slab', serif;
+    font-weight: 900;
+    color: var(--peach);
+    margin-right: 18px;
+    width: 50px;
+    opacity: 0.6;
+    text-align: center;
   }
 
   h5 {
-    margin: 0 0 0 15px;
+    flex: 1 0;
   }
 
 

@@ -6,39 +6,62 @@
 <HeaderWImage 
   headerText='Join and support the strike'
   image='/assets/images/phil-desforges-PyCQPOvq404-unsplash.jpeg' >
-  <ul>
+  <div class='demands'>
     <div class='column'>
-      {#each demands[0] as demand }
-        <h4><li>{demand}</li></h4>
+      {#each demands[0] as { numeral, demand } }
+        <div class='demand'>
+          <h2>{numeral}</h2>
+          <h5>{demand}</h5>
+        </div>
       {/each}
     </div>
     <div class='column'>
-      {#each demands[1] as demand }
-        <h4><li>{demand}</li></h4>
+      {#each demands[1] as { numeral, demand } }
+        <div class='demand'>
+          <h2>{numeral}</h2>
+          <h5>{demand}</h5>
+        </div>
       {/each}
     </div>
-  </ul>
+  </div>
 </HeaderWImage>
 
 <style>
-  ul {
+
+  .demands {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 0;
+  }
+
+  .demand {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 50px ;
   }
 
   .column {
     flex: 1 1 50%;
   }
 
-  h4 {
-    margin: 0 50px 50px;
+  h2 {
+    font-family: 'Brix-Slab', serif;
+    font-weight: 900;
+    font-size: 72px;
+    color: var(--peach);
+    width: 114px;
+    opacity: 0.6;
+    text-align: center;
+    position: relative;
+    right: -40px;
+    margin-left: -40px;
   }
 
-  li {
+  h5 {
     color: var(--white);
-    list-style-type: square;
+    z-index: 1;
+    flex: 1 0;
   }
 
   @media (max-width: 800px) {
@@ -46,7 +69,7 @@
       flex: 1 1 100%;
     }
     
-    h4 {
+    .demand {
       margin-bottom: 30px
     }
   }

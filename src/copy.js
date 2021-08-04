@@ -1,17 +1,47 @@
 export const demands = [
   [
-    '$15 minimum wage now, 100% cost of living by 2025',
-    'Pass Medicare for All HR676 No exceptions',
-    '16 weeks parental leave + 160 hours PTO',
-    'Millionaire wealth tax to 52% + NIIT to 7.8%',
-    'Rent increases limited to inflation'
+    {
+      numeral: 'I',
+      demand: '$15 minimum wage now, 100% cost of living by 2025',
+    },
+    {
+      numeral: 'II',
+      demand: 'Pass Medicare for All HR676 No exceptions',
+    },
+    {
+      numeral: 'III',
+      demand: '16 weeks parental leave + 160 hours PTO',
+    },
+    {
+      numeral: 'IV',
+      demand: 'Millionaire wealth tax to 52% + NIIT to 7.8%',
+    },
+    {
+      numeral: 'V',
+      demand: 'Rent increases limited to inflation',
+    }
   ],
   [
-    'Student loan forgiveness $10k or 33%',
-    '35% corporate tax rate even if HQ is abroad',
-    '$75/ton minimum carbon tax rate',
-    'Businesses make public all salaries including benefits',
-    '1.5x overtime pay rate for all hours over 35/week'
+    {
+      numeral: 'VI',
+      demand: 'Student loan forgiveness $10k or 33%',
+    },
+    {
+      numeral: 'VII',
+      demand: '35% corporate tax rate even if HQ is abroad',
+    },
+    {
+      numeral: 'VIII',
+      demand: '$75/ton minimum carbon tax rate',
+    },
+    {
+      numeral: 'IX',
+      demand: 'Businesses make public all salaries including benefits',
+    },
+    {
+      numeral: 'X',
+      demand: '1.5x overtime pay rate for all hours over 35/week'
+    }
   ]
 ]
 
