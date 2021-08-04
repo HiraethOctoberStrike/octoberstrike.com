@@ -1,14 +1,18 @@
 export const demands = [
-  'Adequate Wages',
-  'Decent Workplaces',
-  'Acceptable Leave',
-  'Affordable Housing',
-  'Accessible Healthcare',
-  'Cost-Effective Education',
-  'Fair Taxes',
-  'Reasonable Work Week',
-  'Equitable Corporate Regulations',
-  'Ethical Environmental Action'
+  [
+    '$15 minimum wage now, 100% cost of living by 2025',
+    'Pass Medicare for All HR676 No exceptions',
+    '16 weeks parental leave + 160 hours PTO',
+    'Millionaire wealth tax to 52% + NIIT to 7.8%',
+    'Rent increases limited to inflation'
+  ],
+  [
+    'Student loan forgiveness $10k or 33%',
+    '35% corporate tax rate even if HQ is abroad',
+    '$75/ton minimum carbon tax rate',
+    'Businesses make public all salaries including benefits',
+    '1.5x overtime pay rate for all hours over 35/week'
+  ]
 ]
 
 export const timeForChange = [

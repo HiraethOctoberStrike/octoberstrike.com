@@ -1,5 +1,4 @@
 <script>
-  import { demands } from '../../copy.js'
   import Button from '../../sharedComponents/Button.svelte'
 </script>
 

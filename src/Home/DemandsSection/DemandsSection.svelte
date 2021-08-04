@@ -3,12 +3,22 @@
 </script>
 
 <section class='demands-section'>
-  {#each demands as demand }
-    <div class='demand'>
-      <span class="iconify" data-icon="mdi-check-circle"></span>
-      <h5 class='demand-text'>{demand}</h5>
-    </div>
-  {/each}
+  <div class='column'>
+    {#each demands[0] as demand }
+      <div class='demand'>
+        <span class="iconify" data-icon="mdi-check-circle"></span>
+        <h5 class='demand-text'>{demand}</h5>
+      </div>
+    {/each}
+  </div>
+  <div class='column'>
+    {#each demands[1] as demand }
+      <div class='demand'>
+        <span class="iconify" data-icon="mdi-check-circle"></span>
+        <h5 class='demand-text'>{demand}</h5>
+      </div>
+    {/each}
+  </div>
 </section>
 
 <style>
@@ -20,13 +30,16 @@
     flex-wrap: wrap;
   }
   
+  .column {
+    flex: 1 1 50%;
+  }
+
   .demand {
     display: flex;
     flex-direction: row;
     align-items: center;
     font-size: 28px;
     margin: 0 32px 32px 0;
-    flex: 1 1 40%;
     color: var(--white);
     flex-shrink: 1;
   }
@@ -63,16 +76,16 @@
     h5 {
       font-size: 18px;
     }
+    
+    .column {
+      flex: 1 1 100%;
+    }
   }
 
   @media (max-width: 550px) {
     .demands-section {
       height: unset;
       padding: 60px 80px;
-    }
-
-    .demand {
-      flex: 1 1 100%;
     }
   }
   
