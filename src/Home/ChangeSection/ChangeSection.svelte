@@ -5,7 +5,7 @@
 
 <section class='time-for-change'>
   <h2>
-    The U.S. government is not serving its people. Now is the time for change.
+    The U.S. Government is not serving its people. Now is the time for change.
   </h2>
   <div class='demands'>
     {#each timeForChange as { title, subtitle, snippet }, i }

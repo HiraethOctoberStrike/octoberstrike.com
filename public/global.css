@@ -86,6 +86,10 @@ p {
 	color: var(--red);
 }
 
+.italicize {
+	font-style: italic;
+}
+
 .bold {
 	font-weight: 700;
 }
