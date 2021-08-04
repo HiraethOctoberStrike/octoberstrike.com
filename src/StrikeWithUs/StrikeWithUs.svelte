@@ -10,8 +10,8 @@
 
 <StrikeHeader />
 <PlanSection />
-<SafetySection />
 <BoycottSection />
+<SafetySection />
 <MutualAidSection />
 <SupportSection />
 <!-- <ResourcesSection /> -->

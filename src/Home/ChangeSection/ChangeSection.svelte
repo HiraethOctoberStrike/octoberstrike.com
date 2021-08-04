@@ -10,8 +10,10 @@
   <div class='demands'>
     {#each timeForChange as { title, subtitle, snippet }, i }
       <Card {title} red={[0, 4].includes(i)} navy={[3, 7].includes(i)}>
-        <h6>{subtitle}</h6>
-        <p>{@html snippet}</p>
+        <div>
+          <h6>{subtitle}</h6>
+          <p>{@html snippet}</p>
+        </div>
       </Card>
     {/each}
   </div>

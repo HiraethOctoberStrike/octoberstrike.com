@@ -2,12 +2,14 @@
   export let title;
   export let red = false;
   export let navy = false;
+  export let peach = false;
   export let small = false;
 </script>
 
 <div class='card' 
   class:red
   class:navy 
+  class:peach 
   class:small >
   <h5>{title}</h5>
   <div class='card-content'>
@@ -22,10 +24,16 @@
     margin: 16px;
     border: 1px solid var(--black);
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
   }
 
   .card-content {
     padding: 18px 28px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
   }
 
   h5 {
@@ -49,12 +57,22 @@
     background-color: var(--navy);
   }
 
+  .peach h5 {
+    background-color: var(--peach);
+  }
+
   .small {
-    flex: 1 1 270px;
+    flex: 1 1 30%;
     margin: 10px;
   }
 
-  @media (max-width: 900px) {
+  @media (max-width: 1200px) {
+    .small {
+      flex: 1 1 40%;
+    }
+  }
+
+  @media (max-width: 700px) {
     .card {
       flex: 1 1 100%;
     }

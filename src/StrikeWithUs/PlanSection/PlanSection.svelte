@@ -24,12 +24,12 @@
     </div>
   </div>
 
-  <h5>Key interactions from participants include:</h5>
+  <!-- <h5>Key interactions from participants include:</h5>
   <ul>
     {#each planPoints as point}
     <h6><li>{@html point}</li></h6>
     {/each}
-  </ul>
+  </ul> -->
 </section>
 
 <style>
