@@ -69,16 +69,4 @@ import { timeForChange } from '../../copy.js'
       flex: 1 1 100%;
     }
   }
-  
-  /* @media (max-width: 900px) {
-    .column {
-      flex: 1 1 50%;
-    }
-  }
-  @media (max-width: 800px) {
-    .column {
-      flex: 1 1 100%;
-    }
-  } */
-
 </style>
