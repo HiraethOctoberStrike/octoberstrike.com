@@ -18,6 +18,7 @@
     padding: 30px;
     background-color: var(--white);
     margin: 450px 165px -50px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
     box-sizing: border-box;
   }
   
@@ -92,5 +93,4 @@
       padding: 100px 60px 60px;
     }
   }
-
 </style>

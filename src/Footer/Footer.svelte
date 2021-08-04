@@ -4,7 +4,7 @@ import SocialLinks from "../sharedComponents/SocialLinks.svelte";
   const navLinks = [
     {
       text: 'Home',
-      href: '/'
+      href: '/home'
     },
     {
       text: 'Mutual Aid',
@@ -19,8 +19,8 @@ import SocialLinks from "../sharedComponents/SocialLinks.svelte";
 
 <footer>
   <div class='internal-links'>
-    <a href='/'>
-      <img src='assets/images/LMX_Logo_White-8.png' />
+    <a href='/home'>
+      <img src='assets/images/LMX_Logo_White-8.png' alt='a protest in grey-scale'/>
     </a>
     <nav>
       { #each navLinks as { text, href } }
@@ -28,7 +28,7 @@ import SocialLinks from "../sharedComponents/SocialLinks.svelte";
       { /each }
     </nav>
   </div>
-  <p class='email'>LaborMovementX@gmail.com</p>
+  <a class='email' href='mailto: LaborMovementX@gmail.com'>LaborMovementX@gmail.com</a>
   <SocialLinks onDark/>
   <p class='copyright-statement'>Copyright © 2021 USA. All rights reserved.</p>
 </footer>
@@ -77,6 +77,16 @@ import SocialLinks from "../sharedComponents/SocialLinks.svelte";
     margin: 12px 0 8px;
   }
 
+  .email {
+    margin-bottom: 12px;
+    display: inline-block;
+    text-decoration: none;
+  }
+
+  .email:hover {
+    text-decoration: underline;
+  }
+  
   .copyright-statement {
     font-size: 16px;
     font-weight: 500;

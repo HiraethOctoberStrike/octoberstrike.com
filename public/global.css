@@ -16,6 +16,7 @@ html, body {
 	--light-red: #f74848;
 	--navy: #113A62;
 	--light-blue: #E6F4F7;
+	--peach: #F99C61;
 }
 
 * {
@@ -58,7 +59,6 @@ h4 {
 	line-height: 30px;
 	font-weight: 500;
 	color: var(--medium-grey2);
-	margin: 0 0 12px;
 }
 
 h5 {
@@ -84,6 +84,10 @@ p {
 
 .emphasize {
 	color: var(--red);
+}
+
+.italicize {
+	font-style: italic;
 }
 
 .bold {

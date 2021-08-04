@@ -13,7 +13,7 @@ import NavLinks from "./NavLinks/NavLinks.svelte";
 </script>
 
 <nav bind:clientWidth={w} >
-  <a href='/'>
+  <a href='/home'>
     <img src='assets/images/LMX_Logo_White_HALF.svg' />
     <p>Labor Movement X</p>
   </a>

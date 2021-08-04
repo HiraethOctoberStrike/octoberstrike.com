@@ -97,34 +97,30 @@ Check out the [Svelte Tutorial](https://svelte.dev/tutorial/basics)
   <Button text='STRIKE WITH US' url='/strike-with-us' secondary small />
 ```
 
-## Deploying to the web (For future deployment decisions)
+## Deploying to the web 
 
-### With [Vercel](https://vercel.com)
+[Netlify](app.netlify.com) is our CI/CD service which allows us to automate deployments.
 
-Install `vercel` if you haven't already:
+We have two deployed version of the site, `staging` and `production`.
 
-```bash
-npm install -g vercel
-```
+### Staging
 
-Then, from within your project folder:
+Staging is for internal review before new changes to the site are deployed to `production`.
 
-```bash
-cd public
-vercel deploy --name my-project
-```
+URL: [labor-movement-x-staging.netlify.app](labor-movement-x-staging.netlify.app)
 
-### With [surge](https://surge.sh/)
+#### Deployment 
 
-Install `surge` if you haven't already:
+All pushes and PRs to the `main` branch will be automatically deployed to staging.
 
-```bash
-npm install -g surge
-```
+### Production
 
-Then, from within your project folder:
+Production is our official external facing site which is viewed at [labormovementx.org](labormovementx.org).
 
-```bash
-npm run build
-surge public os15-staging.surge.sh 
-```
+#### Deployment
+
+Changes to the `production` branch will be automatically deployed to the production site. **All changes to production must be made via a pull request from `main` to `production`.** 
+
+The pull request can be merged **AFTER** approval by design and PR.
+
+
