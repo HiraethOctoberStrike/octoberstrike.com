@@ -4,7 +4,7 @@
 
 <section class='landing-page'>
   <div class='h1-container'>
-    <h1>We’re glad you’re here</h1>
+    <h1>Labor Movement X</h1>
   </div>
   <img src='/assets/images/LMX_Logo_White-8.png' alt='labor movement x logo' />
   <h5>

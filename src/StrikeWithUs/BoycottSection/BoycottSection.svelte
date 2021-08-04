@@ -18,7 +18,7 @@
         </div>
       </Card>
       <Card title='Get Loud & Share Your Story' small>
-        <p>GGet loud on social media and spread the word! Right now, reaching people across the world is essental to making October as successful as possible.</p>
+        <p>Get loud on social media and spread the word! Right now, reaching people across the world is essental to making October as successful as possible.</p>
         <div class='social-links-container'>
           <SocialLinks />
         </div>
