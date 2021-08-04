@@ -38,14 +38,11 @@
   <p>Supporting essays for each demand</p>
 
   <p class='italicize'>Monday, August 9th:</p>
-  <p>Supporting essays for each demand</p>
-
-  <p class='italicize'>Sunday, August 8th:</p>
   <p>
-    Union resource guide and action plan
-    Mutual aid resource guide and action plan
-    Public outreach guide
-    Complete action plan for the October Resistance
+    Union resource guide and action plan<br>
+    Mutual aid resource guide and action plan<br>
+    Public outreach guide<br>
+    Complete action plan for the October Resistance<br>
     Statewide canvassing and event planning
   </p>
 
