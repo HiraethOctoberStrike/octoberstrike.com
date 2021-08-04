@@ -4,7 +4,7 @@ import SocialLinks from "../sharedComponents/SocialLinks.svelte";
   const navLinks = [
     {
       text: 'Home',
-      href: '/'
+      href: '/home'
     },
     {
       text: 'Mutual Aid',
@@ -19,8 +19,8 @@ import SocialLinks from "../sharedComponents/SocialLinks.svelte";
 
 <footer>
   <div class='internal-links'>
-    <a href='/'>
-      <img src='assets/images/LMX_Logo_White-8.png' />
+    <a href='/home'>
+      <img src='assets/images/LMX_Logo_White-8.png' alt='banner image of a protest in grey-scale'/>
     </a>
     <nav>
       { #each navLinks as { text, href } }

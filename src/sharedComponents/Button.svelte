@@ -28,7 +28,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    align-self: start;
+    align-self: flex-start;
     color: var(--white);
     background-color: var(--black);
     text-decoration: none;
