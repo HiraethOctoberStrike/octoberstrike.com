@@ -48,13 +48,7 @@
       </Card>
       <!-- TODO: GET LINK FOR TEMPLATE -->
       <Card title='Write Your State Officials' small>
-        <p>Make your voice heard and ontact your state officials about our demands. </p>
-        <div class='button-container'>
-          <Button 
-          text='DOWNLOAD TEMPLATE' 
-          href='#' 
-          secondary external />
-        </div>
+        <p>Make your voice heard and contact your state officials about our demands. </p>
       </Card>
   </div>
 </section>
