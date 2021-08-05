@@ -122,5 +122,3 @@ Production is our official external facing site which is viewed at [labormovemen
 Changes to the `production` branch will be automatically deployed to the production site. **All changes to production must be made via a pull request from `main` to `production`.** 
 
 The pull request can be merged **AFTER** approval by design and PR.
-
-
