@@ -62,12 +62,39 @@ Once finished, present your changes for review and addition to the main branch f
 3. Select "New Pull Request"
 4. Select branches to compare: `base: main` <- `compare: <your-descriptive-branch-name>`
 5. "Create Pull Request"
-5. Link the original issue in the description: Add the text `closes #42` for example if the PR completes the requirements of issue #42
-6. Select a few **Reviewers** and wait for review.
-7. Make necessary revisions, add, commit, and push. You can either request a second review or if confident, merge the PR and delete your branch.
+5. Link the original issue in the description: Add the issue number after `closes #` e.g. `closes #42`
+6. Select a `OppNHeimer as a **Reviewer**.
+7. Make necessary revisions, add, commit, re-push, and request review again if changes are requested.
 
 > That's it! If the issue was linked correctly both the Issue and PR tasks should be automatically moved to the "Done" column in the kanban board.
 
+## Deploying to the web 
+
+[Netlify](app.netlify.com) is our CI/CD service which allows us to automate deployments.
+
+We have two deployed version of the site, `staging` and `production`.
+
+### Staging
+
+Staging is for internal review before new changes to the site are deployed to `production`.
+
+URL: [labor-movement-x-staging.netlify.app](labor-movement-x-staging.netlify.app)
+
+#### Deployment 
+
+All PRs to the `main` branch will be automatically deployed to staging. **All changes to staging must be made via a pull request from `<your-feature-branch` to `main`.** 
+
+The pull request can be merged **AFTER** review.
+
+### Production
+
+Production is our official external facing site which is viewed at [labormovementx.org](labormovementx.org).
+
+#### Deployment
+
+Changes to the `production` branch will be automatically deployed to the production site. **All changes to production must be made via a pull request from `main` to `production`.** 
+
+The pull request can be merged **AFTER** approval by design and PR.
 
 ## New to Svelte?
 
@@ -89,7 +116,7 @@ Check out the [Svelte Tutorial](https://svelte.dev/tutorial/basics)
 
 ##### Button with default attributes
 ```html
-  <Button text='STRIKE WITH US' url='/strike-with-us' />
+  <Card text='STRIKE WITH US' url='/strike-with-us' />
 ```
 
 ##### Button with optional attributes
@@ -97,28 +124,42 @@ Check out the [Svelte Tutorial](https://svelte.dev/tutorial/basics)
   <Button text='STRIKE WITH US' url='/strike-with-us' secondary small />
 ```
 
-## Deploying to the web 
+#### Card
 
-[Netlify](app.netlify.com) is our CI/CD service which allows us to automate deployments.
+|Prop Name |Type |Required |Default |Description |
+--- | --- | --- | --- | ---
+|title|string|yes|--|card title text
+|red|bool|no|false|if true, restyles with red title
+|navy|bool|no|false|if true, restyles with navy title
+|peach|bool|no|false|if true, restyles with peach title
+|small|bool|no|false|if true, configures for narrow dimensions
 
-We have two deployed version of the site, `staging` and `production`.
+##### Card with default attributes
+```html
+  <Card title='Write Your State Officials' >
+    <!-- content of card goes inside -->
+  </card>
+```
 
-### Staging
+##### Button with optional attributes
+```html
+  <Card title='Write Your State Officials' peach small>
+    <!-- content of card goes inside -->
+  </Card>
+```
 
-Staging is for internal review before new changes to the site are deployed to `production`.
+#### SocialLinks
 
-URL: [labor-movement-x-staging.netlify.app](labor-movement-x-staging.netlify.app)
+|Prop Name |Type |Required |Default |Description |
+--- | --- | --- | --- | ---
+|onDark|bool|no|false|if true, restyles for dark background
 
-#### Deployment 
+##### SocialLinks with default attributes
+```html
+  <SocialLinks />
+```
 
-All pushes and PRs to the `main` branch will be automatically deployed to staging.
-
-### Production
-
-Production is our official external facing site which is viewed at [labormovementx.org](labormovementx.org).
-
-#### Deployment
-
-Changes to the `production` branch will be automatically deployed to the production site. **All changes to production must be made via a pull request from `main` to `production`.** 
-
-The pull request can be merged **AFTER** approval by design and PR.
+##### SocialLinks with optional attributes
+```html
+  <SocialLinks onDark/>
+```
