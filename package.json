@@ -20,6 +20,7 @@
   "dependencies": {
     "d3-request": "^1.0.6",
     "page": "^1.11.6",
+    "sirv": "^1.0.12",
     "sirv-cli": "^1.0.0",
     "surge": "^0.23.0"
   }

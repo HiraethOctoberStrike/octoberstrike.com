@@ -13,6 +13,9 @@ import SocialLinks from "../sharedComponents/SocialLinks.svelte";
     {
       text: 'Strike with Us',
       href: '/strike-with-us'
+    },{
+      text: 'FAQ',
+      href: '/faq'
     },
   ]
 </script>
