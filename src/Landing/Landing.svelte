@@ -1,5 +1,11 @@
 <script>
   import Button from '../sharedComponents/Button.svelte'
+
+  // google analytics
+  gtag('config', 'G-XCYV4MQQL3', {
+    'page_path': '/',
+    'page_title': 'Landing'
+  })
 </script>
 
 <section class='landing-page'>

@@ -4,8 +4,15 @@
   import MutualAidSection from "./MutualAidSection/MutualAidSection.svelte";
   import BoycottSection from "./BoycottSection/BoycottSection.svelte";
   import SupportSection from "./SupportSection/SupportSection.svelte";
-  import ResourcesSection from "./ResourcesSection/ResourcesSection.svelte";
+  // import ResourcesSection from "./ResourcesSection/ResourcesSection.svelte";
   import StrikeHeader from "./StrikeHeader/StrikeHeader.svelte";
+
+  // google analytics
+  gtag('config', 'G-XCYV4MQQL3', {
+    'page_path': '/strike-with-us',
+    'page_title': 'Strike With Us'
+  })
+
 </script>
 
 <StrikeHeader />
