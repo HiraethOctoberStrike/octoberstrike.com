@@ -180,3 +180,18 @@ export const mutualAidLinks = [
     href: 'https://gdoc.pub/doc/e/2PACX-1vRMxV09kdojzMdyOfapJUOB6Ko2_1iAfIm8ELeIgma21wIt5HoTqP1QXadF01eZc0ySrPW6VtU_veyp'
   }
 ]
+
+export const faqQuestions = [
+  {
+    title: "this is an FAQ title",
+    body: "this is the answer to the above question. Very thoughtful and thorougly answered"
+  },
+  {
+    title: "this is an FAQ title",
+    body: "this is the answer to the above question. Very thoughtful and thorougly answered"
+  },
+  {
+    title: "this is an FAQ title",
+    body: "this is the answer to the above question. Very thoughtful and thorougly answered"
+  }
+]
