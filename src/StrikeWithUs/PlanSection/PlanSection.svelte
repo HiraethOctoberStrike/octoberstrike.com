@@ -54,28 +54,6 @@
     margin-top: 30px;
   }
 
-  h5 {
-    color: var(--black);
-    margin: 60px 0 34px;
-  }
-
-  ul {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-
-  h6 {
-    display: flex;
-    flex: 1 1 40%;
-    margin: 0 50px 20px 0;
-  }
-
-  li {
-    list-style-type: square;
-    font-size: 22px;
-  }
-
   @media (max-width: 1000px) {
     .plan-section {
 	  	padding: 60px 40px; 
