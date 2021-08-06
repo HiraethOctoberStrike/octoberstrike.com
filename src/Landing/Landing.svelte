@@ -114,4 +114,7 @@
     margin-top: 60px;
   }
 
+  a {
+    color: var(--light-blue);
+  }
 </style>
