@@ -1,4 +1,6 @@
 <script>
+  import DemandsSection from '../sharedComponents/DemandsSection.svelte'
+
   // google analytics
   gtag('config', 'G-XCYV4MQQL3', {
     'page_path': '/faq',
@@ -6,4 +8,4 @@
   })
 </script>
 
-<!-- content for faq here -->
+<DemandsSection />
