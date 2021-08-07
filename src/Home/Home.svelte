@@ -1,4 +1,6 @@
 <script>
+  import { demands } from '../copy.js'
+
   import HomeHeader from './HomeHeader/HomeHeader.svelte'
   import DemandsSection from '../sharedComponents/DemandsSection.svelte'
   import ChangeSection from './ChangeSection/ChangeSection.svelte'
@@ -14,7 +16,7 @@
 </script>
 
 <HomeHeader />
-<DemandsSection />
+<DemandsSection {demands} />
 <ChangeSection />
 <IntersectionalitySection />
 <WeVotedSection />

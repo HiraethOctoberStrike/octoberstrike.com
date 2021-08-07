@@ -1,5 +1,5 @@
 <script>
-  import { demands } from '../copy.js'
+  export let demands
 </script>
 
 <section class='demands-section'>
