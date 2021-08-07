@@ -6,9 +6,9 @@
   <h3>
     Have more questions?
   </h3>
-  <div>
+  <h4>
     Reach out to us on social media.
-  </div>
+  </h4>
   <SocialLinks/>
 
 </section>
@@ -18,7 +18,8 @@
     color: var(--black);
   }
 
-  div {
+  h4 {
     margin-bottom: 20px;
+    font-weight: 400;
   }
 </style>
