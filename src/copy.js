@@ -196,7 +196,7 @@ export const faqQuestions = [
   }
 ]
 
-export const transparencyDemands = [
+export const faqDemands = [
   [
     {
       numeral: 'I',
