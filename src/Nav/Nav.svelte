@@ -6,6 +6,9 @@ import NavLinks from "./NavLinks/NavLinks.svelte";
     {
       text: 'Mutual Aid',
       href: '/mutual-aid'
+    },{
+      text: 'FAQ',
+      href: '/faq'
     }
   ]
 
