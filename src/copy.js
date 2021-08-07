@@ -115,7 +115,7 @@ export const intersectionality = [
   },
   {
     title: 'A Workplace Based On Skill',
-    snippet: 'Despite it being 2021, the median salary between men and women, a 2021 report from Payscale reports that women earn 82 cents for every dollar men make. In addition to this, transgender and transitioning individuals may face wage and opportunity gaps regardless of their gender identity. Which is why Labor Movement X is pushing for inclusivity in the working class.'
+    snippet: 'Despite it being 2021, the median salary between men and women still results in a significant wage gap. According to a 2021 report from Payscale, women earn 82 cents for every dollar men make.'
   }
 ]
 
