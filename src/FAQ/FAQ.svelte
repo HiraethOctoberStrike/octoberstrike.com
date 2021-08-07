@@ -1,6 +1,8 @@
 <script>
   import DemandsSection from '../sharedComponents/DemandsSection.svelte'
   import QuestionsSection from './QuestionsSection/QuestionsSection.svelte'
+  import MoreQuestionsSection from './MoreQuestionsSection/MoreQuestionsSection.svelte'
+
 
   // google analytics
   gtag('config', 'G-XCYV4MQQL3', {
@@ -11,3 +13,4 @@
 
 <DemandsSection />
 <QuestionsSection />
+<MoreQuestionsSection />
