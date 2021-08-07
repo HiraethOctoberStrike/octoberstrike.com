@@ -1,5 +1,5 @@
 <script>
-  import DemandsSection from '../sharedComponents/DemandsSection.svelte'
+  import TransparencySection from './TransparencySection/TransparencySection.svelte'
   import QuestionsSection from './QuestionsSection/QuestionsSection.svelte'
   import MoreQuestionsSection from './MoreQuestionsSection/MoreQuestionsSection.svelte'
 
@@ -11,6 +11,6 @@
   })
 </script>
 
-<DemandsSection />
+<TransparencySection />
 <QuestionsSection />
 <MoreQuestionsSection />
