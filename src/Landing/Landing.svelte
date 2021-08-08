@@ -11,7 +11,9 @@
 </script>
 
 <Section navy>
-  <PageTitle text="Labor Movement X" />
+  <div>
+    <PageTitle text="Labor Movement X" />
+  </div>
   <img src='/assets/images/LMX_Logo_White-8.png' alt='labor movement x logo' />
   <h5>
     You seem to have stumbled on the new website for the October Resistance!
