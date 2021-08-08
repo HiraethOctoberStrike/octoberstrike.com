@@ -1,29 +1,20 @@
 <script>
-import MobileNav from "./MobileNav/MobileNav.svelte";
-import NavLinks from "./NavLinks/NavLinks.svelte";
-
-  const links = [
-    {
-      text: 'Mutual Aid',
-      href: '/mutual-aid'
-    },{
-      text: 'FAQ',
-      href: '/faq'
-    }
-  ]
+  import { siteLinks } from '../siteLinks.js'
+  import MobileNav from "./MobileNav/MobileNav.svelte";
+  import NavLinks from "./NavLinks/NavLinks.svelte";
 
   let w;
 </script>
 
 <nav bind:clientWidth={w} >
   <a href='/home'>
-    <img src='assets/images/LMX_Logo_White_HALF.svg' />
+    <img src='assets/images/LMX_Logo_White_HALF.svg' alt='labor movement x logo'/>
     <p>Labor Movement X</p>
   </a>
-  {#if w > 550}
-    <NavLinks {links} />
+  {#if w > 900}
+    <NavLinks {siteLinks} />
   {:else}
-    <MobileNav {links} />
+    <MobileNav {siteLinks} />
   {/if}
 </nav>
 
