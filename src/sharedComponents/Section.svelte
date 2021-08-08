@@ -1,6 +1,6 @@
 <script>
   export let narrower = false
-  export let wide = false
+  export let demands = false
   export let narrow = false
   export let narrowest = false
   export let navy = false
@@ -10,7 +10,7 @@
 
 <section
   class:narrower
-  class:wide
+  class:demands
   class:narrow
   class:narrowest
   class:navy
@@ -38,8 +38,8 @@
     padding: 60px 250px;
   }
 
-  .wide {
-    padding: 60px 100px;
+  .demands {
+    padding: 60px 200px;
   }
 
   .navy {
@@ -74,7 +74,7 @@
       padding: 60px 100px;
     }
 
-    .wide {
+    .demands {
       padding: 60px 80px;
     }
   }
@@ -88,7 +88,7 @@
       padding: 60px 100px;
     }
 
-    section, .wide {
+    section, .demands {
       padding: 60px 40px; 
     }
   }
