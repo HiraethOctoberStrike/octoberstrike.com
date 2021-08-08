@@ -4,7 +4,7 @@
   import Section from '../../sharedComponents/Section.svelte'
 </script>
 
-<Section width1>
+<Section narrower>
   <h2>Other Resources</h2>
   <div class='resources-container'>
     {#each resources as { text, href } }

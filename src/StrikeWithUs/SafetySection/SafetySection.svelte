@@ -2,7 +2,7 @@
   import Section from '../../sharedComponents/Section.svelte'
 </script>
 
-<Section width5 lightBlue>
+<Section narrowest lightBlue>
   <h3>
     Your safety and security is important. Here’s how to <spam class='emphasize'>strike safely</spam>.
   </h3>

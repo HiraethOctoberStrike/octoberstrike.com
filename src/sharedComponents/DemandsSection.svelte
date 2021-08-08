@@ -4,7 +4,7 @@
   export let demands
 </script>
 
-<Section navy width2>
+<Section navy wide>
   <div class='demands'>
     <div class='column'>
       {#each demands[0] as { numeral, demand } }
