@@ -1,23 +1,6 @@
 <script>
-import SocialLinks from "../sharedComponents/SocialLinks.svelte";
-
-  const navLinks = [
-    {
-      text: 'Home',
-      href: '/home'
-    },
-    {
-      text: 'Mutual Aid',
-      href: '/mutual-aid'
-    },
-    {
-      text: 'Strike with Us',
-      href: '/strike-with-us'
-    },{
-      text: 'FAQ',
-      href: '/faq'
-    },
-  ]
+  import { siteLinks } from '../siteLinks.js'
+  import SocialLinks from "../sharedComponents/SocialLinks.svelte";
 </script>
 
 <footer>
@@ -26,7 +9,7 @@ import SocialLinks from "../sharedComponents/SocialLinks.svelte";
       <img src='assets/images/LMX_Logo_White-8.png' alt='a protest in grey-scale'/>
     </a>
     <nav>
-      { #each navLinks as { text, href } }
+      { #each siteLinks as { text, href } }
         <a class='internal-link' {href}>{text}</a>
       { /each }
     </nav>

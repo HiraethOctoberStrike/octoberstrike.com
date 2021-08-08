@@ -1,5 +1,5 @@
 <script>
-  export let links;
+  export let siteLinks;
   let open = false;
 
   const toggleMenu = () => {
@@ -24,11 +24,9 @@
 
   {#if open}
     <div class='links'>
-      <a on:click={closeMenu} class='link' href='/home'>Home</a>
-      {#each links as { text, href } }
+      {#each siteLinks as { text, href } }
         <a on:click={closeMenu} class='link' {href}>{text}</a>
       {/each}
-      <a on:click={closeMenu} class='link primary-link' href='/strike-with-us'>Strike with Us</a>
     </div>
   {/if}
 </div>
@@ -38,6 +36,7 @@
     padding: 10px;
     background-color: transparent;
     border: none;
+    cursor: pointer;
   }
   .iconify {
     color: var(--white);
@@ -53,6 +52,8 @@
     padding: 20px;
     right: 0px;
     width: 100%;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
   }
 
   .link {
@@ -65,12 +66,16 @@
     transition: 0.1s ease-in;
   }
 
-  .primary-link {
+  .link:last-child {
     font-weight: 700;
     color: var(--red);
   }
 
+  .link:hover {
+    background-color: var(--lightest-grey);
+  }
+
   .link:active {
-    background-color: var(--white);  
+    background-color: var(--light-grey);  
   }
 </style>
