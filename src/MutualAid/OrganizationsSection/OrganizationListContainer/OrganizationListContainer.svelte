@@ -83,7 +83,6 @@
 
   <OrganizationList aidOrgs={displayOrgs} />
 
-
   {#if displayShowMoreButton }
     <button on:click={toggleShowMore}>
       <p>Show {showMore ? "Less" : "More"}</p>
@@ -122,8 +121,4 @@
   button:hover {
     background-color: var(--light-grey);
   }
-
-  /* a:active {
-    background-color: var(--light-grey);
-  } */
 </style>

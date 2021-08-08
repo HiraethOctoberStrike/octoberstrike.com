@@ -1,9 +1,9 @@
 <script>
   import { intersectionality } from '../../copy.js'
+  import Section from '../../sharedComponents/Section.svelte'
 </script>
 
-<section class='intersectionality-section'>
-
+<Section navy>
   <h3>
     The fight for the rights of the working class is an intersectional issue.
   </h3>
@@ -15,13 +15,9 @@
     </div>
     {/each}
   </div>
-</section>
+</Section>
 
 <style>
-  .intersectionality-section {
-    background-color: var(--navy);
-  }
-
   .intersectionalities {
     display: flex;
     flex-direction: row;

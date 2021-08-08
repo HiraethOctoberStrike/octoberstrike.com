@@ -95,10 +95,6 @@ p {
 	font-weight: 700;
 }
 
-section {
-	padding: 60px 165px;
-}
-
 a {
 	color: var(--navy);
 }
@@ -106,12 +102,6 @@ a {
 a:hover {
 	text-decoration: underline;
 	cursor: pointer;
-}
-
-@media (max-width: 900px) {
-	section {
-		padding: 60px 40px; 
-	}
 }
 
 @media (max-width: 700px) {
@@ -123,12 +113,7 @@ a:hover {
 	h6 {
 		font-size: 18px;
 	}
-
-	section {
-		padding: 60px 20px; 
-	}
 }
-
 
 @media (max-width: 500px) {
 	h1 {
