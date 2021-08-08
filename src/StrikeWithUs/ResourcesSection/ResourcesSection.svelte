@@ -1,9 +1,10 @@
 <script>
   import { resources } from '../../copy.js'
   import Button from '../../sharedComponents/Button.svelte'
+  import Section from '../../sharedComponents/Section.svelte'
 </script>
 
-<section class='resources-section'>
+<Section narrower>
   <h2>Other Resources</h2>
   <div class='resources-container'>
     {#each resources as { text, href } }
@@ -12,16 +13,11 @@
       </div>
     {/each}
   </div>
-</section>
+</Section>
 
 <style>
-
   h2 {
     margin-bottom: 40px
-  }
-
-  .resources-section {
-    padding: 60px 290px;
   }
 
   .resources-container {
@@ -35,33 +31,10 @@
     display: flex;
     flex: 1 1 350px;
   }
-
-  @media (max-width: 1300px) {
-    .resources-section {
-      padding: 60px 200px;
-    }
-  }
   
   @media (max-width: 1100px) {
-    .resources-section {
-      padding: 60px 160px;
-    }
-    
     .button-container {
       flex: 0 1 250px;
-    }
-  }
-
-  @media (max-width: 900px) {
-    .resources-section {
-      padding: 60px 100px;
-    }
-
-  }
-  
-  @media (max-width: 900px) {
-    .resources-section {
-      padding: 60px 40px;
     }
   }
 

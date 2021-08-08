@@ -5,7 +5,7 @@
   import DemandsSection from '../sharedComponents/DemandsSection.svelte'
   import ChangeSection from './ChangeSection/ChangeSection.svelte'
   import IntersectionalitySection from './IntersectionalitySection/IntersectionalitySection.svelte'
-  import WeVotedSection from './WeVotedSection/WeVotedSection.svelte'
+  import WeWaitedSection from './WeWaitedSection/WeWaitedSection.svelte'
 
   // google analytics
   gtag('config', 'G-XCYV4MQQL3', {
@@ -19,5 +19,5 @@
 <DemandsSection {demands} />
 <ChangeSection />
 <IntersectionalitySection />
-<WeVotedSection />
+<WeWaitedSection />
 

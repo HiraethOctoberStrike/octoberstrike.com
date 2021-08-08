@@ -1,28 +1,32 @@
 <script>
+  import Section from './Section.svelte'
+
   export let demands
 </script>
 
-<section class='demands-section'>
-  <div class='column'>
-    {#each demands[0] as { numeral, demand } }
-      <div class='demand'>
-        <h4>{numeral}</h4>
-        <h5 class='demand-text'>{demand}</h5>
-      </div>
-    {/each}
+<Section navy demands>
+  <div class='demands'>
+    <div class='column'>
+      {#each demands[0] as { numeral, demand } }
+        <div class='demand'>
+          <h4>{numeral}</h4>
+          <h5 class='demand-text'>{demand}</h5>
+        </div>
+      {/each}
+    </div>
+    <div class='column'>
+      {#each demands[1] as { numeral, demand } }
+        <div class='demand'>
+          <h4>{numeral}</h4>
+          <h5 class='demand-text'>{demand}</h5>
+        </div>
+      {/each}
+    </div>
   </div>
-  <div class='column'>
-    {#each demands[1] as { numeral, demand } }
-      <div class='demand'>
-        <h4>{numeral}</h4>
-        <h5 class='demand-text'>{demand}</h5>
-      </div>
-    {/each}
-  </div>
-</section>
+</Section>
 
 <style>
-  .demands-section {
+  .demands {
     background-color: var(--navy);
     box-sizing: border-box;
     display: flex;
@@ -58,21 +62,7 @@
     flex: 1 0;
   }
 
-
-  @media (max-width: 1100px) {
-    .demands-section {
-      padding: 60px 80px;
-    }
-  }
-
-  @media (max-width: 900px) {
-    .demands-section {
-      padding: 60px 40px;
-    }
-  }
-  
   @media (max-width: 800px) {
- 
     .demand {
       font-size: 18px;
       margin-bottom: 16px;
@@ -84,20 +74,6 @@
     
     .column {
       flex: 1 1 100%;
-    }
-  }
-
-  @media (max-width: 550px) {
-    .demands-section {
-      height: unset;
-      padding: 60px 80px;
-    }
-  }
-  
-  @media (max-width: 400px) {
-    .demands-section {
-      height: unset;
-      padding: 60px 40px;
     }
   }
 </style>

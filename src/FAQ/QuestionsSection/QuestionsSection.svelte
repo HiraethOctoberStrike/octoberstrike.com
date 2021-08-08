@@ -1,9 +1,10 @@
 <script>
   import { faqQuestions } from '../../copy.js'
   import DropDownCard from '../../sharedComponents/DropDownCard.svelte'
+  import Section from '../../sharedComponents/Section.svelte'
 </script>
 
-<section>
+<Section>
   <h3>
     There may be subcategories of questions but I’m not sure. 
   </h3>
@@ -20,7 +21,7 @@
       <DropDownCard {title} {body} />
     {/each}
   </div>
-</section>
+</Section>
 
 <style>
   h3 {

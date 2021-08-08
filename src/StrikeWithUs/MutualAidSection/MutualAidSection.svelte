@@ -1,28 +1,28 @@
 <script>
   import Button from '../../sharedComponents/Button.svelte'
+  import Section from '../../sharedComponents/Section.svelte'
 </script>
 
-<section class='mutual-aid-section'>
+<Section>
+  <div class='mutual-aid-container'>
     <img src='assets/images/toa-heftiba-6bKpHAun4d8-unsplash.jpeg' />
-  <div class='plan-content'>
-    <h2>Mutual Aid</h2>
-    <p>
-      Labor Movement X is in the process of building and establishing stronger relationships with not just unions, but the entire community. Ensuring that essential workers have a safety net for the potential ramifications of striking is our top priority, and we are working night and day to make that happen. We plan to collaborate with nonprofit groups, mutual aid organizations, farmers, and any other individual willing to volunteer! There are several committees working behind the scenes to make this event possible, but our mutual aid committee is by far the most important. During this time, we hope that every family will feel safe and supported within their community.  
-    </p>
-    <p>
-      If you have questions about Labor Movement X’s effort in financially supporting communities across the nation, email <a href='mailto: labormovementXMA@gmail.com'>labormovementXMA@gmail.com</a>. A member of the committee can assist you with finding resources in your area, or help you get involved!
-    </p>
-    <Button text='LEARN MORE' href='/mutual-aid' tertiary />
+    <div class='plan-content'>
+      <h2>Mutual Aid</h2>
+      <p>
+        Labor Movement X is in the process of building and establishing stronger relationships with not just unions, but the entire community. Ensuring that essential workers have a safety net for the potential ramifications of striking is our top priority, and we are working night and day to make that happen. We plan to collaborate with nonprofit groups, mutual aid organizations, farmers, and any other individual willing to volunteer! There are several committees working behind the scenes to make this event possible, but our mutual aid committee is by far the most important. During this time, we hope that every family will feel safe and supported within their community.  
+      </p>
+      <p>
+        If you have questions about Labor Movement X’s effort in financially supporting communities across the nation, email <a href='mailto: labormovementXMA@gmail.com'>labormovementXMA@gmail.com</a>. A member of the committee can assist you with finding resources in your area, or help you get involved!
+      </p>
+      <Button text='LEARN MORE' href='/mutual-aid' tertiary />
+    </div>
   </div>
-</section>
+</Section>
 
 <style>
-
-  .mutual-aid-section {
-    position: relative;
+  .mutual-aid-container {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
     align-items: center;
   }
 
@@ -52,7 +52,7 @@
   }
 
   @media (max-width: 1000px) {
-    .mutual-aid-section {
+    .mutual-aid-container {
       flex-direction: column;
     }
 

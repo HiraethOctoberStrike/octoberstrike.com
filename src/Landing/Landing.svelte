@@ -1,5 +1,6 @@
 <script>
   import Button from '../sharedComponents/Button.svelte'
+  import Section from '../sharedComponents/Section.svelte'
 
   // google analytics
   gtag('config', 'G-XCYV4MQQL3', {
@@ -8,7 +9,7 @@
   })
 </script>
 
-<section class='landing-page'>
+<Section navy>
   <div class='h1-container'>
     <h1>Labor Movement X</h1>
   </div>
@@ -69,24 +70,15 @@
   <div class='button-container'>
     <Button text='CONTINUE TO SITE' href='/home' tertiary />
   </div>
-</section>
+</Section>
 
 <style>
-  .landing-page {
-    display: flex;
-    flex-direction: column;
-  }
-
   .h1-container {
     position: relative;
     background-color: var(--white);
     padding: 30px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
     display: inline-block;
-  }
-
-  .landing-page {
-    background-color: var(--navy);
   }
 
   img {

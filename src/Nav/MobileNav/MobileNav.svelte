@@ -24,7 +24,7 @@
 
   {#if open}
     <div class='links'>
-      <a on:click={closeMenu} class='link' href='/'>Home</a>
+      <a on:click={closeMenu} class='link' href='/home'>Home</a>
       {#each links as { text, href } }
         <a on:click={closeMenu} class='link' {href}>{text}</a>
       {/each}

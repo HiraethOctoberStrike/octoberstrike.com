@@ -1,8 +1,9 @@
 <script>
   import SocialLinks from '../../sharedComponents/SocialLinks.svelte'
+  import Section from '../../sharedComponents/Section.svelte'
 </script>
 
-<section>
+<Section>
   <h3>
     Have more questions?
   </h3>
@@ -10,8 +11,7 @@
     Reach out to us on social media.
   </h4>
   <SocialLinks/>
-
-</section>
+</Section>
 
 <style>
   h3 {

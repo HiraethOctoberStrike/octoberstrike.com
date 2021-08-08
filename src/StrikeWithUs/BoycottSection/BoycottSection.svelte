@@ -2,10 +2,11 @@
   import Card from '../../sharedComponents/Card.svelte'
   import SocialLinks from '../../sharedComponents/SocialLinks.svelte'
   import Button from '../../sharedComponents/Button.svelte'
+  import Section from '../../sharedComponents/Section.svelte'
 
 </script>
 
-<section class='boycott-section'>
+<Section navy>
   <h2>Whether you’re able to strike or not, you can help us win this fight.</h2>
   <div class='boycott-cards'>
       <Card title='Unionize & Strike (peacefully)' peach small>
@@ -48,13 +49,9 @@
         <p>Make your voice heard and contact your state officials about our demands. </p>
       </Card>
   </div>
-</section>
+</Section>
 
 <style>
-  .boycott-section {
-    background-color: var(--navy);
-  }
-
   h2 {
     margin-bottom: 40px;
     color: var(--white);
