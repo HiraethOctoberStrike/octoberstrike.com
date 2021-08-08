@@ -1,11 +1,11 @@
 <script>
-import PageHeader from '../../sharedComponents/PageHeader.svelte';
+import PageTitle from '../../sharedComponents/PageTitle.svelte';
 
   </script>
   
   <header>
-    <div class='page-header-container'>
-      <PageHeader text='Frequently Asked Questions' />
+    <div class='page-title-container'>
+      <PageTitle text='Frequently Asked Questions' />
     </div>
   </header>
   
@@ -17,18 +17,18 @@ import PageHeader from '../../sharedComponents/PageHeader.svelte';
       background-repeat: no-repeat;
     }
   
-    .page-header-container {
+    .page-title-container {
       padding: 60px 120px 200px;
     }
   
     @media (max-width: 900px) {
-      .page-header-container {
+      .page-title-container {
         padding: 40px 40px 100px;
       }
     }
   
     @media (max-width: 700px) {
-      .page-header-container {
+      .page-title-container {
         padding: 20px 20px 80px;
       }
     }

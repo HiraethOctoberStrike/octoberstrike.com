@@ -2,12 +2,12 @@
   export let text
 </script>
 
-<div class='header-container'>
+<div class='title-container'>
   <h1>{text}</h1>
 </div>
 
 <style>
-  .header-container {
+  .title-container {
     position: relative;
     display: inline-block;
     z-index: 1;

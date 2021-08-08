@@ -1,6 +1,6 @@
 <script>
   import Button from '../sharedComponents/Button.svelte'
-  import PageHeader from '../sharedComponents/PageHeader.svelte'
+  import PageTitle from '../sharedComponents/PageTitle.svelte'
   import Section from '../sharedComponents/Section.svelte'
 
   // google analytics
@@ -11,7 +11,7 @@
 </script>
 
 <Section navy>
-  <PageHeader text="Labor Movement X" />
+  <PageTitle text="Labor Movement X" />
   <img src='/assets/images/LMX_Logo_White-8.png' alt='labor movement x logo' />
   <h5>
     You seem to have stumbled on the new website for the October Resistance!

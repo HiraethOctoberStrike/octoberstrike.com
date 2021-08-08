@@ -1,12 +1,12 @@
 <script>
-  import PageHeader from './PageHeader.svelte'
+  import PageTitle from './PageTitle.svelte'
   export let headerText;
   export let image;
 </script>
 
 <header class='strike-header' style="background-image: url({image})">
-  <div class='page-header-container'>
-    <PageHeader text={headerText} />
+  <div class='page-title-container'>
+    <PageTitle text={headerText} />
   </div>
   <ul class='text'>
     <slot></slot>
@@ -14,7 +14,7 @@
 </header>
 
 <style>
-  .page-header-container {
+  .page-title-container {
     padding: 450px 165px 0px;
   }
   
@@ -31,7 +31,7 @@
   }
 
   @media (max-width: 1300px) {
-    .page-header-container {
+    .page-title-container {
       padding: 450px 100px 0px;
     }
 
@@ -41,13 +41,13 @@
   }
 
   @media (max-width: 1300px) {
-    .page-header-container {
+    .page-title-container {
       padding: 300px 100px 0px;
     }
   }
 
   @media (max-width: 900px) {
-    .page-header-container {
+    .page-title-container {
       padding: 250px 40px 0px;
     }
 
@@ -58,7 +58,7 @@
   }
   
   @media (max-width: 700px) {
-    .page-header-container {
+    .page-title-container {
       padding: 250px 20px 0px;
     }
 
@@ -69,7 +69,7 @@
   }
   
   @media (max-width: 500px) {
-    .page-header-container {
+    .page-title-container {
       padding: 100px 20px 0px;
     }
 

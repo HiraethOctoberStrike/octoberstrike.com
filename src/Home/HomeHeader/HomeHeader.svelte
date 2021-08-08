@@ -1,12 +1,12 @@
 <script>
-  import PageHeader from '../../sharedComponents/PageHeader.svelte'
+  import PageTitle from '../../sharedComponents/PageTitle.svelte'
   import Button from '../../sharedComponents/Button.svelte'
 </script>
 
 <header>  
   <div class='header-left'>
-    <div class='page-header-container'>
-      <PageHeader text='Labor Movement X' />
+    <div class='page-title-container'>
+      <PageTitle text='Labor Movement X' />
     </div>
     <div class='header-text'>
       <h5>
@@ -39,7 +39,7 @@
     flex: 1 1 50%;
   }
 
-  .page-header-container {
+  .page-title-container {
     width: 200%;
   }
 
@@ -80,7 +80,7 @@
       padding: 56px 80px 60px;
     }
 
-    .page-header-container {
+    .page-title-container {
       width: 100%;
     }
 
