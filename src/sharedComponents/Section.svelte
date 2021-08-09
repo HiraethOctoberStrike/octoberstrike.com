@@ -1,8 +1,8 @@
 <script>
-  export let narrower = false
-  export let demands = false
   export let narrow = false
+  export let narrower = false
   export let narrowest = false
+  export let demands = false
   export let navy = false
   export let red = false
   export let lightBlue = false

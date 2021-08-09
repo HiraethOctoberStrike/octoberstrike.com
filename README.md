@@ -95,6 +95,8 @@ Check out the [Svelte Tutorial](https://svelte.dev/tutorial/basics)
 
 #### Button
 
+Standard button with alternate styles for internal and external links
+
 |Prop Name |Type |Required |Default |Description |
 --- | --- | --- | --- | ---
 |text|string|yes|--|text displayed in button
@@ -116,6 +118,8 @@ Check out the [Svelte Tutorial](https://svelte.dev/tutorial/basics)
 ```
 
 #### Card
+
+Card with a title on a color background and body
 
 |Prop Name |Type |Required |Default |Description |
 --- | --- | --- | --- | ---
@@ -141,6 +145,8 @@ Check out the [Svelte Tutorial](https://svelte.dev/tutorial/basics)
 
 #### SocialLinks
 
+Component with linked icons to social media pages
+
 |Prop Name |Type |Required |Default |Description |
 --- | --- | --- | --- | ---
 |onDark|bool|no|false|if true, restyles for dark background
@@ -153,4 +159,41 @@ Check out the [Svelte Tutorial](https://svelte.dev/tutorial/basics)
 ##### SocialLinks with optional attributes
 ```html
   <SocialLinks onDark/>
+```
+
+#### PageTitle
+
+Styling for h1 element at top of most pages with white background.
+
+|Prop Name |Type |Required |Default |Description |
+--- | --- | --- | --- | ---
+|text|string|yes|--|content of the page title
+
+##### PageTitle with default attributes
+```html
+  <PageTitle text='Labor Movement X' />
+```
+
+#### Section
+
+Provides a set of standard margins for page sections
+
+|Prop Name |Type |Required |Default |Description |
+--- | --- | --- | --- | ---
+|narrow|bool|no|false|if true, restyles with narrow margin
+|narrower|bool|no|false|if true, restyles with a narrower margin
+|narrowest|bool|no|false|if true, restyles with even narrower margins
+|demands|bool|no|false|if true, restyles with a custom margins for demands section
+|navy|bool|no|false|if true, restyles with navy background
+|red|bool|no|false|if true, restyles with red background
+|lightBlue|bool|no|false|if true, restyles with lightBlue background
+
+##### Section with default attributes
+```html
+  <Section />
+```
+
+##### Section with optional attributes
+```html
+  <Section narrower red/>
 ```
