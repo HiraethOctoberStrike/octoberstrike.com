@@ -132,14 +132,14 @@ Card with a title on a color background and body
 ##### Card with default attributes
 ```html
   <Card title='Write Your State Officials' >
-    <!-- content of card goes inside -->
+    <!-- card content goes inside -->
   </card>
 ```
 
 ##### Button with optional attributes
 ```html
   <Card title='Write Your State Officials' peach small>
-    <!-- content of card goes inside -->
+    <!-- card content goes inside -->
   </Card>
 ```
 
@@ -190,10 +190,14 @@ Provides a set of standard margins for page sections
 
 ##### Section with default attributes
 ```html
-  <Section />
+  <Section>
+    <!-- section content goes inside -->
+  </Section>
 ```
 
 ##### Section with optional attributes
 ```html
-  <Section narrower red/>
+  <Section narrower red>
+    <!-- section content goes inside -->
+  </Section>
 ```
