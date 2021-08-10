@@ -2,10 +2,11 @@
   import Section from './Section.svelte'
 
   export let demands
+  export let red = false
 </script>
 
-<Section navy demands>
-  <div class='demands'>
+<Section navy={!red} {red} demands>
+  <div class='demands' class:red>
     <div class='column'>
       {#each demands[0] as { numeral, demand } }
         <div class='demand'>
@@ -32,6 +33,10 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+  }
+  
+  .red {
+    background-color: var(--red);
   }
   
   .column {
