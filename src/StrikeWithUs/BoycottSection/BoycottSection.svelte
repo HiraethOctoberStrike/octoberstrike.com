@@ -27,7 +27,7 @@
       <Card title='Boycott With Us' peach small>
         <p>Put your money where your mouth is and participate in the October capital strike boycotts to make your voice heard with your money. Boycott big businesses like Amazon, Walmart, and Target to shop small instead.</p>
       </Card>
-      <Card title='Become a State Coordinator'  small>
+      <Card title='Get involved with the movement'  small>
         <p>Get involved within your community to organize.</p>
         <div class='button-container'>
           <Button 
@@ -40,9 +40,9 @@
         <p>Support your community and those at risk by donating to mutual aid funds.</p>
         <div class='button-container'>
           <Button 
-          text='REQUEST TO JOIN DISCORD' 
-          href='https://discord.gg/87k2EY4aRx ' 
-          secondary external />
+          text='Explore Mutual Aid' 
+          href='/mutual-aid ' 
+          secondary />
         </div>
       </Card>
       <Card title='Write Your State Officials' small>
