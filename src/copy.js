@@ -45,6 +45,53 @@ export const demands = [
   ]
 ]
 
+export const simplifiedDemands = [
+  [
+    {
+      numeral: 'I',
+      demand: 'Adequate Wages',
+    },
+    {
+      numeral: 'II',
+      demand: 'Accessible Healthcare',
+    },
+    {
+      numeral: 'III',
+      demand: 'Acceptable Leave',
+    },
+    {
+      numeral: 'IV',
+      demand: 'Fair Taxes',
+    },
+    {
+      numeral: 'V',
+      demand: 'Equitable Corporate Regulations',
+    },
+  ],
+  [
+    {
+      numeral: 'VI',
+      demand: 'Decent Workplaces',
+    },
+    {
+      numeral: 'VII',
+      demand: 'Affordable Housing',
+    },
+    {
+      numeral: 'VIII',
+      demand: 'Cost-Effective Education',
+    },
+    {
+      numeral: 'IX',
+      demand: 'Ethical Environmental Action',
+    },
+    {
+      numeral: 'X',
+      demand: 'Reasonable Work Week',
+    }
+  ]
+]
+
 export const timeForChange = [
   [
     { 
@@ -196,49 +243,3 @@ export const faqQuestions = [
   }
 ]
 
-export const faqDemands = [
-  [
-    {
-      numeral: 'I',
-      demand: 'Adequate Wages',
-    },
-    {
-      numeral: 'II',
-      demand: 'Accessible Healthcare',
-    },
-    {
-      numeral: 'III',
-      demand: 'Acceptable Leave',
-    },
-    {
-      numeral: 'IV',
-      demand: 'Fair Taxes',
-    },
-    {
-      numeral: 'V',
-      demand: 'Equitable Corporate Regulations',
-    },
-  ],
-  [
-    {
-      numeral: 'VI',
-      demand: 'Decent Workplaces',
-    },
-    {
-      numeral: 'VII',
-      demand: 'Affordable Housing',
-    },
-    {
-      numeral: 'VIII',
-      demand: 'Cost-Effective Education',
-    },
-    {
-      numeral: 'IX',
-      demand: 'Ethical Environmental Action',
-    },
-    {
-      numeral: 'X',
-      demand: 'Reasonable Work Week',
-    }
-  ]
-]
