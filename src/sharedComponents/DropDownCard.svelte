@@ -24,7 +24,7 @@
 
 <style>
   .dropdown-card {
-    padding: 48px 42px;
+    padding: 28px 42px;
     background-color: var(--lightest-blue);
     margin-bottom: 20px;
   }
