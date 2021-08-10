@@ -1,16 +1,8 @@
 <script>
-  const planPoints = [
-    'Unionizing & Striking  (peacefully)',
-    'Submitting a request to join the Labor Movement X discord',
-    'Boycotting big businesses (Amazon, Walmart, Target) and shopping small instead',
-    'Becoming a State Coordinator',
-    "Writing to your state officials or signing the petition <a href='http://chng.it/kNQvH8GXL5' target='_blank'>here</a>",
-    'Donating to Mutual Aid',
-    'Sharing your story on social media and more!'
-  ]
+  import Section from '../../sharedComponents/Section.svelte'
 </script>
 
-<section class='plan-section'>
+<Section>
   <div class='top'>
     <img src='assets/images/skyler-gerald-qADoh-Ag7s0-unsplash.jpeg' />
     <div class='plan-content'>
@@ -23,7 +15,7 @@
       </p>
     </div>
   </div>
-</section>
+</Section>
 
 <style>
   .top {
@@ -54,33 +46,7 @@
     margin-top: 30px;
   }
 
-  h5 {
-    color: var(--black);
-    margin: 60px 0 34px;
-  }
-
-  ul {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-
-  h6 {
-    display: flex;
-    flex: 1 1 40%;
-    margin: 0 50px 20px 0;
-  }
-
-  li {
-    list-style-type: square;
-    font-size: 22px;
-  }
-
   @media (max-width: 1000px) {
-    .plan-section {
-	  	padding: 60px 40px; 
-    }
-
     img {
       flex: 1 1 30%;
     }
@@ -90,18 +56,8 @@
       flex: 1 1 70%;
     } 
   }
-
-  @media (max-width: 700px) {
-    .plan-section {
-	  	padding: 60px 20px; 
-    }
-  }
    
   @media (max-width: 700px) {
-    .plan-section {
-	  	padding: 60px 40px; 
-    }
-
     img {
       display: none;
     }

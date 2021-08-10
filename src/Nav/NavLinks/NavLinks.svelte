@@ -1,12 +1,11 @@
 <script>
-  export let links
+  export let siteLinks
 </script>
 
 <div class='nav-links'>
-  { #each links as { text, href } }
+  { #each siteLinks as { text, href } }
     <a class='link' {href}>{text}</a>
   { /each }
-  <a class='primary-link' href='/strike-with-us'>Strike with Us</a>
 </div>
 
 <style>
@@ -40,7 +39,7 @@
     margin-left: 24px;
   }
 
-  .primary-link {
+  .link:last-child {
     font-weight: 700;
     background-color: var(--red);
     color: var(--white);
@@ -48,11 +47,11 @@
     padding: 0 31px;
   }
 
-  .primary-link:hover {
+  .link:last-child:hover {
     background-color: var(--bright-red);  
   }
   
-  .primary-link:active {
+  .link:last-child:active {
     background-color: var(--light-red);  
   }
 
@@ -61,7 +60,7 @@
       padding: 0 12px;
     }
 
-    .primary-link {
+    .link:last-child {
       margin-left: 20px;
       padding: 0 28px;
     }

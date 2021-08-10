@@ -180,3 +180,65 @@ export const mutualAidLinks = [
     href: 'https://gdoc.pub/doc/e/2PACX-1vRMxV09kdojzMdyOfapJUOB6Ko2_1iAfIm8ELeIgma21wIt5HoTqP1QXadF01eZc0ySrPW6VtU_veyp'
   }
 ]
+
+export const faqQuestions = [
+  {
+    title: "this is an FAQ title",
+    body: "this is the answer to the above question. Very thoughtful and thorougly answered"
+  },
+  {
+    title: "this is an FAQ title",
+    body: "this is the answer to the above question. Very thoughtful and thorougly answered"
+  },
+  {
+    title: "this is an FAQ title",
+    body: "this is the answer to the above question. Very thoughtful and thorougly answered"
+  }
+]
+
+export const faqDemands = [
+  [
+    {
+      numeral: 'I',
+      demand: 'Adequate Wages',
+    },
+    {
+      numeral: 'II',
+      demand: 'Accessible Healthcare',
+    },
+    {
+      numeral: 'III',
+      demand: 'Acceptable Leave',
+    },
+    {
+      numeral: 'IV',
+      demand: 'Fair Taxes',
+    },
+    {
+      numeral: 'V',
+      demand: 'Equitable Corporate Regulations',
+    },
+  ],
+  [
+    {
+      numeral: 'VI',
+      demand: 'Decent Workplaces',
+    },
+    {
+      numeral: 'VII',
+      demand: 'Affordable Housing',
+    },
+    {
+      numeral: 'VIII',
+      demand: 'Cost-Effective Education',
+    },
+    {
+      numeral: 'IX',
+      demand: 'Ethical Environmental Action',
+    },
+    {
+      numeral: 'X',
+      demand: 'Reasonable Work Week',
+    }
+  ]
+]

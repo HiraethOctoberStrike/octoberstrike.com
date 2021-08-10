@@ -1,10 +1,10 @@
 <script>
-  import { each } from 'svelte/internal'
-import { timeForChange } from '../../copy.js'
+  import { timeForChange } from '../../copy.js'
   import Card from '../../sharedComponents/Card.svelte'
+  import Section from '../../sharedComponents/Section.svelte'
 </script>
 
-<section class='time-for-change'>
+<Section>
   <h2>
     The U.S. Government is not serving its people. Now is the time for change.
   </h2>
@@ -34,13 +34,9 @@ import { timeForChange } from '../../copy.js'
       {/each}
     </div>
   </div>
-</section>
+</Section>
 
 <style>
-  .time-for-change {
-    background-color: var(--white);
-  }
-
   .demands {
     display: flex;
     flex-direction: row;

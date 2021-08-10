@@ -8,12 +8,14 @@
 	import Home from './Home/Home.svelte'
 	import MutualAid from './MutualAid/MutualAid.svelte'
 	import StrikeWithUs from './StrikeWithUs/StrikeWithUs.svelte'
+	// import FAQ from './FAQ/FAQ.svelte'
 
 	let component = Landing
 	page('', () => component = Landing)
 	page('/home', () => component = Home)
 	page('/mutual-aid', () => component = MutualAid)
 	page('/strike-with-us', () => component = StrikeWithUs)
+	// page('/faq', () => component = FAQ)
 	page('*', () => component = Landing)
 	page.start()
 	page.exit('*', (ctx, next) => {

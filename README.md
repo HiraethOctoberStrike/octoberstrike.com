@@ -14,6 +14,7 @@ Install the dependencies...
 cd octoberstrike.com
 npm install
 ```
+> if you get an error like: "command not found: npm", you might need to install [NodeJS](https://nodejs.org/en/download/)
 
 ...then start your dev server with  [Rollup](https://rollupjs.org):
 
@@ -22,16 +23,6 @@ npm run dev
 ```
 
 Navigate to [localhost:5000](http://localhost:5000). You should see your app running. Edit a component file in `src`, save it, and reload the page to see your changes.
-
-## Building and running in production mode
-
-To create an optimised version of the app:
-
-```bash
-npm run build
-```
-
-You can run the newly built app with `npm run start`. This uses [sirv](https://github.com/lukeed/sirv), which is included in your package.json's `dependencies` so that the app will work when you deploy to platforms like [Heroku](https://heroku.com).
 
 ## Contribution Workflow
 
@@ -104,6 +95,8 @@ Check out the [Svelte Tutorial](https://svelte.dev/tutorial/basics)
 
 #### Button
 
+Standard button with alternate styles for internal and external links
+
 |Prop Name |Type |Required |Default |Description |
 --- | --- | --- | --- | ---
 |text|string|yes|--|text displayed in button
@@ -126,6 +119,8 @@ Check out the [Svelte Tutorial](https://svelte.dev/tutorial/basics)
 
 #### Card
 
+Card with a title on a color background and body
+
 |Prop Name |Type |Required |Default |Description |
 --- | --- | --- | --- | ---
 |title|string|yes|--|card title text
@@ -137,18 +132,20 @@ Check out the [Svelte Tutorial](https://svelte.dev/tutorial/basics)
 ##### Card with default attributes
 ```html
   <Card title='Write Your State Officials' >
-    <!-- content of card goes inside -->
+    <!-- card content goes inside -->
   </card>
 ```
 
 ##### Button with optional attributes
 ```html
   <Card title='Write Your State Officials' peach small>
-    <!-- content of card goes inside -->
+    <!-- card content goes inside -->
   </Card>
 ```
 
 #### SocialLinks
+
+Component with linked icons to social media pages
 
 |Prop Name |Type |Required |Default |Description |
 --- | --- | --- | --- | ---
@@ -162,4 +159,45 @@ Check out the [Svelte Tutorial](https://svelte.dev/tutorial/basics)
 ##### SocialLinks with optional attributes
 ```html
   <SocialLinks onDark/>
+```
+
+#### PageTitle
+
+Styling for h1 element at top of most pages with white background.
+
+|Prop Name |Type |Required |Default |Description |
+--- | --- | --- | --- | ---
+|text|string|yes|--|content of the page title
+
+##### PageTitle with default attributes
+```html
+  <PageTitle text='Labor Movement X' />
+```
+
+#### Section
+
+Provides a set of standard margins for page sections
+
+|Prop Name |Type |Required |Default |Description |
+--- | --- | --- | --- | ---
+|narrow|bool|no|false|if true, restyles with narrow margin
+|narrower|bool|no|false|if true, restyles with a narrower margin
+|narrowest|bool|no|false|if true, restyles with even narrower margins
+|demands|bool|no|false|if true, restyles with a custom margins for demands section
+|navy|bool|no|false|if true, restyles with navy background
+|red|bool|no|false|if true, restyles with red background
+|lightBlue|bool|no|false|if true, restyles with lightBlue background
+
+##### Section with default attributes
+```html
+  <Section>
+    <!-- section content goes inside -->
+  </Section>
+```
+
+##### Section with optional attributes
+```html
+  <Section narrower red>
+    <!-- section content goes inside -->
+  </Section>
 ```

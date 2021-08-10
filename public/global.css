@@ -12,10 +12,11 @@ html, body {
 	--darkest-grey: #3A3A3A;
 	--black: #333333;
 	--red: #CC0000;
-	--bright-red: #f40000;
+	--bright-red: #DC0639;
 	--light-red: #f74848;
 	--navy: #113A62;
 	--light-blue: #E6F4F7;
+	--lightest-blue: #E7EBEF;
 	--peach: #F99C61;
 }
 
@@ -94,10 +95,6 @@ p {
 	font-weight: 700;
 }
 
-section {
-	padding: 60px 165px;
-}
-
 a {
 	color: var(--navy);
 }
@@ -105,13 +102,6 @@ a {
 a:hover {
 	text-decoration: underline;
 	cursor: pointer;
-}
-
-
-@media (max-width: 900px) {
-	section {
-		padding: 60px 40px; 
-	}
 }
 
 @media (max-width: 700px) {
@@ -123,12 +113,7 @@ a:hover {
 	h6 {
 		font-size: 18px;
 	}
-
-	section {
-		padding: 60px 20px; 
-	}
 }
-
 
 @media (max-width: 500px) {
 	h1 {
