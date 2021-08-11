@@ -18,7 +18,9 @@
     </div>
   </div>
   {#if open}
-    <p in:fly={{delay: 100, duration: 300, y: 10}}>{body}</p>
+    {#each body as paragraph}
+      <p in:fly={{delay: 100, duration: 300, y: 10}}>{paragraph}</p>
+    {/each}
   {/if}
 </div>
 
