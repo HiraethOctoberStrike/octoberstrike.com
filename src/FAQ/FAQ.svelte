@@ -15,6 +15,6 @@
 </script>
 <FAQHeader/>
 <Demands demands={demands} />
-<TransparencySection />
+<!-- <TransparencySection /> -->
 <QuestionsSection />
 <MoreQuestionsSection />

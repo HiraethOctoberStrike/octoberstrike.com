@@ -5,17 +5,6 @@
 </script>
 
 <Section>
-  <h3>
-    There may be subcategories of questions but I’m not sure. 
-  </h3>
-  <div class='question-group'>
-    {#each faqQuestions as { title, body } }
-      <DropDownCard {title} {body} />
-    {/each}
-  </div>
-  <h3>
-    There may be subcategories of questions but I’m not sure. 
-  </h3>
   <div class='question-group'>
     {#each faqQuestions as { title, body } }
       <DropDownCard {title} {body} />

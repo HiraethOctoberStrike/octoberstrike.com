@@ -19,7 +19,7 @@
   </div>
   {#if open}
     {#each body as paragraph}
-      <p in:fly={{delay: 100, duration: 300, y: 10}}>{paragraph}</p>
+      <p in:fly={{delay: 100, duration: 300, y: 10}}>{@html paragraph}</p>
     {/each}
   {/if}
 </div>
@@ -54,7 +54,7 @@
 
   p {
     /* display: none; */
-    margin-top: 20px;
+    margin-top: 24px;
   }
 
   @media (max-width: 900px) {

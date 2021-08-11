@@ -238,7 +238,7 @@ export const faqQuestions = [
   {
     title: 'What is a general/trade union strike?',
     body: [
-      'Here is a fantastic resource to walk you through what a strike entails + the concerns and consequences. To strike in a traditional sense you would need to be part of a union for your profession or at your workplace. When employees join a union, they give the union the right to collectively bargain with their employers concerning the terms and conditions of work. There’s a lot of paperwork and legal steps needed to go ‘on strike’ including reporting a workplace complaint to the National Labor Relations Board.',
+      '<a href="#" target="_blank">Here is a fantastic resource to walk you through what a strike entails</a> + the concerns and consequences. To strike in a traditional sense you would need to be part of a union for your profession or at your workplace. When employees join a union, they give the union the right to collectively bargain with their employers concerning the terms and conditions of work. There’s a lot of paperwork and legal steps needed to go ‘on strike’ including reporting a workplace complaint to the National Labor Relations Board.',
       'If you have questions or problems with your current pay, benefits, or working conditions and you are a union member, you should first bring up these issues with your union representative before considering a strike.'
     ]
   },
@@ -251,15 +251,15 @@ export const faqQuestions = [
   {
     title: 'If joining an existing union isn’t an option, how do I form one at my workplace?',
     body: [
-      'See here for the NLRB process for forming a union, and here for some great guides by the AFL-CIO. The first step is to discuss with your co-workers to ensure that you will have the necessary support from them before you express your desire directly to the employer.',
-      'Best practice is to do this ‘off the clock’ and not during working time, but if you are allowed to talk about other non-work related subjects on the clock, your employer cannot prohibit you from discussing unions. Here’s a fuller list of your rights when it comes to Union Organizing.'
+      'See <a href="#" target="_blank">here</a> for the NLRB process for forming a union, and <a href="#" target="_blank">here for some great guides by the AFL-CIO</a>. The first step is to discuss with your co-workers to ensure that you will have the necessary support from them before you express your desire directly to the employer.',
+      'Best practice is to do this ‘off the clock’ and not during working time, but if you are allowed to talk about other non-work related subjects on the clock, your employer cannot prohibit you from discussing unions. <a href="#" target="_blank">Here’s a fuller list of your rights</a> when it comes to Union Organizing.'
     ]
   },
   {
     title: 'What are my risks of striking (not showing up to work, doing a sit in, etc.) without union backing?',
     body: [
-      'From this article: When employees go on strike without union authorization, however, their action is called a wildcat strike. Federal courts have held that wildcat strikes are illegal under the WAGNER ACT (National Labor Relations Act of 1935 [29 U.S.C.A. § 151 et seq.]), and employees may be discharged by their employers for participating in wildcat strikes.',
-      'Many states are ‘at-will’ employment states and either the employer or employee may terminate an employment relationship at any time. So even though Union Organizing is a protected activity, your employer may find or invent another reason to terminate you. Based on the fact that the NLRB protects Unionizing you would absolutely have just cause to take legal action against your employer, but that would be a costly process that many of us don’t have the funds to do so.',
+      'From <a href="#" target="_blank">this article</a>: When employees go on strike without union authorization, however, their action is called a wildcat strike. Federal courts have held that wildcat strikes are illegal under the WAGNER ACT (National Labor Relations Act of 1935 [29 U.S.C.A. § 151 et seq.]), and employees may be discharged by their employers for participating in wildcat strikes.',
+      'Many states are <a href="#" target="_blank">‘at-will’ employment states</a> and either the employer or employee may terminate an employment relationship at any time. So even though Union Organizing is a protected activity, your employer may find or invent another reason to terminate you. Based on the fact that the NLRB protects Unionizing you would absolutely have just cause to take legal action against your employer, but that would be a costly process that many of us don’t have the funds to do so.',
       'You would most likely be eligible for unemployment benefits in this case, but before going on strike we urge you to research unemployment guidelines for your state. A best practice would be to document your activities and conversations around the Unionizing process, get anything your boss says in writing or as a printed copy, and any other information or documents to prove in a hearing (if your employer contests the reason for termination) that this is why you were let go.'
     ]
   },
@@ -274,7 +274,7 @@ export const faqQuestions = [
     title: 'What if I’m retired, a student, a stay at home parent, or someone else who cannot directly participate in a workplace strike?',
     body: [
       'When the idea of a General Strike was first announced it captured national and global attention. Since our expansion into Labor Movement X we’ve gone back to ‘square one’ to review the goals and demands of this movement with our new and filled-out committee working behind the scenes. We want to ensure that our demands and plans for the month of October serve not just those that are able to strike directly at their workplace, but for the rights of all Americans in the working class who desperately need change.',
-      'Our events and action steps include things everyone can do to support the cause. From signing our petition to following our social media accounts to donating to mutual aid organizations that offer financial support to using your money while shopping to boycott companies that are working against our causes, you can help us. We’ll be releasing our full outreach and events schedule very soon, but for now we want to say that no matter who you are there is a way that you can safely participate in advocating for better rights for all!'
+      'Our events and action steps include things everyone can do to support the cause. From signing <a href="http://chng.it/kNQvH8GXL5" target="_blank">our petition</a> to following our social media accounts to <a href="#" target="_blank">donating to mutual aid organizations</a> that offer financial support to using your money while shopping to boycott companies that are working against our causes, you can help us. We’ll be releasing our full outreach and events schedule very soon, but for now we want to say that no matter who you are there is a way that you can safely participate in advocating for better rights for all!'
     ]
   },
   {
@@ -288,7 +288,7 @@ export const faqQuestions = [
     title: 'What if I’m not living in the US and/or I’m looking to advocate for worker’s rights in my own country?',
     body: [
       'We happily welcome and appreciate any international interest in supporting our Movement! The best thing you can do is to follow along with our planned actions and events during the month of October, to add your voice to the cause and to vote with your money against corporations not willing to support workers.',
-      'Many of these causes will apply to an international audience as well. From fair wages and benefits to climate change, there will be organizations in your country that are advocating for improvement. We recommend searching for ‘country’ or ‘industry/job title’ + ‘union’ to look for unions to join near you. And there are tons of national and international organizations advocating specifically for environmental causes that benefit the entire world. A few are the EDF, Greenpeace, and the Climate Action Network.',
+      'Many of these causes will apply to an international audience as well. From fair wages and benefits to climate change, there will be organizations in your country that are advocating for improvement. We recommend searching for ‘country’ or ‘industry/job title’ + ‘union’ to look for unions to join near you. And there are tons of national and international organizations advocating specifically for environmental causes that benefit the entire world. A few are the <a href="#" target="_blank">EDF</a>, <a href="#" target="_blank">Greenpeace</a>, and the <a href="#" target="_blank">Climate Action Network</a>.',
       'At this time we are specifically operating and advocating for the American working class, but we support the rights of workers around the world!'
     ]
   }
