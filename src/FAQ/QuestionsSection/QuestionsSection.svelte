@@ -13,10 +13,6 @@
 </Section>
 
 <style>
-  h3 {
-    color: var(--black);
-  }
-
   .question-group {
     margin-bottom: 70px;
   }
