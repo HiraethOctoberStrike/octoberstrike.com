@@ -1,5 +1,5 @@
 <script>
-  import { faqDemands } from '../copy'
+  import { demands } from '../copy'
   import FAQHeader from './FAQHeader/FAQHeader.svelte'
   import Demands from '../sharedComponents/DemandsSection.svelte'
   import TransparencySection from './TransparencySection/TransparencySection.svelte'
@@ -14,7 +14,7 @@
   })
 </script>
 <FAQHeader/>
-<Demands demands={faqDemands} />
-<TransparencySection />
+<Demands demands={demands} />
+<!-- <TransparencySection /> -->
 <QuestionsSection />
 <MoreQuestionsSection />
