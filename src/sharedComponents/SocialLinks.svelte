@@ -5,23 +5,33 @@
     {
       href: 'https://www.instagram.com/labormovementx/',
       src: 'assets/socialMediaLogos/instagram.png',
-      alt: 'instagram'
+      alt: 'instagram logo'
     },
     {
       href: 'https://twitter.com/laborMovementX',
       src: 'assets/socialMediaLogos/twitter.png',
-      alt: 'twitter'
+      alt: 'twitter logo'
+    },
+    {
+      href: 'https://www.tiktok.com/@labormovementx?',
+      src: 'assets/socialMediaLogos/tiktok.png',
+      alt: 'tiktok logo'
     },
     {
       href: 'https://www.facebook.com/strikeoctober15',
       src: 'assets/socialMediaLogos/facebook.png',
-      alt: 'facebook'
+      alt: 'facebook logo'
     },
     {
       href: 'https://www.reddit.com/r/labormovementx/',
       src: 'assets/socialMediaLogos/reddit.png',
-      alt: 'reddit'
-    }
+      alt: 'reddit logo'
+    },
+    {
+      href: 'https://labormovementx.tumblr.com/',
+      src: 'assets/socialMediaLogos/tumblr.png',
+      alt: 'tumblr logo'
+    },
   ]
 </script>
 

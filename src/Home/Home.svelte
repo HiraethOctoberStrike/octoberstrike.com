@@ -1,5 +1,5 @@
 <script>
-  import { demands } from '../copy.js'
+  import { simplifiedDemands } from '../copy.js'
 
   import HomeHeader from './HomeHeader/HomeHeader.svelte'
   import DemandsSection from '../sharedComponents/DemandsSection.svelte'
@@ -16,7 +16,7 @@
 </script>
 
 <HomeHeader />
-<DemandsSection {demands} />
+<DemandsSection demands={simplifiedDemands} />
 <ChangeSection />
 <IntersectionalitySection />
 <WeWaitedSection />

@@ -41,6 +41,9 @@
   
   .column {
     flex: 1 1 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 
   .demand {

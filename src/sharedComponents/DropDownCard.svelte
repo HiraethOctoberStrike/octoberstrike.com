@@ -7,33 +7,35 @@
   let open = false
 </script>
 
-<div class='dropdown-card' 
-  class:open
-  in:fade
-  on:click={() => { open = !open}}>
-  <div class='title'>
+<div class='dropdown-card' class:open in:fade>
+  <div class='title' on:click={() => { open = !open }}>
     <h6>{title}</h6>
     <div class='icon-container'>
       <span class="iconify" data-icon="mdi-chevron-down"></span>
     </div>
   </div>
   {#if open}
-    <p in:fly={{delay: 100, duration: 300, y: 10}}>{body}</p>
+    <div class='body'>
+      {#each body as paragraph}
+      <p in:fly={{delay: 100, duration: 300, y: 10}}>{@html paragraph}</p>
+      {/each}
+    </div>
   {/if}
 </div>
 
 <style>
   .dropdown-card {
-    padding: 48px 42px;
     background-color: var(--lightest-blue);
     margin-bottom: 20px;
   }
 
   .title {
+    padding: 28px 42px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    cursor: pointer;
   }
 
   .iconify {
@@ -44,21 +46,34 @@
   
   .icon-container {
     transition: 0.1s ease-in;
+    margin-left: 20px;
   }
 
   .open .icon-container {
     transform: rotate(180deg);
   }
 
+  .body {
+    padding: 0px 42px 28px;
+    margin-top: -28px;
+  }
+
   p {
-    /* display: none; */
-    margin-top: 20px;
+    margin-top: 24px;
   }
 
   @media (max-width: 900px) {
     .dropdown-card {
-      padding: 24px 20px;
       margin-bottom: 14px;
    }
+
+    .title {
+      padding: 24px 20px;
+    }
+
+    .body {
+      padding: 0px 20px 24px;
+      margin-top: -24px;
+    }
   }
 </style>
