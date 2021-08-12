@@ -16,7 +16,7 @@
 </script>
 
 <HomeHeader />
-<DemandsSection {simplifiedDemands} />
+<DemandsSection demands={simplifiedDemands} />
 <ChangeSection />
 <IntersectionalitySection />
 <WeWaitedSection />
