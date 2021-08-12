@@ -26,7 +26,7 @@
 
   .button-container {
     display: flex;
-    flex: 1 1 450px;
+    flex: 1 1 50%;
     margin-bottom: 20px;
   }
 
