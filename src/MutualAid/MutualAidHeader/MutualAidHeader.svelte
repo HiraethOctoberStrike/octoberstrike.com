@@ -1,10 +1,10 @@
 <script>
-  import HeaderWImage from '../../sharedComponents/HeaderWImage.svelte'
+  import HeaderWContent from '../../sharedComponents/HeaderWContent.svelte'
   import Button from '../../sharedComponents/Button.svelte'
   import { mutualAidLinks } from '../../copy.js'
 </script>
 
-<HeaderWImage 
+<HeaderWContent 
   headerText='Support yourself and your community'
   image='/assets/images/robert-bye-4hcpIbqQM8c-unsplash.jpeg' >
   <div class='mutual-aid-links'>
@@ -14,7 +14,7 @@
       </div>
     {/each}
   </div>
-</HeaderWImage>
+</HeaderWContent>
 
 <style>
   .mutual-aid-links {

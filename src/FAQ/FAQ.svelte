@@ -1,6 +1,6 @@
 <script>
   import { demands } from '../copy'
-  import FAQHeader from './FAQHeader/FAQHeader.svelte'
+  import Header from '../sharedComponents/Header.svelte'
   import Demands from '../sharedComponents/DemandsSection.svelte'
   import TransparencySection from './TransparencySection/TransparencySection.svelte'
   import QuestionsSection from './QuestionsSection/QuestionsSection.svelte'
@@ -13,7 +13,7 @@
     'page_title': 'FAQ'
   })
 </script>
-<FAQHeader/>
+<Header title='Frequently Asked Questions' />
 <Demands demands={demands} />
 <!-- <TransparencySection /> -->
 <QuestionsSection />
