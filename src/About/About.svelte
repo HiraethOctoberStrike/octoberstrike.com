@@ -4,6 +4,7 @@
   import AboutDemandsSection from './AboutDemandsSection/AboutDemandsSection.svelte';
   import GlobalWorkersSection from './GlobalWorkersSection/GlobalWorkersSection.svelte';
 import JoinSection from './JoinSection/JoinSection.svelte';
+import GetInTouchSection from './GetInTouchSection/GetInTouchSection.svelte';
 </script>
 
 <Header title='About Us
@@ -12,3 +13,4 @@ import JoinSection from './JoinSection/JoinSection.svelte';
 <AboutDemandsSection />
 <GlobalWorkersSection />
 <JoinSection />
+<GetInTouchSection />
