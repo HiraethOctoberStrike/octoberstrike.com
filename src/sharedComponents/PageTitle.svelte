@@ -15,4 +15,8 @@
     padding: 30px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
   }
+
+  h1 {
+    overflow-wrap: break-word;
+  }
 </style>

@@ -119,7 +119,7 @@
 
   @media (max-width: 500px) {
     .narrowest {
-      padding: 60px 80px;
+      padding: 60px 60px;
     }
 
     .narrow {
