@@ -2,7 +2,8 @@
   export let narrow = false
   export let narrower = false
   export let narrowest = false
-  export let demands = false
+  export let demandsPadding = false
+  export let noPadding = false
   export let navy = false
   export let red = false
   export let lightBlue = false
@@ -10,9 +11,10 @@
 
 <section
   class:narrower
-  class:demands
+  class:demands-padding={demandsPadding}
   class:narrow
   class:narrowest
+  class:no-padding={noPadding}
   class:navy
   class:red
   class:light-blue={lightBlue}>
@@ -38,8 +40,12 @@
     padding: 60px 250px;
   }
 
-  .demands {
+  .demands-padding {
     padding: 60px 200px;
+  }
+
+  .no-padding{
+    padding: 0
   }
 
   .navy {
@@ -74,7 +80,7 @@
       padding: 60px 100px;
     }
 
-    .demands {
+    .demands-padding {
       padding: 60px 80px;
     }
   }
@@ -88,7 +94,7 @@
       padding: 60px 100px;
     }
 
-    section, .demands {
+    section, .demands-padding {
       padding: 60px 40px; 
     }
   }
@@ -113,7 +119,7 @@
 
   @media (max-width: 500px) {
     .narrowest {
-      padding: 60px 80px;
+      padding: 60px 60px;
     }
 
     .narrow {

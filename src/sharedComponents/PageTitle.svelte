@@ -3,7 +3,7 @@
 </script>
 
 <div class='title-container'>
-  <h1>{text}</h1>
+  <h1>{@html text}</h1>
 </div>
 
 <style>

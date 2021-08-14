@@ -1,8 +1,9 @@
 <script>
   export let text
   export let href
-  export let secondary = false
-  export let tertiary = false
+  export let white = false
+  export let red = false
+  export let peach = false
   export let large = false
   export let smallText = false
   export let navyText = false
@@ -10,8 +11,9 @@
 
 </script>
 <a 
-  class:secondary
-  class:tertiary
+  class:white
+  class:red
+  class:peach
   class:large
   class:navy-text={navyText}
   class:small-text={smallText}
@@ -56,13 +58,18 @@
     font-size: 28px;
   }
 
-  .secondary {
+  .white {
     background-color: var(--white);
     color: var(--red);
   }
 
-  .tertiary {
+  .red {
     background-color: var(--red);
+    color: var(--white);
+  }
+  
+  .peach {
+    background-color: var(--peach);
     color: var(--white);
   }
 
@@ -78,12 +85,28 @@
     background-color: var(--medium-grey1);
   }
 
-  .secondary:hover {
+  .white:hover {
     background-color: var(--lightest-grey);
   }
   
-  .secondary:active {
+  .white:active {
     background-color: var(--light-grey);
+  }
+ 
+  .red:hover {
+    background-color: var(--dark-red);
+  }
+  
+  .red:active {
+    background-color: var(--red);
+  }
+ 
+  .peach:hover {
+    background-color: var(--dark-peach);
+  }
+  
+  .peach:active {
+    background-color: var(--peach);
   }
 
   .iconify {

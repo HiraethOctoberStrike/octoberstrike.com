@@ -36,7 +36,7 @@
     font-weight: 500;
     color: var(--white);
     padding: 0 25px;
-    margin-left: 24px;
+    margin-left: 12px;
   }
 
   .link:last-child {
@@ -48,11 +48,11 @@
   }
 
   .link:last-child:hover {
-    background-color: var(--bright-red);  
+    background-color: var(--dark-red);  
   }
   
   .link:last-child:active {
-    background-color: var(--light-red);  
+    background-color: var(--red);  
   }
 
   @media (max-width: 1200px) {

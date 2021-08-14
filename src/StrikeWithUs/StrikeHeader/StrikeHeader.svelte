@@ -1,80 +1,10 @@
 <script>
-  import HeaderWImage from '../../sharedComponents/HeaderWImage.svelte'
-  import { demands } from '../../copy.js'
+  import HeaderWContent from '../../sharedComponents/HeaderWContent.svelte'
+  import LargeDemands from '../../sharedComponents/LargeDemands.svelte'
 </script>
 
-<HeaderWImage 
+<HeaderWContent 
   headerText='Join and support the strike'
   image='/assets/images/phil-desforges-PyCQPOvq404-unsplash.jpeg' >
-  <div class='demands'>
-    <div class='column'>
-      {#each demands[0] as { numeral, demand } }
-        <div class='demand'>
-          <h2>{numeral}</h2>
-          <h5>{demand}</h5>
-        </div>
-      {/each}
-    </div>
-    <div class='column'>
-      {#each demands[1] as { numeral, demand } }
-        <div class='demand'>
-          <h2>{numeral}</h2>
-          <h5>{demand}</h5>
-        </div>
-      {/each}
-    </div>
-  </div>
-</HeaderWImage>
-
-<style>
-
-  .demands {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-
-  .demand {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-bottom: 50px ;
-  }
-
-  .column {
-    flex: 1 1 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-
-  h2 {
-    font-family: 'Brix-Slab', serif;
-    font-weight: 900;
-    font-size: 72px;
-    color: var(--peach);
-    width: 114px;
-    opacity: 0.6;
-    text-align: center;
-    position: relative;
-    right: -40px;
-    margin-left: -40px;
-  }
-
-  h5 {
-    color: var(--white);
-    z-index: 1;
-    flex: 1 0;
-  }
-
-  @media (max-width: 800px) {
-    .column {
-      flex: 1 1 100%;
-    }
-    
-    .demand {
-      margin-bottom: 30px
-    }
-  }
-
-</style>
+  <LargeDemands />
+</HeaderWContent>

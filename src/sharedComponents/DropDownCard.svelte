@@ -39,7 +39,7 @@
   }
 
   .iconify {
-    color: var(--bright-red);
+    color: var(--light-red);
     font-size: 36px;
     flex-shrink: 0;
   }

@@ -101,8 +101,9 @@ Standard button with alternate styles for internal and external links
 --- | --- | --- | --- | ---
 |text|string|yes|--|text displayed in button
 |href|string|yes|--|url that button redirects to
-|secondary|bool|no|false|if true, restyles with secondary colors
-|tertiary|bool|no|false|if true, restyles with tertiary colors
+|white|bool|no|false|if true, restyles with white background
+|red|bool|no|false|if true, restyles with red background
+|peach|bool|no|false|if true, restyles with peach background
 |large|bool|no|false|if true, resizes to large dimensions
 |smallText|bool|no|false|if true, restyles with small text
 |external|bool|no|false|if true, opens url in new tab
@@ -114,7 +115,7 @@ Standard button with alternate styles for internal and external links
 
 ##### Button with optional attributes
 ```html
-  <Button text='STRIKE WITH US' url='/strike-with-us' secondary small />
+  <Button text='STRIKE WITH US' url='/strike-with-us' white small />
 ```
 
 #### Card
