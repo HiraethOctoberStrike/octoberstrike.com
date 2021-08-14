@@ -3,7 +3,7 @@
   import SocialLinks from "../../sharedComponents/SocialLinks.svelte";
 </script>
 
-<Section>
+<Section narrow>
   <h1>Want to get in touch?</h1>
   <h4>Reach out to us on social media.</h4>
   <SocialLinks />
