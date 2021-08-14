@@ -8,6 +8,10 @@ export const siteLinks = [
       href: '/mutual-aid'
     },
     {
+      text: 'About',
+      href: '/about'
+    },
+    {
       text: 'FAQ',
       href: '/faq'
     },
