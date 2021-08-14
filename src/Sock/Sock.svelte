@@ -12,7 +12,7 @@
     <Button 
       text='SIGN THE PETITION' 
       href='http://chng.it/kNQvH8GXL5' 
-      secondary external navyText={navy} />
+      white external navyText={navy} />
     {#if strikeWithUs}
       <Button text='STRIKE WITH US' href='/strike-with-us' />
     {/if}

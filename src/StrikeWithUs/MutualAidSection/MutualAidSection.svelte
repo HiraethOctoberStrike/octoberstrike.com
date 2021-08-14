@@ -14,7 +14,7 @@
       <p>
         If you have questions about Labor Movement X’s effort in financially supporting communities across the nation, email <a href='mailto: labormovementXMA@gmail.com'>labormovementXMA@gmail.com</a>. A member of the committee can assist you with finding resources in your area, or help you get involved!
       </p>
-      <Button text='LEARN MORE' href='/mutual-aid' tertiary />
+      <Button text='LEARN MORE' href='/mutual-aid' red />
     </div>
   </div>
 </Section>

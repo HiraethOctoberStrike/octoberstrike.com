@@ -9,7 +9,7 @@
   <div class='resources-container'>
     {#each resources as { text, href } }
       <div class='button-container'>
-        <Button {text} {href} secondary />
+        <Button {text} {href} white />
       </div>
     {/each}
   </div>

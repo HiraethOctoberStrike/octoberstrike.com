@@ -15,7 +15,7 @@
           <Button 
             text='FIND A UNION' 
             href='https://olmsapps.dol.gov/query/getOrgQry.do' 
-            secondary external />
+            white external />
         </div>
       </Card>
       <Card title='Get Loud & Share Your Story' small>
@@ -32,8 +32,8 @@
         <div class='button-container'>
           <Button 
           text='REQUEST TO JOIN DISCORD' 
-          href='https://discord.gg/87k2EY4aRx ' 
-          secondary external />
+          href='https://discord.gg/87k2EY4aRx' 
+          white external />
         </div>
       </Card>
       <Card title='Get Involved with Mutual Aid' peach small>
@@ -42,7 +42,7 @@
           <Button 
           text='Explore Mutual Aid' 
           href='/mutual-aid ' 
-          secondary />
+          white />
         </div>
       </Card>
       <Card title='Write Your State Officials' small>

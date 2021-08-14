@@ -15,7 +15,7 @@
       <p>
         We aim to bring attention to the outdated working conditions that many people are subjected to, as well as highlight how these conditions disproportionately affect many marginalized families. We will do this by providing information and resources related to mutual aid, union organizing, and general information about our core values.
       </p>
-      <Button text='STRIKE WITH US' href='/strike-with-us' secondary />
+      <Button text='STRIKE WITH US' href='/strike-with-us' white />
     </div>
   </div>
   <div class='background-image'>

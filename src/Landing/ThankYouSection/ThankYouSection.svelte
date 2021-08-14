@@ -20,7 +20,7 @@
 
 
   <div class='button-container'>
-    <Button text='CONTINUE TO SITE' href='/home' tertiary />
+    <Button text='CONTINUE TO SITE' href='/home' red />
   </div>
 </Section>
 

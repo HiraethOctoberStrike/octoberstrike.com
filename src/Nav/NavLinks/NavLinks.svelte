@@ -48,11 +48,11 @@
   }
 
   .link:last-child:hover {
-    background-color: var(--bright-red);  
+    background-color: var(--dark-red);  
   }
   
   .link:last-child:active {
-    background-color: var(--light-red);  
+    background-color: var(--red);  
   }
 
   @media (max-width: 1200px) {
