@@ -8,7 +8,7 @@ import GetInTouchSection from './GetInTouchSection/GetInTouchSection.svelte';
 </script>
 
 <Header title='About Us
-#WeAreTheMovement' />
+#WeAreThe<wbr>Movement</wbr>' />
 <MissionSection />
 <AboutDemandsSection />
 <GlobalWorkersSection />

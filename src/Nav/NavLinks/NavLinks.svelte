@@ -36,7 +36,7 @@
     font-weight: 500;
     color: var(--white);
     padding: 0 25px;
-    margin-left: 24px;
+    margin-left: 12px;
   }
 
   .link:last-child {
