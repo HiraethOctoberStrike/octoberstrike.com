@@ -3,6 +3,7 @@
   export let href
   export let white = false
   export let red = false
+  export let blue = false
   export let peach = false
   export let large = false
   export let smallText = false
@@ -13,6 +14,7 @@
 <a 
   class:white
   class:red
+  class:blue
   class:peach
   class:large
   class:navy-text={navyText}
@@ -36,6 +38,7 @@
     text-decoration: none;
     transition: 0.1s ease-in;
     margin-right: 16px;
+    border-radius: 100px;
   }
 
   .button-content {
@@ -65,6 +68,11 @@
 
   .red {
     background-color: var(--red);
+    color: var(--white);
+  }
+  
+  .blue {
+    background-color: var(--blue);
     color: var(--white);
   }
   
@@ -99,6 +107,14 @@
   
   .red:active {
     background-color: var(--red);
+  }
+
+  .blue:hover {
+    background-color: var(--navy);
+  }
+  
+  .blue:active {
+    background-color: var(--blue);
   }
  
   .peach:hover {
