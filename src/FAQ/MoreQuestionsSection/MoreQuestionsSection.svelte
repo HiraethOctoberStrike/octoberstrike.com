@@ -4,9 +4,9 @@
 </script>
 
 <Section>
-  <h3>
+  <h1>
     Have more questions?
-  </h3>
+  </h1>
   <h4>
     Reach out to us on social media.
   </h4>
@@ -15,8 +15,8 @@
 </Section>
 
 <style>
-  h3 {
-    color: var(--black);
+  h1 {
+    margin-bottom: 40px;
   }
 
   h4 {
