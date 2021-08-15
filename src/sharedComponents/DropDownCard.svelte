@@ -25,7 +25,7 @@
 
 <style>
   .dropdown-card {
-    background-color: var(--lightest-blue);
+    background-color: var(--light-blue);
     margin-bottom: 20px;
   }
 

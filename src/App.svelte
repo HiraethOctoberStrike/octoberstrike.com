@@ -31,7 +31,10 @@
 	<Nav />
 	<svelte:component this={component} />
 	{#if component !== Landing}
-		<Sock navy={component === StrikeWithUs} strikeWithUs={component !== StrikeWithUs}/>
+		<Sock
+			red={component === FAQ}
+			navy={component === StrikeWithUs} 
+			strikeWithUs={component !== StrikeWithUs}/>
 	{/if}
 	<Footer />
 </main>

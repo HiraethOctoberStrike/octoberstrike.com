@@ -184,7 +184,8 @@ Provides a set of standard margins for page sections
 |narrow|bool|no|false|if true, restyles with narrow margin
 |narrower|bool|no|false|if true, restyles with a narrower margin
 |narrowest|bool|no|false|if true, restyles with even narrower margins
-|demands|bool|no|false|if true, restyles with a custom margins for demands section
+|demandsPadding|bool|no|false|if true, restyles with a custom margins for demands section
+|noPadding|bool|no|false|if true, restyles with a 0 margins
 |navy|bool|no|false|if true, restyles with navy background
 |red|bool|no|false|if true, restyles with red background
 |lightBlue|bool|no|false|if true, restyles with lightBlue background

@@ -7,7 +7,6 @@
   export let peach = false
   export let large = false
   export let smallText = false
-  export let navyText = false
   export let external = false
 
 </script>
@@ -17,7 +16,6 @@
   class:blue
   class:peach
   class:large
-  class:navy-text={navyText}
   class:small-text={smallText}
   target={external ? '_blank' : ''}
   {href} >
@@ -79,10 +77,6 @@
   .peach {
     background-color: var(--peach);
     color: var(--white);
-  }
-
-  .navy-text {
-    color: var(--navy);
   }
 
   a:hover {
