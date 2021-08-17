@@ -5,7 +5,9 @@
 
 <Section>
   <div class='mutual-aid-container'>
-    <img src='assets/images/toa-heftiba-6bKpHAun4d8-unsplash.jpeg' />
+    <div class='img-container'>
+      <img src='assets/images/toa-heftiba-6bKpHAun4d8-unsplash.jpeg' />
+    </div>
     <div class='plan-content'>
       <h2>Mutual Aid</h2>
       <p>
@@ -24,15 +26,15 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    width: 100%;
   }
 
-  img {
+  .img-container {
+    flex: 0 1 50%;
     margin-right: 50px;
-    display: flex;
-    flex: 0 2 50%;
-    max-height: 500px;
+  }
+  img {
     width: 100%;
-    object-fit: contain;
   }
 
   .plan-content {
@@ -51,7 +53,7 @@
     margin-bottom: 30px;
   }
 
-  @media (max-width: 1000px) {
+  @media (max-width: 1100px) {
     .mutual-aid-container {
       flex-direction: column;
     }
