@@ -110,12 +110,12 @@ Standard button with alternate styles for internal and external links
 
 ##### Button with default attributes
 ```html
-  <Card text='STRIKE WITH US' url='/strike-with-us' />
+  <Card text='JOIN THE MOVEMENT' url='/join-the-movement' />
 ```
 
 ##### Button with optional attributes
 ```html
-  <Button text='STRIKE WITH US' url='/strike-with-us' white small />
+  <Button text='JOIN THE MOVEMENT' url='/join-the-movement' white small />
 ```
 
 #### Card

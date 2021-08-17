@@ -1,5 +1,4 @@
 <script>
-  import PageTitle from '../../sharedComponents/PageTitle.svelte'
   import Button from '../../sharedComponents/Button.svelte'
 </script>
 
@@ -9,7 +8,7 @@
       <h5>
         We are here to spark the flame among the working class and fight for significant changes in the workplace.  
       </h5>
-      <Button text='STRIKE WITH US' href='/strike-with-us' blue />
+      <Button text='JOIN THE MOVEMENT' href='/join-the-movement' blue />
   </div>
   <div class='background-image'>
   </div>

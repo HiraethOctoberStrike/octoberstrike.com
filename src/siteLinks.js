@@ -16,7 +16,7 @@ export const siteLinks = [
       href: '/faq'
     },
     {
-      text: 'Strike With Us',
-      href: '/strike-with-us'
+      text: 'Join the Movement',
+      href: '/join-the-movement'
     }
   ]

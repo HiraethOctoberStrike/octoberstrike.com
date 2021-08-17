@@ -2,7 +2,7 @@
   import Button from '../sharedComponents/Button.svelte'
   export let navy = false;
   export let red = false;
-  export let strikeWithUs = false;
+  export let joinTheMovement = false;
 </script>
 
 <section class='sock' class:navy class:red >
@@ -14,8 +14,8 @@
       text='SIGN THE PETITION' 
       href='http://chng.it/kNQvH8GXL5' 
       white external peach />
-    {#if strikeWithUs}
-      <Button text='STRIKE WITH US' href='/strike-with-us' />
+    {#if joinTheMovement}
+      <Button text='JOIN THE MOVEMENT' href='/join-the-movement' />
     {/if}
   </div>
 </section>

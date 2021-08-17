@@ -8,7 +8,7 @@
 	import Home from './Home/Home.svelte'
 	import MutualAid from './MutualAid/MutualAid.svelte'
 	import About from './About/About.svelte'
-	import StrikeWithUs from './StrikeWithUs/StrikeWithUs.svelte'
+	import JoinTheMovement from './JoinTheMovement/JoinTheMovement.svelte'
 	import FAQ from './FAQ/FAQ.svelte'
 
 	let component = Landing
@@ -16,7 +16,7 @@
 	page('/home', () => component = Home)
 	page('/mutual-aid', () => component = MutualAid)
 	page('/about', () => component = About)
-	page('/strike-with-us', () => component = StrikeWithUs)
+	page('/strike-with-us', () => component = JoinTheMovement)
 	page('/faq', () => component = FAQ)
 	page('*', () => component = Landing)
 	page.start()
@@ -33,8 +33,8 @@
 	{#if component !== Landing}
 		<Sock
 			red={component === FAQ}
-			navy={component === StrikeWithUs} 
-			strikeWithUs={component !== StrikeWithUs}/>
+			navy={component === JoinTheMovement} 
+			joinTheMovement={component !== JoinTheMovement}/>
 	{/if}
 	<Footer />
 </main>
