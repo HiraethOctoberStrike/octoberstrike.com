@@ -40,11 +40,14 @@
   nav {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    margin-left: 50px;
+    flex-grow: 1;
   }
-  
+
   .internal-link {
-    padding: 0 45px;
+    flex: 1 1 100px;
     margin-bottom: 30px;
     text-decoration: none;
   }
@@ -85,11 +88,6 @@
   }
 
   @media (max-width: 900px) {
-    nav {
-      flex-direction: column;
-      align-self: flex-start;
-    }
-
     .internal-link {
       text-align: right;
     }
@@ -98,6 +96,14 @@
   @media (max-width: 700px) {
     footer {
       padding: 44px 40px;
+    }
+
+    nav {
+      margin-left: unset;
+    }
+
+    .internal-link {
+      flex: 1 1 100%;
     }
   }
   
