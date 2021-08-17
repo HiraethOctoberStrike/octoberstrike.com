@@ -46,7 +46,7 @@
         <p>Support your community and those at risk by donating to mutual aid funds.</p>
         <div class='button-container'>
           <Button 
-          text='Explore Mutual Aid' 
+          text='EXPLORE MUTUAL AID' 
           href='/mutual-aid ' 
           white />
         </div>
@@ -77,13 +77,6 @@
   .button-container {
     display: flex;
     margin-top: 14px;
-    max-width: 250px;
     margin-left: -20px;
-  }
-
-  @media (max-width: 500px) {
-    .button-container {
-      max-width: 180px;
-    }
   }
 </style>
