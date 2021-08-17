@@ -3,31 +3,49 @@ export const demands = [
     {
       numeral: 'I',
       title: 'Adequate Wages & Hours',
-      description: '$15/hr minimum wage by January 1st. 100% cost of living coverage per state by 1/1/24. Begin overtime at 35hrs/week and pay rate of 1.5x base.',
+      description: [
+        '$15/hr minimum wage by January 1st.',
+        '100% cost of living coverage per state by 1/1/24.',
+        'Begin overtime at 35hrs/week and pay rate of 1.5x base.'
+      ],
       essayLink: '#'
     },
     {
       numeral: 'II',
       title: 'Accessible Universal Healthcare',
-      description: 'Pass HR676 Medicare for all to be enacted by 12/31/2021, no exceptions for disability or pre-existing conditions. Forgive all current medical debt.',
+      description: [
+        'Pass HR676 Medicare for all to be enacted by 12/31/2021, no exceptions for disability or pre-existing conditions.',
+        'Forgive all current medical debt.'
+      ],
       essayLink: '#'
     },
     {
       numeral: 'III',
       title: 'Ethical Environmental Action',
-      description: 'Enact legislation to reach 100% clean energy and transportation by 2030 to aim for 1.5° C of global warming.',
+      description: [
+        'Enact legislation to reach 100% clean energy and transportation by 2030 to aim for 1.5° C of global warming.'
+      ],
       essayLink: '#'
     },
     {
       numeral: 'IV',
       title: 'Acceptable Leave',
-      description: 'Minimum 16 weeks paid parental leave including adoption. Minimum sick time accrual of .046 hours/hr worked and PTO of .092 hours /hr worked. 8 paid holidays off per year.',
+      description: [
+        'Minimum 16 weeks paid parental leave including adoption.',
+        'Minimum sick time accrual of .046 hours/hr worked and PTO of .092 hours /hr worked.',
+        '8 paid holidays off per year.'
+      ],
       essayLink: '#'
     },
     {
       numeral: 'V',
       title: 'Cost Effective Education',
-      description: 'Cancel all existing student loan debt. Make community college free for all. Properly fund the public school system. Modernize base curriculum.',
+      description: [
+        'Cancel all existing student loan debt.',
+        'Make community college free for all.', 
+        'Properly fund the public school system.', 
+        'Modernize base curriculum.'
+      ],
       essayLink: '#'
     }
   ],
@@ -35,31 +53,49 @@ export const demands = [
     {
       numeral: 'VI',
       title: 'Fair Taxes',
-      description: '52% capital gains tax and 7.8% NIIT tax for individuals making over $10 million per year.',
+      description: [
+        '52% capital gains tax and 7.8% NIIT tax for individuals making over $10 million per year.'
+      ],
       essayLink: '#'
     },
     {
       numeral: 'VII',
       title: 'Decent Workplaces',
-      description: 'Make compensation and benefit data public for all companies. Ban discriminatory dress codes. Mandate workers rights + harassment training for all companies.',
+      description: [
+        'Make compensation and benefit data public for all companies.',
+        'Ban discriminatory dress codes.',
+        'Mandate workers rights + harassment training for all companies.'
+      ],
       essayLink: '#'
     },
     {
       numeral: 'VIII',
       title: 'Affordable Housing',
-      description: 'Enact legislation that restricts landlords from discriminating against minorities, veterans, and homeless civilians. Demand reform to ensure that landlords create a safe and livable environment for all. Rental assistance plus profit maximums for rentals to ensure affordable housing for all',
+      description: [
+        'Enact legislation that restricts landlords from discriminating against minorities, veterans, and homeless civilians.',
+        'Demand reform to ensure that landlords create a safe and livable environment for all.',
+        'Rental assistance plus profit maximums for rentals to ensure affordable housing for all'
+      ],
       essayLink: '#'
     },
     {
       numeral: 'IX',
       title: 'Equitable Corporate Regulations',
-      description: '28% corporate tax rate. Close tax loopholes and fraud through tax havens. Break up digital monopolies.',
+      description: [
+        '28% corporate tax rate.',
+        'Close tax loopholes and fraud through tax havens.',
+        'Break up digital monopolies.'
+      ],
       essayLink: '#'
     },
     {
       numeral: 'X',
       title: 'Representative Government',
-      description: 'Modernize and remove barriers from our election system. Hold our elected officials to higher ethical standards with finances. Finally pass legislation to make our government fair and representative of our country as it really is.',
+      description: [
+        'Modernize and remove barriers from our election system.',
+        'Hold our elected officials to higher ethical standards with finances.',
+        'Finally pass legislation to make our government fair and representative of our country as it really is.'
+      ],
       essayLink: '#'
     }
   ]

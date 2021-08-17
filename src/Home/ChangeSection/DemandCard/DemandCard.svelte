@@ -12,8 +12,10 @@
   </div>
   <div class='card-content'>
     <h4>{title}</h4>
-    <div class='card-content'>
-      <p class='description'>{description}</p>
+    <div class='description'>
+      {#each description as subdemand}
+        <p class='subdemand'>{subdemand}</p>
+      {/each}
     </div>
   </div>
   <div class='button-container'>
@@ -61,14 +63,18 @@
     color: var(--black);
   }
   
-  .description {
-    margin-top: 20px;
+  .subdemand {
+    margin-top: 10px;
   }
 
   .card-content {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+  }
+
+  .description {
+    margin-top: 20px;
   }
 
   .button-container {
@@ -80,6 +86,12 @@
   @media (max-width: 1100px) {
     .demand-card {
       flex: 1 1 100%;
+    }
+  }
+ 
+  @media (max-width: 500px) {
+    .button-container {
+      margin: 10px 0 -14px -16px;
     }
   }
 </style>
