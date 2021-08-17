@@ -2,65 +2,65 @@ export const demands = [
   [
     {
       numeral: 'I',
-      demand: 'Adequate Wages & Hours',
+      title: 'Adequate Wages & Hours',
       description: '$15/hr minimum wage by January 1st. 100% cost of living coverage per state by 1/1/24. Begin overtime at 35hrs/week and pay rate of 1.5x base.',
-      shortDescription: '$15 MIN WAGE by JAN 1st.\n 100% COST OF LIVING BY 2024.\n 1.5x OVERTIME BASE PAY RATE  at 35HRS/WK'
+      essayLink: '#'
     },
     {
       numeral: 'II',
-      demand: 'Accessible Universal Healthcare',
+      title: 'Accessible Universal Healthcare',
       description: 'Pass HR676 Medicare for all to be enacted by 12/31/2021, no exceptions for disability or pre-existing conditions. Forgive all current medical debt.',
-      shortDescription: 'PASS HR676 MEDICARE FOR ALL, ACTION BY 12/31/2021, NO EXCEPTIONS\n FORGIVE ALL CURRENT MEDICAL DEBT'
+      essayLink: '#'
     },
     {
       numeral: 'III',
-      demand: 'Ethical Environmental Action',
+      title: 'Ethical Environmental Action',
       description: 'Enact legislation to reach 100% clean energy and transportation by 2030 to aim for 1.5° C of global warming.',
-      shortDescription: '100% CLEAN ENERGY AND TRANSPORT BY 2030\n AIM FOR 1.5°C GLOBAL WARMING'
+      essayLink: '#'
     },
     {
       numeral: 'IV',
-      demand: 'Acceptable Leave',
+      title: 'Acceptable Leave',
       description: 'Minimum 16 weeks paid parental leave including adoption. Minimum sick time accrual of .046 hours/hr worked and PTO of .092 hours /hr worked. 8 paid holidays off per year.',
-      shortDescription: '16 WKS PARENTAL LEAVE - INCLUDING ADOPTION\n SICK TIME ACCRUAL OF .046HR/HR WORKED\n PTO ACCRUAL OF .092HR/HR WORKED\n 8 PAID HOLIDAYS/YEAR'
+      essayLink: '#'
     },
     {
       numeral: 'V',
-      demand: 'Cost Effective Education',
+      title: 'Cost Effective Education',
       description: 'Cancel all existing student loan debt. Make community college free for all. Properly fund the public school system. Modernize base curriculum.',
-      shortDescription: 'CANCEL ALL EXISTING STUDENT LOAN DEBT\n FREE COMMUNITY COLLEGE FOR ALL\n FUND THE PUBLIC SCHOOL SYSTEM. MODERNIZE BASE CURRICULUM'
+      essayLink: '#'
     }
   ],
   [
     {
       numeral: 'VI',
-      demand: 'Fair Taxes',
+      title: 'Fair Taxes',
       description: '52% capital gains tax and 7.8% NIIT tax for individuals making over $10 million per year.',
-      shortDescription: '$10 MILLION+ WEALTH TAX TO 52% CAPITAL GAINS + 7.8% NIIT'
+      essayLink: '#'
     },
     {
       numeral: 'VII',
-      demand: 'Decent Workplaces',
+      title: 'Decent Workplaces',
       description: 'Make compensation and benefit data public for all companies. Ban discriminatory dress codes. Mandate workers rights + harassment training for all companies.',
-      shortDescription: 'BUSINESSES MAKE PUBLIC ALL SALARIES + BENEFITS\n BAN DISCRIMINATORY DRESS CODES\n MANDATE TRAINING ON WORKERS RIGHTS+HARASSMENT, FOR ALL COMPANIES'
+      essayLink: '#'
     },
     {
       numeral: 'VIII',
-      demand: 'Affordable Housing',
+      title: 'Affordable Housing',
       description: 'Enact legislation that restricts landlords from discriminating against minorities, veterans, and homeless civilians. Demand reform to ensure that landlords create a safe and livable environment for all. Rental assistance plus profit maximums for rentals to ensure affordable housing for all',
-      shortDescription: 'LEGISLATION RESTRICTING LANDLORDS FROM DISCRIMINATION AGAINST MINORITIES, VETERANS, AND HOMELESS CIVILIANS.\n UNIVERSAL RENTAL ASSISTANCE BY 2024\n 5% PROFIT MAXIMUM ON RENTAL PROPERTIES'
+      essayLink: '#'
     },
     {
       numeral: 'IX',
-      demand: 'Equitable Corporate Regulations',
+      title: 'Equitable Corporate Regulations',
       description: '28% corporate tax rate. Close tax loopholes and fraud through tax havens. Break up digital monopolies.',
-      shortDescription: '28% CORPORATE TAX RATE\n CLOSE TAX LOOPHOLES + FRAUD THROUGH TAX HAVENS\n BREAK UP DIGITAL MONOPOLIES'
+      essayLink: '#'
     },
     {
       numeral: 'X',
-      demand: 'Representative Government',
+      title: 'Representative Government',
       description: 'Modernize and remove barriers from our election system. Hold our elected officials to higher ethical standards with finances. Finally pass legislation to make our government fair and representative of our country as it really is.',
-      shortDescription: 'MODERNIZE OUR ELECTION SYSTEM\n ETHICAL FINANCE STANDARD FOR ELECTED OFFICIALS\n LEGISLATION FOR EQUAL REPRESENTATION IN GOVERNMENT'
+      essayLink: '#'
     }
   ]
 ]

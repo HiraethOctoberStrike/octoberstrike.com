@@ -1,5 +1,5 @@
 <script>
-  import { timeForChange } from '../../copy.js'
+  import { demands } from '../../copy.js'
   import DemandCard from './DemandCard/DemandCard.svelte'
   import Section from '../../sharedComponents/Section.svelte'
 </script>
@@ -9,7 +9,7 @@
     The U.S. Government is not serving its people. Now is the time for change.
   </h2>
   <div class='demands'>
-    {#each timeForChange as demand }
+    {#each demands.flat() as demand }
       <DemandCard {demand} />
     {/each}
   </div>

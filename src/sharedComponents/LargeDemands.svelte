@@ -4,18 +4,18 @@
 
 <div class='demands'>
   <div class='column'>
-    {#each demands[0] as { numeral, demand } }
+    {#each demands[0] as { numeral, title } }
       <div class='demand'>
         <h2>{numeral}</h2>
-        <h5>{demand}</h5>
+        <h5>{title}</h5>
       </div>
     {/each}
   </div>
   <div class='column'>
-    {#each demands[1] as { numeral, demand } }
+    {#each demands[1] as { numeral, title } }
       <div class='demand'>
         <h2>{numeral}</h2>
-        <h5>{demand}</h5>
+        <h5>{title}</h5>
       </div>
     {/each}
   </div>

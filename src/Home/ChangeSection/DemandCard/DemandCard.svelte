@@ -2,7 +2,8 @@
   import Button from '../../../sharedComponents/Button.svelte'
 
   export let demand
-  const { numeral, title, href, subtitles, snippet } = demand
+
+  const { numeral, title, description, essayLink } = demand
 </script>
 
 <div class='demand-card'>
@@ -12,16 +13,11 @@
   <div class='card-content'>
     <h4>{title}</h4>
     <div class='card-content'>
-      <div>
-        {#each subtitles as subtitle}
-          <h6>{@html subtitle}</h6>
-        {/each}
-        <p>{@html snippet}</p>
-      </div>
+      <p class='description'>{description}</p>
     </div>
   </div>
   <div class='button-container'>
-    <Button text='LEARN MORE' href={href} white />
+    <Button text='LEARN MORE' href={essayLink} white />
   </div>
 </div>
 
@@ -65,8 +61,8 @@
     color: var(--black);
   }
   
-  h6 {
-    margin: 40px 0 20px;
+  .description {
+    margin-top: 20px;
   }
 
   .card-content {

@@ -7,7 +7,7 @@
 </script>
 
 <Section navy>
-  <h2>Whether you’re able to strike or not, you can help us win this fight.</h2>
+  <h2>Participate in The Movement for workers rights</h2>
   <div class='boycott-cards'>
       <Card title='Unionize & Strike (peacefully)' peach small>
         <p>Start connecting and organizing with your fellow workers. Join a union representing your job and follow their guidance.</p>
@@ -24,15 +24,21 @@
           <SocialLinks />
         </div>
       </Card>
-      <Card title='Boycott With Us' peach small>
+      <Card title='Participate in October’s events' peach small>
         <p>Put your money where your mouth is and participate in the October capital strike boycotts to make your voice heard with your money. Boycott big businesses like Amazon, Walmart, and Target to shop small instead.</p>
       </Card>
-      <Card title='Get involved with the movement'  small>
+      <Card title='Organize in your state'  small>
         <p>Get involved within your community to organize.</p>
         <div class='button-container'>
           <Button 
           text='REQUEST TO JOIN DISCORD' 
           href='https://discord.gg/87k2EY4aRx' 
+          white external />
+        </div>
+        <div class='button-container'>
+          <Button 
+          text='organizing powerpoint?' 
+          href='#' 
           white external />
         </div>
       </Card>

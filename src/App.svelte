@@ -16,7 +16,7 @@
 	page('/home', () => component = Home)
 	// page('/mutual-aid', () => component = MutualAid)
 	page('/about', () => component = About)
-	page('/strike-with-us', () => component = JoinTheMovement)
+	page('/join-the-movement', () => component = JoinTheMovement)
 	page('/faq', () => component = FAQ)
 	page('*', () => component = Landing)
 	page.start()
