@@ -3,10 +3,10 @@ export const siteLinks = [
       text: 'Home',
       href: '/home'
     },
-    {
-      text: 'Mutual Aid',
-      href: '/mutual-aid'
-    },
+    // {
+    //   text: 'Mutual Aid',
+    //   href: '/mutual-aid'
+    // },
     {
       text: 'About',
       href: '/about'
