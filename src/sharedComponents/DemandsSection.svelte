@@ -1,7 +1,7 @@
 <script>
   import Section from './Section.svelte'
+  import { demands } from '../copy.js'
 
-  export let demands
   export let red = false
 </script>
 

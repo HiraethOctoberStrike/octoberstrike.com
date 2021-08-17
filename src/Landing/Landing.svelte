@@ -1,5 +1,4 @@
 <script>
-  import { demands } from '../copy.js'
   import IntroSection from './IntroSection/IntroSection.svelte'
   import WhatToExpectSection from './WhatToExpectSection/WhatToExpectSection.svelte'
   import DemandsSection from '../sharedComponents/DemandsSection.svelte'
@@ -13,6 +12,6 @@
 </script>
 
 <IntroSection />
-<DemandsSection demands={demands} red />
+<DemandsSection red />
 <WhatToExpectSection />
 <ThankYouSection/>
