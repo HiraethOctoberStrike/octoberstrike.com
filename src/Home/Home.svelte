@@ -1,6 +1,4 @@
 <script>
-  import { simplifiedDemands } from '../copy.js'
-
   import HomeHeader from './HomeHeader/HomeHeader.svelte'
   import ChangeSection from './ChangeSection/ChangeSection.svelte'
   import IntersectionalitySection from './IntersectionalitySection/IntersectionalitySection.svelte'
