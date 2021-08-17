@@ -90,6 +90,7 @@ p {
 
 .emphasize {
 	color: var(--red);
+	font-family: inherit;
 }
 
 .italicize {
