@@ -42,7 +42,7 @@
     flex-direction: row;
     justify-content: flex-end;
     flex-wrap: wrap;
-    margin-left: 50px;
+    margin-left: 150px;
     flex-grow: 1;
   }
 
@@ -85,6 +85,11 @@
     footer {
       padding: 44px 80px;
     }
+
+    nav {
+      margin-left: 80px;
+    }
+
   }
 
   @media (max-width: 900px) {
