@@ -110,7 +110,7 @@ Standard button with alternate styles for internal and external links
 
 ##### Button with default attributes
 ```html
-  <Card text='JOIN THE MOVEMENT' url='/join-the-movement' />
+  <Button text='JOIN THE MOVEMENT' url='/join-the-movement' />
 ```
 
 ##### Button with optional attributes
