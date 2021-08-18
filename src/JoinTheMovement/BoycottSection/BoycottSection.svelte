@@ -35,12 +35,6 @@
           href='https://discord.gg/87k2EY4aRx' 
           white external />
         </div>
-        <div class='button-container'>
-          <Button 
-          text='organizing powerpoint?' 
-          href='#' 
-          white external />
-        </div>
       </Card>
       <Card title='Get Involved with Mutual Aid' peach small>
         <p>Support your community and those at risk by donating to mutual aid funds.</p>
