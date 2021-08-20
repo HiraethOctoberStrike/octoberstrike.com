@@ -249,6 +249,12 @@ export const mutualAidLinks = [
 
 export const faqQuestions = [
   {
+    title: 'Why are we called Labor Movement X?',
+    body: [
+      'Originally, this event was marketed exclusively as a strike. While this movement is largely centered around a general economic strike, we want to be sure that the world knows that this is not just a strike. This is a nationwide campaign that will fight for the rights of all working class people, by whatever means necessary. There are multiple ways to participate in this movement from: striking, to boycotting, picketing, participating in sit-ins, peaceful protesting, outreach, and many more. Because of this, we decided to change the name of the event to the October Resistance, and the name of the movement as a whole to Labor Movement X. X for 10. 10th month, 10 days, 10 demands.'
+    ]
+  },
+  {
     title: 'Why have your demands changed from the original (red) flyer I saw online?',
     body: [
       'The folks who started this drive for a General Strike on October 15th were incredibly passionate and ready to demand change. They were, however, unprepared for how quickly and how far this movement would spread. As some folks stepped down and many more of us joined to work behind the scenes on this, we thought it best to step back, reevaluate our demands and plans, to make sure they were researched, inclusive, and safe for all who participate. Now that we are relaunching we feel that these demands and action steps are the best possible to achieve the progress this country so desperately needs to make for the workers that support it.'
