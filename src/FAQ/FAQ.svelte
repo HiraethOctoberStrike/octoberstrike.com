@@ -12,7 +12,7 @@
     'page_title': 'FAQ'
   })
 </script>
-<Header title='Frequently Asked Questions' />
+<Header title='Frequently Asked Questions' image='/assets/images/pexels-rosemary-ketchum-1464224.jpeg' />
 <DemandsSection />
 <!-- <TransparencySection /> -->
 <QuestionsSection />
