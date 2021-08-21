@@ -19,7 +19,7 @@
     </div>
   </div>
   <div class='button-container'>
-    <Button text='LEARN MORE' href={essayLink} white />
+    <Button text='LEARN MORE' href={essayLink} external white />
   </div>
 </div>
 
