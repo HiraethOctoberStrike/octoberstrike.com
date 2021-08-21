@@ -30,7 +30,7 @@
   }
 
   .img-container {
-    flex: 0 1 50%;
+    flex: 0 1 40%;
     margin-right: 50px;
   }
   img {
@@ -40,7 +40,7 @@
   .plan-content {
     display: flex;
     flex-direction: column;
-    flex: 1 0 50%;
+    flex: 1 0 60%;
     flex-shrink: 1;
   }
 
@@ -53,18 +53,13 @@
     margin-bottom: 30px;
   }
 
-  @media (max-width: 1100px) {
+  @media (max-width: 700px) {
     .mutual-aid-container {
       flex-direction: column;
     }
 
     img {
-      margin: 0 0 50px;
-      flex: unset;
+      display: none;
     }
-
-    .plan-content {
-      flex: unset;
-    } 
   }
 </style>
