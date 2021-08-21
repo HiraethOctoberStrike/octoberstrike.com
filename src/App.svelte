@@ -28,11 +28,9 @@
 <main>
 	<Nav />
 	<svelte:component this={component} />
-	{#if component !== Home}
-		<Sock
-			red={component === FAQ}
-			navy={component === JoinTheMovement} 
-			joinTheMovement={component !== JoinTheMovement}/>
-	{/if}
+	<Sock
+		red={component === FAQ}
+		navy={component === JoinTheMovement} 
+		joinTheMovement={component !== JoinTheMovement}/>
 	<Footer />
 </main>
