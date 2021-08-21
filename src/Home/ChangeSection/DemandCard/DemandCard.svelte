@@ -49,11 +49,11 @@
     top: -35px;
     left: -35px;
     border-radius: 100px;
-    background-color: var(--navy);
+    background-color: var(--blue);
   }
 
   .numeral-text {
-    color: var(--blue);
+    color: var(--navy);
     font-family: 'Brix-Slab';
     font-weight: 900;
     font-size: 30px;
