@@ -6,7 +6,7 @@
 <Section>
   <div class='mutual-aid-container'>
     <div class='img-container'>
-      <img src='assets/images/toa-heftiba-6bKpHAun4d8-unsplash.jpeg' />
+      <img src='assets/images/pexels-zen-chung-5529604.jpeg' />
     </div>
     <div class='plan-content'>
       <h2>Mutual Aid</h2>
