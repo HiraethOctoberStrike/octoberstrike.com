@@ -5,7 +5,7 @@
 
 <footer>
   <div class='internal-links'>
-    <a href='/home'>
+    <a href='/'>
       <img src='assets/images/LMX_Logo_White-8.png' alt='a protest in grey-scale'/>
     </a>
     <nav>

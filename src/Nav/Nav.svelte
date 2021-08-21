@@ -7,7 +7,7 @@
 </script>
 
 <nav bind:clientWidth={w} >
-  <a href='/home'>
+  <a href='/'>
     <img src='assets/images/LMX_Logo_White_HALF.svg' alt='labor movement x logo'/>
     <p>Labor Movement X</p>
   </a>

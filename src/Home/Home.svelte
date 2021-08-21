@@ -6,7 +6,7 @@
 
   // google analytics
   gtag('config', 'G-XCYV4MQQL3', {
-    'page_path': '/home',
+    'page_path': '/',
     'page_title': 'Home'
   })
 
