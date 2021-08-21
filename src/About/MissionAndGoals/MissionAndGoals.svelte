@@ -16,10 +16,10 @@
     <div class='goals'>
       <h4>Our Goals</h4>
       <p>
-        Passage of legislation surrounding our <a href='/home'>X demands</a> by October 14th, to be enacted January 1st, 2022. 
+        Passage of legislation surrounding our <a href='/'>X demands</a> by October 14th, to be enacted January 1st, 2022. 
       </p>
       <div class='button-container'>
-        <Button text='OUR DEMANDS' href='/home' white smallText />
+        <Button text='OUR DEMANDS' href='/' white smallText />
       </div>
       <p>
         Raising $20 billion for mutual aid funds by October 14th, from the wealthiest Americans who have long benefited off of our labor.

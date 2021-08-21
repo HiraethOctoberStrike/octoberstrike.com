@@ -1,7 +1,7 @@
 export const siteLinks = [
     {
       text: 'Home',
-      href: '/home'
+      href: '/'
     },
     {
       text: 'About',
