@@ -1,10 +1,11 @@
 <script>
   import PageTitle from './PageTitle.svelte';
 
-  export let title
+  export let title;
+  export let image;
 </script>
   
-<header>
+<header style='background-image: url({image});'>
   <div class='page-title-container'>
     <PageTitle text={title} />
   </div>
@@ -12,7 +13,6 @@
 
 <style>
   header {
-    background-image: url('/assets/images/pexels-rosemary-ketchum-1464224.jpeg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

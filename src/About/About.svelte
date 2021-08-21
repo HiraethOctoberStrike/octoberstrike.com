@@ -7,7 +7,7 @@
   import GetInTouchSection from './GetInTouchSection/GetInTouchSection.svelte';
 </script>
 
-<Header title='About Us <span class="emphasize">#WeAreThe<wbr>Movement</wbr></span>' />
+<Header title='About Us <span class="emphasize">#WeAreThe<wbr>Movement</wbr></span>' image='/assets/images/gayatri-malhotra-bjaALmGB6qY-unsplash.jpeg' />
 <WhoWeAreSection />
 <MissionAndGoals />
 <JoinSection />
