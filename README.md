@@ -101,20 +101,21 @@ Standard button with alternate styles for internal and external links
 --- | --- | --- | --- | ---
 |text|string|yes|--|text displayed in button
 |href|string|yes|--|url that button redirects to
-|secondary|bool|no|false|if true, restyles with secondary colors
-|tertiary|bool|no|false|if true, restyles with tertiary colors
+|white|bool|no|false|if true, restyles with white background
+|red|bool|no|false|if true, restyles with red background
+|peach|bool|no|false|if true, restyles with peach background
 |large|bool|no|false|if true, resizes to large dimensions
 |smallText|bool|no|false|if true, restyles with small text
 |external|bool|no|false|if true, opens url in new tab
 
 ##### Button with default attributes
 ```html
-  <Card text='STRIKE WITH US' url='/strike-with-us' />
+  <Button text='JOIN THE MOVEMENT' url='/join-the-movement' />
 ```
 
 ##### Button with optional attributes
 ```html
-  <Button text='STRIKE WITH US' url='/strike-with-us' secondary small />
+  <Button text='JOIN THE MOVEMENT' url='/join-the-movement' white small />
 ```
 
 #### Card
@@ -183,7 +184,8 @@ Provides a set of standard margins for page sections
 |narrow|bool|no|false|if true, restyles with narrow margin
 |narrower|bool|no|false|if true, restyles with a narrower margin
 |narrowest|bool|no|false|if true, restyles with even narrower margins
-|demands|bool|no|false|if true, restyles with a custom margins for demands section
+|demandsPadding|bool|no|false|if true, restyles with a custom margins for demands section
+|noPadding|bool|no|false|if true, restyles with a 0 margins
 |navy|bool|no|false|if true, restyles with navy background
 |red|bool|no|false|if true, restyles with red background
 |lightBlue|bool|no|false|if true, restyles with lightBlue background

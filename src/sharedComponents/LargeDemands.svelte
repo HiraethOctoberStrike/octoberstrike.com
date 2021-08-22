@@ -1,33 +1,27 @@
 <script>
-  import HeaderWImage from '../../sharedComponents/HeaderWImage.svelte'
-  import { demands } from '../../copy.js'
+  import { demands } from '../copy.js'
 </script>
 
-<HeaderWImage 
-  headerText='Join and support the strike'
-  image='/assets/images/phil-desforges-PyCQPOvq404-unsplash.jpeg' >
-  <div class='demands'>
-    <div class='column'>
-      {#each demands[0] as { numeral, demand } }
-        <div class='demand'>
-          <h2>{numeral}</h2>
-          <h5>{demand}</h5>
-        </div>
-      {/each}
-    </div>
-    <div class='column'>
-      {#each demands[1] as { numeral, demand } }
-        <div class='demand'>
-          <h2>{numeral}</h2>
-          <h5>{demand}</h5>
-        </div>
-      {/each}
-    </div>
+<div class='demands'>
+  <div class='column'>
+    {#each demands[0] as { numeral, title } }
+      <div class='demand'>
+        <h2>{numeral}</h2>
+        <h5>{title}</h5>
+      </div>
+    {/each}
   </div>
-</HeaderWImage>
+  <div class='column'>
+    {#each demands[1] as { numeral, title } }
+      <div class='demand'>
+        <h2>{numeral}</h2>
+        <h5>{title}</h5>
+      </div>
+    {/each}
+  </div>
+</div>
 
 <style>
-
   .demands {
     display: flex;
     flex-direction: row;
@@ -76,5 +70,4 @@
       margin-bottom: 30px
     }
   }
-
 </style>

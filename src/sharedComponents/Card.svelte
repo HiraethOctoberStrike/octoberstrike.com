@@ -26,6 +26,9 @@
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
     display: flex;
     flex-direction: column;
+    border-radius: 12px;
+    box-sizing: border-box;
+    overflow: hidden;
   }
 
   .card-content {
@@ -55,6 +58,10 @@
 
   .navy h5 {
     background-color: var(--navy);
+  }
+
+  .peach {
+    border: 1px solid var(--peach)
   }
 
   .peach h5 {

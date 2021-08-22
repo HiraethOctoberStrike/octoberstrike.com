@@ -5,7 +5,9 @@
 
 <Section>
   <div class='mutual-aid-container'>
-    <img src='assets/images/toa-heftiba-6bKpHAun4d8-unsplash.jpeg' />
+    <div class='img-container'>
+      <img src='assets/images/pexels-zen-chung-5529604.jpeg' />
+    </div>
     <div class='plan-content'>
       <h2>Mutual Aid</h2>
       <p>
@@ -14,7 +16,7 @@
       <p>
         If you have questions about Labor Movement X’s effort in financially supporting communities across the nation, email <a href='mailto: labormovementXMA@gmail.com'>labormovementXMA@gmail.com</a>. A member of the committee can assist you with finding resources in your area, or help you get involved!
       </p>
-      <Button text='LEARN MORE' href='/mutual-aid' tertiary />
+      <Button text='LEARN MORE' href='/mutual-aid' red />
     </div>
   </div>
 </Section>
@@ -24,21 +26,21 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    width: 100%;
   }
 
-  img {
+  .img-container {
+    flex: 0 1 40%;
     margin-right: 50px;
-    display: flex;
-    flex: 0 2 50%;
-    max-height: 500px;
+  }
+  img {
     width: 100%;
-    object-fit: contain;
   }
 
   .plan-content {
     display: flex;
     flex-direction: column;
-    flex: 1 0 50%;
+    flex: 1 0 60%;
     flex-shrink: 1;
   }
 
@@ -51,18 +53,13 @@
     margin-bottom: 30px;
   }
 
-  @media (max-width: 1000px) {
+  @media (max-width: 700px) {
     .mutual-aid-container {
       flex-direction: column;
     }
 
     img {
-      margin: 0 0 50px;
-      flex: unset;
+      display: none;
     }
-
-    .plan-content {
-      flex: unset;
-    } 
   }
 </style>

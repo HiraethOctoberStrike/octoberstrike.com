@@ -7,11 +7,11 @@
 </script>
 
 <nav bind:clientWidth={w} >
-  <a href='/home'>
+  <a href='/'>
     <img src='assets/images/LMX_Logo_White_HALF.svg' alt='labor movement x logo'/>
     <p>Labor Movement X</p>
   </a>
-  {#if w > 900}
+  {#if w > 950}
     <NavLinks {siteLinks} />
   {:else}
     <MobileNav {siteLinks} />

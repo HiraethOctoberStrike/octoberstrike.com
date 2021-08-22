@@ -25,7 +25,7 @@
 
 <style>
   .dropdown-card {
-    background-color: var(--lightest-blue);
+    background-color: var(--light-blue);
     margin-bottom: 20px;
   }
 
@@ -39,7 +39,7 @@
   }
 
   .iconify {
-    color: var(--bright-red);
+    color: var(--light-red);
     font-size: 36px;
     flex-shrink: 0;
   }

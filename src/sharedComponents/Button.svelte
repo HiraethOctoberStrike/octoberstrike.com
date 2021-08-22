@@ -1,19 +1,21 @@
 <script>
   export let text
   export let href
-  export let secondary = false
-  export let tertiary = false
+  export let white = false
+  export let red = false
+  export let blue = false
+  export let peach = false
   export let large = false
   export let smallText = false
-  export let navyText = false
   export let external = false
 
 </script>
 <a 
-  class:secondary
-  class:tertiary
+  class:white
+  class:red
+  class:blue
+  class:peach
   class:large
-  class:navy-text={navyText}
   class:small-text={smallText}
   target={external ? '_blank' : ''}
   {href} >
@@ -34,6 +36,7 @@
     text-decoration: none;
     transition: 0.1s ease-in;
     margin-right: 16px;
+    border-radius: 100px;
   }
 
   .button-content {
@@ -56,18 +59,24 @@
     font-size: 28px;
   }
 
-  .secondary {
+  .white {
     background-color: var(--white);
     color: var(--red);
   }
 
-  .tertiary {
+  .red {
     background-color: var(--red);
     color: var(--white);
   }
-
-  .navy-text {
-    color: var(--navy);
+  
+  .blue {
+    background-color: var(--blue);
+    color: var(--white);
+  }
+  
+  .peach {
+    background-color: var(--peach);
+    color: var(--white);
   }
 
   a:hover {
@@ -78,12 +87,36 @@
     background-color: var(--medium-grey1);
   }
 
-  .secondary:hover {
+  .white:hover {
     background-color: var(--lightest-grey);
   }
   
-  .secondary:active {
+  .white:active {
     background-color: var(--light-grey);
+  }
+ 
+  .red:hover {
+    background-color: var(--dark-red);
+  }
+  
+  .red:active {
+    background-color: var(--red);
+  }
+
+  .blue:hover {
+    background-color: var(--navy);
+  }
+  
+  .blue:active {
+    background-color: var(--blue);
+  }
+ 
+  .peach:hover {
+    background-color: var(--dark-peach);
+  }
+  
+  .peach:active {
+    background-color: var(--peach);
   }
 
   .iconify {

@@ -5,7 +5,7 @@
 
 <footer>
   <div class='internal-links'>
-    <a href='/home'>
+    <a href='/'>
       <img src='assets/images/LMX_Logo_White-8.png' alt='a protest in grey-scale'/>
     </a>
     <nav>
@@ -40,11 +40,14 @@
   nav {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    margin-left: 150px;
+    flex-grow: 1;
   }
-  
+
   .internal-link {
-    padding: 0 45px;
+    flex: 1 1 100px;
     margin-bottom: 30px;
     text-decoration: none;
   }
@@ -82,14 +85,14 @@
     footer {
       padding: 44px 80px;
     }
+
+    nav {
+      margin-left: 80px;
+    }
+
   }
 
   @media (max-width: 900px) {
-    nav {
-      flex-direction: column;
-      align-self: flex-start;
-    }
-
     .internal-link {
       text-align: right;
     }
@@ -98,6 +101,14 @@
   @media (max-width: 700px) {
     footer {
       padding: 44px 40px;
+    }
+
+    nav {
+      margin-left: unset;
+    }
+
+    .internal-link {
+      flex: 1 1 100%;
     }
   }
   

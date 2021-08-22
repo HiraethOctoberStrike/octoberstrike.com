@@ -1,25 +1,25 @@
 <script>
   import Section from './Section.svelte'
+  import { demands } from '../copy.js'
 
-  export let demands
   export let red = false
 </script>
 
 <Section navy={!red} {red} demands>
   <div class='demands' class:red>
     <div class='column'>
-      {#each demands[0] as { numeral, demand } }
+      {#each demands[0] as { numeral, title } }
         <div class='demand'>
           <h4>{numeral}</h4>
-          <h5 class='demand-text'>{demand}</h5>
+          <h5 class='demand-text'>{title}</h5>
         </div>
       {/each}
     </div>
     <div class='column'>
-      {#each demands[1] as { numeral, demand } }
+      {#each demands[1] as { numeral, title } }
         <div class='demand'>
           <h4>{numeral}</h4>
-          <h5 class='demand-text'>{demand}</h5>
+          <h5 class='demand-text'>{title}</h5>
         </div>
       {/each}
     </div>

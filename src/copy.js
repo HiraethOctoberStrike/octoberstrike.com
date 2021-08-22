@@ -2,153 +2,172 @@ export const demands = [
   [
     {
       numeral: 'I',
-      demand: '$15 minimum wage now, 100% cost of living by 2025',
+      title: 'Adequate Wages & Hours',
+      description: [
+        '$15/hr minimum wage by January 1st.',
+        '100% cost of living coverage per state by 1/1/24.',
+        'Begin overtime at 35hrs/week and pay rate of 1.5x base.'
+      ],
+      essayLink: 'https://medium.com/@labormovementx/its-time-to-give-workers-what-s-owed-minimum-wage-increase-b5fa0a9f31f7?source=user_profile---------8----------------------------'
     },
     {
       numeral: 'II',
-      demand: 'Pass Medicare for All HR676 No exceptions',
+      title: 'Accessible Universal Healthcare',
+      description: [
+        'Pass HR676 Medicare for all to be enacted by 12/31/2021, no exceptions for disability or pre-existing conditions.',
+        'Forgive all current medical debt.'
+      ],
+      essayLink: 'https://medium.com/@labormovementx/demanding-better-healthcare-during-a-global-pandemic-86b033929933?source=user_profile---------7----------------------------'
     },
     {
       numeral: 'III',
-      demand: '16 weeks parental leave + 160 hours PTO',
+      title: 'Ethical Environmental Action',
+      description: [
+        'Enact legislation to reach 100% clean energy and transportation by 2030 to aim for 1.5° C of global warming.'
+      ],
+      essayLink: 'https://medium.com/@labormovementx/not-everybody-can-go-to-space-bezos-protecting-human-and-environmental-health-c4283305b67?source=user_profile---------6----------------------------'
     },
     {
       numeral: 'IV',
-      demand: 'Millionaire wealth tax to 52% + NIIT to 7.8%',
+      title: 'Acceptable Leave',
+      description: [
+        'Minimum 16 weeks paid parental leave including adoption.',
+        'Minimum sick time accrual of .046 hours/hr worked and PTO of .092 hours /hr worked.',
+        '8 paid holidays off per year.'
+      ],
+      essayLink: 'https://medium.com/@labormovementx/working-class-demands-united-states-to-give-them-their-life-back-38e5b912b08c'
     },
     {
       numeral: 'V',
-      demand: 'Rent increases limited to inflation',
+      title: 'Cost Effective Education',
+      description: [
+        'Cancel all existing student loan debt.',
+        'Make community college free for all.', 
+        'Properly fund the public school system.', 
+        'Modernize base curriculum.'
+      ],
+      essayLink: '#'
     }
   ],
   [
     {
       numeral: 'VI',
-      demand: 'Student loan forgiveness $10k or 33%',
+      title: 'Fair Taxes',
+      description: [
+        '52% capital gains tax and 7.8% NIIT tax for individuals making over $10 million per year.'
+      ],
+      essayLink: 'https://medium.com/@labormovementx/working-class-demands-fair-taxation-in-2022-ab75cbc3b440'
     },
     {
       numeral: 'VII',
-      demand: '35% corporate tax rate even if HQ is abroad',
+      title: 'Decent Workplaces',
+      description: [
+        'Make compensation and benefit data public for all companies.',
+        'Ban discriminatory dress codes.',
+        'Mandate workers rights + harassment training for all companies.'
+      ],
+      essayLink: 'https://medium.com/@labormovementx/working-class-demand-employers-create-a-decent-workplace-in-2022-4e92a4c41922?source=user_profile---------4----------------------------'
     },
     {
       numeral: 'VIII',
-      demand: '$75/ton minimum carbon tax rate',
+      title: 'Affordable Housing',
+      description: [
+        'Enact legislation that restricts landlords from discriminating against minorities, veterans, and homeless civilians.',
+        'Demand reform to ensure that landlords create a safe and livable environment for all.',
+        'Rental assistance plus profit maximums for rentals to ensure affordable housing for all.'
+      ],
+      essayLink: 'https://medium.com/@labormovementx/working-class-demands-affordable-homes-in-2022-2a78b8b516ca'
     },
     {
       numeral: 'IX',
-      demand: 'Businesses make public all salaries including benefits',
+      title: 'Equitable Corporate Regulations',
+      description: [
+        '28% corporate tax rate.',
+        'Close tax loopholes and fraud through tax havens.',
+        'Break up digital monopolies.'
+      ],
+      essayLink: 'https://medium.com/@labormovementx/land-of-the-free-demanding-equitable-corporate-regulations-by-2022-32ee363acba0?source=user_profile---------5----------------------------'
     },
     {
       numeral: 'X',
-      demand: '1.5x overtime pay rate for all hours over 35/week'
-    }
-  ]
-]
-
-export const simplifiedDemands = [
-  [
-    {
-      numeral: 'I',
-      demand: 'Adequate Wages',
-    },
-    {
-      numeral: 'II',
-      demand: 'Accessible Healthcare',
-    },
-    {
-      numeral: 'III',
-      demand: 'Acceptable Leave',
-    },
-    {
-      numeral: 'IV',
-      demand: 'Fair Taxes',
-    },
-    {
-      numeral: 'V',
-      demand: 'Equitable Corporate Regulations',
-    },
-  ],
-  [
-    {
-      numeral: 'VI',
-      demand: 'Decent Workplaces',
-    },
-    {
-      numeral: 'VII',
-      demand: 'Affordable Housing',
-    },
-    {
-      numeral: 'VIII',
-      demand: 'Cost-Effective Education',
-    },
-    {
-      numeral: 'IX',
-      demand: 'Ethical Environmental Action',
-    },
-    {
-      numeral: 'X',
-      demand: 'Reasonable Work Week',
+      title: 'Representative Government',
+      description: [
+        'Modernize and remove barriers from our election system.',
+        'Hold our elected officials to higher ethical standards with finances.',
+        'Finally pass legislation to make our government fair and representative of our country as it really is.'
+      ],
+      essayLink: 'https://medium.com/@labormovementx/working-class-demands-better-representation-in-the-governing-body-1f95fa99d9f3'
     }
   ]
 ]
 
 export const timeForChange = [
-  [
-    { 
-      title: 'Raise the Minimum Wage',
-      subtitles: [
-        '$15 minimum wage by 2022. Minimum wage to keep pace with inflation and worker productivity by 2023'
-      ],
-      snippet: "<a class='social-link' href='https://cepr.net/this-is-what-minimum-wage-would-be-if-it-kept-pace-with-productivity/' target='_blank'>Wage hasn’t gone up since 2009 and hasn’t been in sync with worker productivity since 1969</a>. There is NO state in the US where a full-time, minimum wage job can cover the cost of living. At the beginning of COVID-19, we saw the rise of praise for \"essential workers.\" Out of those that were deemed essential, almost half of them make under $15/hr.  If minimum wage kept pace with worker productivity, it would be around $24/hr."
-    },
-    { 
-      title: 'Paid Parental Leave',
-      subtitles: [
-        '160 hours PTO/sick time per year for all full time workers. Paid parental leave of at least 16 weeks per child - including adoptions.'
-      ],
-      snippet: 'The United States is the only country in the Western world with no federally mandated parental leave. Low wages and skyrocketing child-care costs have caused many working class parents to struggle to support their families. Studies show there are numerous health benefits for the children of parents who have paid leave, and it is time for paid parental leave to become available to all working class people.'
-    },
-    { 
-      title: 'Fair Taxes',
-      subtitles: [
-        'All American-based corporations to pay a corporate tax rate of 35%, no matter where they are officially incorporated.',
-        'Increase capital gains tax to 52% and Net Investment Income Tax to 7.8% for all individuals with an income over $10 million/yr'
-      ],
-      snippet: 'The wealthiest individuals in the United States pay little to no federal income tax every single year, while the poorest Americans watch as portions of their livelihoods are taken away. Labor Movement X is demanding that the wealthiest individuals and corporations are held accountable for the taxes that are owed to the general public. '
-    }
-  ],
-  [
-    { 
-      title: 'Pass Medicare For All',
-      subtitles: [
-        'Pass HR676 Medicare for All to be implemented by December 31st, 2021, when health plans roll over, including NO exceptions for disability or pre-existing conditions'
-      ],
-      snippet: "The privatized healthcare system in the United States has prevented many working class families from receiving affordable care. This system is more expensive and less accessible to the average American worker than universal healthcare. (<a class='social-link' href='https://www.citizen.org/news/fact-check-medicare-for-all-would-save-the-u-s-trillions-public-option-would-leave-millions-uninsured-not-garner-savings/' target='_blank'>Medicare for all would save $2 trillion over a 10-year period</a>) Thousands of preventable deaths occur every year due to the current healthcare system, and it must be changed. (<a class='social-link' href='https://www.citizen.org/news/fact-check-medicare-for-all-would-save-the-u-s-trillions-public-option-would-leave-millions-uninsured-not-garner-savings/' target='_blank'>Medicare for all would save 680,000 lives over a 10-year period</a>). "
-    },
-    { 
-      title: 'Corporate Impact on Climate Change',
-      subtitles: [
-        'Carbon emissions tax at a minimum of $75/ton.'
-      ],
-      snippet: 'Poor air and water quality, peak highs and lows in temperature, flooding, hurricanes, earthquakes, and forest fires all threaten the lives of citizens and infrastructure of cities. These events will only become more frequent and more severe in the coming years.  This is why climate change poses an existential threat to the worker, if not humanity as a whole, and must be combated for the good of all.'
-    },
-    { 
-      title: 'Happy and Healthy Workplaces',
-      subtitles: [
-        'Businesses must disclose annual salary including income, bonuses, stock options, and other benefits for all positions to prevent income inequality.',
-        'Overtime pay rate of 1.5x based pay for all hours worked over 35 per week, including all salaried employees.'
-      ],
-      snippet: ''
-    },
-    { 
-      title: 'Affordable Housing and Education',
-      subtitles: [
-        'Immediate student loan forgiveness of $10,000 per person, or 33% of existing total loans, whichever is greater.',
-        'Limit annual rent increases to no more than the cost of inflation.'
-      ],
-      snippet: ''
-    }
-  ]
+  { 
+    numeral: 'I',
+    title: 'Raise the Minimum Wage',
+    href: '#',
+    subtitles: [
+      '$15 minimum wage by 2022. Minimum wage to keep pace with inflation and worker productivity by 2023'
+    ],
+    snippet: "<a class='social-link' href='https://cepr.net/this-is-what-minimum-wage-would-be-if-it-kept-pace-with-productivity/' target='_blank'>Wage hasn’t gone up since 2009 and hasn’t been in sync with worker productivity since 1969</a>. There is NO state in the US where a full-time, minimum wage job can cover the cost of living. At the beginning of COVID-19, we saw the rise of praise for \"essential workers.\" Out of those that were deemed essential, almost half of them make under $15/hr.  If minimum wage kept pace with worker productivity, it would be around $24/hr."
+  },
+  { 
+    numeral: 'II',
+    title: 'Paid Parental Leave',
+    href: '#',
+    subtitles: [
+      '160 hours PTO/sick time per year for all full time workers. Paid parental leave of at least 16 weeks per child - including adoptions.'
+    ],
+    snippet: 'The United States is the only country in the Western world with no federally mandated parental leave. Low wages and skyrocketing child-care costs have caused many working class parents to struggle to support their families. Studies show there are numerous health benefits for the children of parents who have paid leave, and it is time for paid parental leave to become available to all working class people.'
+  },
+  { 
+    numeral: 'III',
+    title: 'Fair Taxes',
+    href: '#',
+    subtitles: [
+      'All American-based corporations to pay a corporate tax rate of 35%, no matter where they are officially incorporated.',
+      'Increase capital gains tax to 52% and Net Investment Income Tax to 7.8% for all individuals with an income over $10 million/yr'
+    ],
+    snippet: 'The wealthiest individuals in the United States pay little to no federal income tax every single year, while the poorest Americans watch as portions of their livelihoods are taken away. Labor Movement X is demanding that the wealthiest individuals and corporations are held accountable for the taxes that are owed to the general public. '
+  },
+  { 
+    numeral: 'IV',
+    title: 'Pass Medicare For All',
+    href: '#',
+    subtitles: [
+      'Pass HR676 Medicare for All to be implemented by December 31st, 2021, when health plans roll over, including NO exceptions for disability or pre-existing conditions'
+    ],
+    snippet: "The privatized healthcare system in the United States has prevented many working class families from receiving affordable care. This system is more expensive and less accessible to the average American worker than universal healthcare. (<a class='social-link' href='https://www.citizen.org/news/fact-check-medicare-for-all-would-save-the-u-s-trillions-public-option-would-leave-millions-uninsured-not-garner-savings/' target='_blank'>Medicare for all would save $2 trillion over a 10-year period</a>) Thousands of preventable deaths occur every year due to the current healthcare system, and it must be changed. (<a class='social-link' href='https://www.citizen.org/news/fact-check-medicare-for-all-would-save-the-u-s-trillions-public-option-would-leave-millions-uninsured-not-garner-savings/' target='_blank'>Medicare for all would save 680,000 lives over a 10-year period</a>). "
+  },
+  { 
+    numeral: 'V',
+    title: 'Corporate Impact on Climate Change',
+    href: '#',
+    subtitles: [
+      'Carbon emissions tax at a minimum of $75/ton.'
+    ],
+    snippet: 'Poor air and water quality, peak highs and lows in temperature, flooding, hurricanes, earthquakes, and forest fires all threaten the lives of citizens and infrastructure of cities. These events will only become more frequent and more severe in the coming years.  This is why climate change poses an existential threat to the worker, if not humanity as a whole, and must be combated for the good of all.'
+  },
+  { 
+    numeral: 'VI',
+    title: 'Happy and Healthy Workplaces',
+    href: '#',
+    subtitles: [
+      'Businesses must disclose annual salary including income, bonuses, stock options, and other benefits for all positions to prevent income inequality.',
+      'Overtime pay rate of 1.5x based pay for all hours worked over 35 per week, including all salaried employees.'
+    ],
+    snippet: ''
+  },
+  { 
+    numeral: 'VII',
+    title: 'Affordable Housing and Education',
+    href: '#',
+    subtitles: [
+      'Immediate student loan forgiveness of $10,000 per person, or 33% of existing total loans, whichever is greater.',
+      'Limit annual rent increases to no more than the cost of inflation.'
+    ],
+    snippet: ''
+  }
 ]
 
 export const intersectionality = [
@@ -162,7 +181,7 @@ export const intersectionality = [
   },
   {
     title: 'A Workplace Based On Skill',
-    snippet: 'Despite it being 2021, the median salary between men and women still results in a significant wage gap. According to a 2021 report from Payscale, women earn 82 cents for every dollar men make.'
+    snippet: 'Despite it being 2021, the median salary between men and women still results in a significant wage gap. According to a 2021 report from Payscale, women earn 82 cents for every dollar men make. In addition to this, transgender and transitioning individuals may face wage and opportunity gaps regardless of their gender identity. Which is why Labor Movement X is pushing for inclusivity in the working class.'
   }
 ]
 
@@ -229,6 +248,12 @@ export const mutualAidLinks = [
 ]
 
 export const faqQuestions = [
+  {
+    title: 'Why are we called Labor Movement X?',
+    body: [
+      'Originally, this event was marketed exclusively as a strike. While this movement is largely centered around a general economic strike, we want to be sure that the world knows that this is not just a strike. This is a nationwide campaign that will fight for the rights of all working class people, by whatever means necessary. There are multiple ways to participate in this movement from: striking, to boycotting, picketing, participating in sit-ins, peaceful protesting, outreach, and many more. Because of this, we decided to change the name of the event to the October Resistance, and the name of the movement as a whole to Labor Movement X. X for 10. 10th month, 10 days, 10 demands.'
+    ]
+  },
   {
     title: 'Why have your demands changed from the original (red) flyer I saw online?',
     body: [

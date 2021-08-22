@@ -11,7 +11,7 @@
       <div class='org-right'>
         <p class='abbreviation'>{abbreviation}</p>
         <div class='button-container'>
-          <Button text='LEARN MORE' {href} secondary />
+          <Button text='LEARN MORE' {href} white />
         </div>
       </div>
     </div>

@@ -1,6 +1,7 @@
 <script>
   import { intersectionality } from '../../copy.js'
   import Section from '../../sharedComponents/Section.svelte'
+  import Card from '../../sharedComponents/Card.svelte'
 </script>
 
 <Section navy>
@@ -9,10 +10,9 @@
   </h3>
   <div class='intersectionalities'>
     {#each intersectionality as { title, snippet }, i }
-    <div class='intersectionality' class:darken={i ==1}>
-      <h5>{title}</h5>
-      <p>{snippet}</p>
-    </div>
+      <Card {title} peach small >
+        <p>{snippet}</p>
+      </Card>
     {/each}
   </div>
 </Section>
@@ -21,39 +21,11 @@
   .intersectionalities {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     margin: -10px;
-  }
-
-  .intersectionality {
-    padding: 24px 18px;
-    background-color: var(--white);
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
-    flex: 1 1;
-    margin: 10px;
-  }
-
-  h5 {
-    color: var(--black);
-    margin-bottom: 24px;
   }
 
   p {
     color: var(--black);
-  }
-
-  @media (max-width: 1100px) {
-    .intersectionalities {
-      flex-wrap: wrap;
-    }
-    
-    .intersectionality {
-      flex: 1 0 30%;
-    }
-  }
-
-  @media (max-width: 700px) {
-    .intersectionality {
-      flex: 1 1 auto;
-    }
   }
 </style>

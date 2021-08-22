@@ -11,13 +11,18 @@ html, body {
 	--dark-grey: #515050;
 	--darkest-grey: #3A3A3A;
 	--black: #333333;
+
 	--red: #CC0000;
-	--bright-red: #DC0639;
-	--light-red: #f74848;
+	--dark-red: #b30000;
+	--light-red: #DC0639;
+
 	--navy: #113A62;
+	--blue: #0A96BE;
 	--light-blue: #E6F4F7;
-	--lightest-blue: #E7EBEF;
+
 	--peach: #F99C61;
+	--dark-peach: #f87e48;
+	--light-peach: #FEF5EC;
 }
 
 * {
@@ -56,9 +61,9 @@ h3 {
 }
 
 h4 {
-	font-size: 26px;
-	line-height: 30px;
-	font-weight: 500;
+	font-size: 36px;
+	line-height: 45px;
+	font-weight: 400;
 	color: var(--medium-grey2);
 }
 
@@ -85,6 +90,7 @@ p {
 
 .emphasize {
 	color: var(--red);
+	font-family: inherit;
 }
 
 .italicize {

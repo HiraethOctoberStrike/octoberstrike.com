@@ -98,6 +98,7 @@
     padding: 12px 0 12px 20px;
     margin-bottom: 24px;
     font-size: 18px;
+    align-self: flex-start;
   }
 
   option {
