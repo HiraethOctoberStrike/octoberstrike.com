@@ -4,7 +4,7 @@
 </script>
 
 <HeaderWContent 
-  headerText='Join and support The Movement’'
+  headerText='Join and support The Movement'
   image='/assets/images/phil-desforges-PyCQPOvq404-unsplash.jpeg' >
   <LargeDemands />
 </HeaderWContent>

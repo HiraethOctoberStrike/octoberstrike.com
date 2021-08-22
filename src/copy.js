@@ -74,7 +74,7 @@ export const demands = [
       description: [
         'Enact legislation that restricts landlords from discriminating against minorities, veterans, and homeless civilians.',
         'Demand reform to ensure that landlords create a safe and livable environment for all.',
-        'Rental assistance plus profit maximums for rentals to ensure affordable housing for all'
+        'Rental assistance plus profit maximums for rentals to ensure affordable housing for all.'
       ],
       essayLink: 'https://medium.com/@labormovementx/working-class-demands-affordable-homes-in-2022-2a78b8b516ca'
     },

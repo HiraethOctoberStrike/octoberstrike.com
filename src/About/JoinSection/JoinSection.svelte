@@ -18,7 +18,7 @@
         <li>Making your voice heard to your legislators</li>
         <li>Joining or forming unions at your place of work</li>
         <li>Donating to mutual aid organizations</li>
-        <li>Supporting in-personal canvassing and events in your area</li>
+        <li>Supporting in-person canvassing and events in your area</li>
       </ul>
       <div class='button-container'>
         <Button text='JOIN THE MOVEMENT' href='/join-the-movement' peach />

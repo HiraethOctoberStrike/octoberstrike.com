@@ -19,7 +19,7 @@
         </div>
       </Card>
       <Card title='Get Loud & Share Your Story' small>
-        <p>Get loud on social media and spread the word! Right now, reaching people across the world is essental to making October as successful as possible.</p>
+        <p>Get loud on social media and spread the word! Right now, reaching people across the world is essential to making October as successful as possible.</p>
         <div class='social-links-container'>
           <SocialLinks />
         </div>
@@ -46,7 +46,7 @@
         </div>
       </Card>
       <Card title='Write Your State Officials' small>
-        <p>Text POKDHC to 50409</p>
+        <p>Make your voice heard and contact your state officials about our demands. You can text POKDHC to 50409 or tweet through Resist Bot.</p>
         <div class='button-container'>
           <Button 
           text='TWEET WITH RESISTBOT' 
