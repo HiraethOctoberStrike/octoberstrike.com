@@ -26,11 +26,12 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 16px;
-    border: 1px solid var(--black);
+    border: 2px solid var(--black);
+    border-radius: 12px;
   }
 
   .organization:nth-child(odd) {
-    border: 1px solid var(--navy);
+    border: 2px solid var(--navy);
   }
 
   .org-right {
@@ -46,6 +47,8 @@
     max-width: 220px;
     color: var(--white);
     flex: 1;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
   }
 
   .organization:nth-child(odd) h6 {
