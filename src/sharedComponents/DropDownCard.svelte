@@ -27,6 +27,7 @@
   .dropdown-card {
     background-color: var(--light-blue);
     margin-bottom: 20px;
+    border-radius: 12px;
   }
 
   .title {

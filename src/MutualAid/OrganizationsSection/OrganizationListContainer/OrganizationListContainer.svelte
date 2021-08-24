@@ -93,12 +93,13 @@
 <style>
   select {
     background-color: var(--light-blue);
-    border: 1px solid var(--black);
+    border: none;
     color: var(--black);
     padding: 12px 0 12px 20px;
     margin-bottom: 24px;
     font-size: 18px;
     align-self: flex-start;
+    border-radius: 12px;
   }
 
   option {
