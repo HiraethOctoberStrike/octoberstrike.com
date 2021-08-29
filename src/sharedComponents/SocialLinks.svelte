@@ -32,6 +32,11 @@
       src: 'assets/socialMediaLogos/tumblr.png',
       alt: 'tumblr logo'
     },
+    {
+      href: 'https://blog.labormovementx.org/feed',
+      src: 'assets/socialMediaLogos/rss.png',
+      alt: 'rss logo'
+    },
   ]
 </script>
 
