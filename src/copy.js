@@ -8,7 +8,7 @@ export const demands = [
         '100% cost of living coverage per state by 1/1/24.',
         'Begin overtime at 35hrs/week and pay rate of 1.5x base.'
       ],
-      essayLink: 'https://medium.com/@labormovementx/its-time-to-give-workers-what-s-owed-minimum-wage-increase-b5fa0a9f31f7?source=user_profile---------8----------------------------'
+      essayLink: 'https://blog.labormovementx.org/its-time-to-give-workers-what-s-owed-minimum-wage-increase-b5fa0a9f31f7?source=user_profile---------8----------------------------'
     },
     {
       numeral: 'II',
@@ -17,7 +17,7 @@ export const demands = [
         'Pass HR676 Medicare for all to be enacted by 12/31/2021, no exceptions for disability or pre-existing conditions.',
         'Forgive all current medical debt.'
       ],
-      essayLink: 'https://medium.com/@labormovementx/demanding-better-healthcare-during-a-global-pandemic-86b033929933?source=user_profile---------7----------------------------'
+      essayLink: 'https://blog.labormovementx.org/demanding-better-healthcare-during-a-global-pandemic-86b033929933?source=user_profile---------7----------------------------'
     },
     {
       numeral: 'III',
@@ -25,7 +25,7 @@ export const demands = [
       description: [
         'Enact legislation to reach 100% clean energy and transportation by 2030 to aim for 1.5° C of global warming.'
       ],
-      essayLink: 'https://medium.com/@labormovementx/not-everybody-can-go-to-space-bezos-protecting-human-and-environmental-health-c4283305b67?source=user_profile---------6----------------------------'
+      essayLink: 'https://blog.labormovementx.org/not-everybody-can-go-to-space-bezos-protecting-human-and-environmental-health-c4283305b67?source=user_profile---------6----------------------------'
     },
     {
       numeral: 'IV',
@@ -35,7 +35,7 @@ export const demands = [
         'Minimum sick time accrual of .046 hours/hr worked and PTO of .092 hours /hr worked.',
         '8 paid holidays off per year.'
       ],
-      essayLink: 'https://medium.com/@labormovementx/working-class-demands-united-states-to-give-them-their-life-back-38e5b912b08c'
+      essayLink: 'https://blog.labormovementx.org/working-class-demands-united-states-to-give-them-their-life-back-38e5b912b08c'
     },
     {
       numeral: 'V',
@@ -56,7 +56,7 @@ export const demands = [
       description: [
         '52% capital gains tax and 7.8% NIIT tax for individuals making over $10 million per year.'
       ],
-      essayLink: 'https://medium.com/@labormovementx/working-class-demands-fair-taxation-in-2022-ab75cbc3b440'
+      essayLink: 'https://blog.labormovementx.org/working-class-demands-fair-taxation-in-2022-ab75cbc3b440'
     },
     {
       numeral: 'VII',
@@ -66,7 +66,7 @@ export const demands = [
         'Ban discriminatory dress codes.',
         'Mandate workers rights + harassment training for all companies.'
       ],
-      essayLink: 'https://medium.com/@labormovementx/working-class-demand-employers-create-a-decent-workplace-in-2022-4e92a4c41922?source=user_profile---------4----------------------------'
+      essayLink: 'https://blog.labormovementx.org/working-class-demand-employers-create-a-decent-workplace-in-2022-4e92a4c41922?source=user_profile---------4----------------------------'
     },
     {
       numeral: 'VIII',
@@ -76,7 +76,7 @@ export const demands = [
         'Demand reform to ensure that landlords create a safe and livable environment for all.',
         'Rental assistance plus profit maximums for rentals to ensure affordable housing for all.'
       ],
-      essayLink: 'https://medium.com/@labormovementx/working-class-demands-affordable-homes-in-2022-2a78b8b516ca'
+      essayLink: 'https://blog.labormovementx.org/working-class-demands-affordable-homes-in-2022-2a78b8b516ca'
     },
     {
       numeral: 'IX',
@@ -86,7 +86,7 @@ export const demands = [
         'Close tax loopholes and fraud through tax havens.',
         'Break up digital monopolies.'
       ],
-      essayLink: 'https://medium.com/@labormovementx/land-of-the-free-demanding-equitable-corporate-regulations-by-2022-32ee363acba0?source=user_profile---------5----------------------------'
+      essayLink: 'https://blog.labormovementx.org/land-of-the-free-demanding-equitable-corporate-regulations-by-2022-32ee363acba0?source=user_profile---------5----------------------------'
     },
     {
       numeral: 'X',
@@ -96,7 +96,7 @@ export const demands = [
         'Hold our elected officials to higher ethical standards with finances.',
         'Finally pass legislation to make our government fair and representative of our country as it really is.'
       ],
-      essayLink: 'https://medium.com/@labormovementx/working-class-demands-better-representation-in-the-governing-body-1f95fa99d9f3'
+      essayLink: 'https://blog.labormovementx.org/working-class-demands-better-representation-in-the-governing-body-1f95fa99d9f3'
     }
   ]
 ]
