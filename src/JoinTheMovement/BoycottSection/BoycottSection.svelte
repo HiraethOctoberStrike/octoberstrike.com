@@ -32,7 +32,7 @@
         <div class='button-container'>
           <Button 
           text='REQUEST TO JOIN DISCORD' 
-          href='https://discord.gg/87k2EY4aRx' 
+          href='https://discord.gg/W5AwzyNV49'
           white external />
         </div>
       </Card>
