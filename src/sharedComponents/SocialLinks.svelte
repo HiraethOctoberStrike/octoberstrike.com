@@ -32,6 +32,11 @@
       src: 'assets/socialMediaLogos/tumblr.png',
       alt: 'tumblr logo'
     },
+    {
+      href: 'https://discord.gg/W5AwzyNV49',
+      src: 'assets/socialMediaLogos/discord.png',
+      alt: 'discord logo'
+    },
   ]
 </script>
 
