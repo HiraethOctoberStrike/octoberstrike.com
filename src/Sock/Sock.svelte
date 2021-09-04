@@ -10,6 +10,7 @@
     Stay connected and up to date on The Movement, subscribe to our email list
     here.
   </h3>
+  <!-- BEGIN mailchimp embed code -->
   <div id='mc_embed_signup'>
     <form
       id='mc-embedded-subscribe-form'
@@ -49,7 +50,7 @@
         </div>
       </div>
     </form>
-  </div>
+  </div> <!-- END mailchimp embed code -->
 
   <h4>
     Get involved now to fight for your right to a livable life in your country.
