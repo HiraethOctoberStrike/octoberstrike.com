@@ -58,10 +58,7 @@
     <Button
       text='SIGN THE PETITION'
       href='http://chng.it/kNQvH8GXL5'
-      white
-      external
-      peach
-    />
+      white external peach />
     {#if joinTheMovement}
       <Button text='JOIN THE MOVEMENT' href='/join-the-movement' />
     {/if}
