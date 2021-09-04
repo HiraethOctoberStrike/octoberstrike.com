@@ -104,7 +104,7 @@
   }
 
   .subscribe-form-email {
-    margin: 16px;
+    margin: 16px 16px 16px 28px;
     background: none;
     border: none;
     outline: none;
@@ -116,7 +116,7 @@
   }
 
   .subscribe-form-submit {
-    padding: 0 16px;
+    padding: 0 40px;
     border: 3px solid white;
     border-radius: 100px;
     cursor: pointer;
@@ -162,7 +162,12 @@
       width: max(275px, 100vw - 100px);
     }
 
+    .subscribe-form-email {
+      margin: 16px;
+    }
+
     .subscribe-form-submit {
+      padding: 0 16px;
       width: 64px;
     }
 
