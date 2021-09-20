@@ -73,7 +73,7 @@ URL: [labor-movement-x-staging.netlify.app](https://labor-movement-x-staging.net
 
 #### Deployment 
 
-All PRs to the `main` branch will be automatically deployed to staging. **All changes to staging must be made via a pull request from `<your-feature-branch` to `main`.** 
+All PRs to the `main` branch will be automatically deployed to staging. **All changes to staging must be made via a pull request from `<your-feature-branch>` to `main`.** 
 
 The pull request can be merged **AFTER** review.
 
