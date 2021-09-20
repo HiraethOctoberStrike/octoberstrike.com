@@ -61,7 +61,7 @@ Once finished, present your changes for review and addition to the main branch f
 
 ## Deploying to the web 
 
-[Netlify](app.netlify.com) is our CI/CD service which allows us to automate deployments.
+[Netlify](https://app.netlify.com) is our CI/CD service which allows us to automate deployments.
 
 We have two deployed version of the site, `staging` and `production`.
 
@@ -69,17 +69,17 @@ We have two deployed version of the site, `staging` and `production`.
 
 Staging is for internal review before new changes to the site are deployed to `production`.
 
-URL: [labor-movement-x-staging.netlify.app](labor-movement-x-staging.netlify.app)
+URL: [labor-movement-x-staging.netlify.app](https://labor-movement-x-staging.netlify.app)
 
 #### Deployment 
 
-All PRs to the `main` branch will be automatically deployed to staging. **All changes to staging must be made via a pull request from `<your-feature-branch` to `main`.** 
+All PRs to the `main` branch will be automatically deployed to staging. **All changes to staging must be made via a pull request from `<your-feature-branch>` to `main`.** 
 
 The pull request can be merged **AFTER** review.
 
 ### Production
 
-Production is our official external facing site which is viewed at [labormovementx.org](labormovementx.org).
+Production is our official external facing site which is viewed at [labormovementx.org](https://labormovementx.org).
 
 #### Deployment
 
