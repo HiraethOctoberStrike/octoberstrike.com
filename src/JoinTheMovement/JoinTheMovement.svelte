@@ -6,13 +6,6 @@
   import SupportSection from "./SupportSection/SupportSection.svelte";
   // import ResourcesSection from "./ResourcesSection/ResourcesSection.svelte";
   import JoinTheMovementHeader from "./JoinTheMovementHeader/JoinTheMovementHeader.svelte";
-
-  // google analytics
-  gtag('config', 'G-XCYV4MQQL3', {
-    'page_path': '/join-the-movement',
-    'page_title': 'Join the Movement'
-  })
-
 </script>
 
 <JoinTheMovementHeader />
