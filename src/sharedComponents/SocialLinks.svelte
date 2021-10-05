@@ -33,7 +33,7 @@
       alt: 'tumblr logo'
     },
     {
-      href: 'https://discord.gg/W5AwzyNV49',
+      href: 'https://discord.gg/YUvMTatzYC',
       src: 'assets/socialMediaLogos/discord.png',
       alt: 'discord logo'
     },
