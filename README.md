@@ -69,7 +69,7 @@ We have two deployed version of the site, `staging` and `production`.
 
 Staging is for internal review before new changes to the site are deployed to `production`.
 
-URL: [labor-movement-x-staging.netlify.app](https://labor-movement-x-staging.netlify.app)
+URL: [lmx-staging.netlify.app](https://lmx-staging.netlify.app)
 
 #### Deployment 
 
