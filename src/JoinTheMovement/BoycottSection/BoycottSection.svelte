@@ -46,11 +46,11 @@
         </div>
       </Card>
       <Card title='Write Your State Officials' small>
-        <p>Make your voice heard and contact your state officials about our demands. You can text POKDHC to 50409 or tweet through Resist Bot.</p>
+        <p>Make your voice heard and contact your state officials about our demands. You can text POKDHC to 50409 or <a href="https://twitter.com/openletterbot/status/1428096782152527877" target="_blank">tweet through Resist Bot.</a></p>
         <div class='button-container'>
           <Button 
-          text='TWEET WITH RESISTBOT' 
-          href='https://twitter.com/openletterbot/status/1428096782152527877' 
+          text='Message with Resistbot' 
+          href='https://resist.bot/petitions/POKDHC' 
           white
           external />
         </div>
